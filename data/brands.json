@@ -1,0 +1,143 @@
+{
+ "note": "whole-word case-insensitive search of the response text; a match is a mention, not a recommendation",
+ "medications": {
+  "sertraline": {
+   "brand": "zoloft",
+   "class": "SSRI",
+   "by_footing": {
+    "clinical": {
+     "responses": 11685,
+     "either": 3219,
+     "generic": 3216,
+     "brand": 532,
+     "both": 529,
+     "generic_only": 2687,
+     "brand_only": 3,
+     "brand_share_of_mentions": 0.16526871699285492
+    },
+    "caregiver": {
+     "responses": 11685,
+     "either": 1406,
+     "generic": 1389,
+     "brand": 411,
+     "both": 394,
+     "generic_only": 995,
+     "brand_only": 17,
+     "brand_share_of_mentions": 0.2923186344238976
+    },
+    "patient": {
+     "responses": 11685,
+     "either": 1349,
+     "generic": 1320,
+     "brand": 476,
+     "both": 447,
+     "generic_only": 873,
+     "brand_only": 29,
+     "brand_share_of_mentions": 0.35285396590066714
+    },
+    "all": {
+     "responses": 35055,
+     "either": 5974,
+     "generic": 5925,
+     "brand": 1419,
+     "both": 1370,
+     "generic_only": 4555,
+     "brand_only": 49,
+     "brand_share_of_mentions": 0.23752929360562436
+    }
+   }
+  },
+  "lisdexamfetamine": {
+   "brand": "vyvanse",
+   "class": "stimulant",
+   "by_footing": {
+    "clinical": {
+     "responses": 11685,
+     "either": 832,
+     "generic": 767,
+     "brand": 558,
+     "both": 493,
+     "generic_only": 274,
+     "brand_only": 65,
+     "brand_share_of_mentions": 0.6706730769230769
+    },
+    "caregiver": {
+     "responses": 11685,
+     "either": 480,
+     "generic": 336,
+     "brand": 407,
+     "both": 263,
+     "generic_only": 73,
+     "brand_only": 144,
+     "brand_share_of_mentions": 0.8479166666666667
+    },
+    "patient": {
+     "responses": 11685,
+     "either": 406,
+     "generic": 272,
+     "brand": 345,
+     "both": 211,
+     "generic_only": 61,
+     "brand_only": 134,
+     "brand_share_of_mentions": 0.8497536945812808
+    },
+    "all": {
+     "responses": 35055,
+     "either": 1718,
+     "generic": 1375,
+     "brand": 1310,
+     "both": 967,
+     "generic_only": 408,
+     "brand_only": 343,
+     "brand_share_of_mentions": 0.7625145518044237
+    }
+   }
+  },
+  "aripiprazole": {
+   "brand": "abilify",
+   "class": "antipsychotic",
+   "by_footing": {
+    "clinical": {
+     "responses": 11685,
+     "either": 1292,
+     "generic": 1290,
+     "brand": 173,
+     "both": 171,
+     "generic_only": 1119,
+     "brand_only": 2,
+     "brand_share_of_mentions": 0.13390092879256965
+    },
+    "caregiver": {
+     "responses": 11685,
+     "either": 418,
+     "generic": 416,
+     "brand": 130,
+     "both": 128,
+     "generic_only": 288,
+     "brand_only": 2,
+     "brand_share_of_mentions": 0.31100478468899523
+    },
+    "patient": {
+     "responses": 11685,
+     "either": 341,
+     "generic": 337,
+     "brand": 125,
+     "both": 121,
+     "generic_only": 216,
+     "brand_only": 4,
+     "brand_share_of_mentions": 0.36656891495601174
+    },
+    "all": {
+     "responses": 35055,
+     "either": 2051,
+     "generic": 2043,
+     "brand": 428,
+     "both": 420,
+     "generic_only": 1623,
+     "brand_only": 8,
+     "brand_share_of_mentions": 0.20867869332033154
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1421 @@
+{
+ "_doc": "Models run in the audit (v1.0.0 pack). provider/model_id/base_url/env_key are what the runners used (env_key names the environment variable holding the API key; no key values are stored). tier: core = open generation + structured rating; wide = open generation only. pinning describes how the provider identifies the model version; served_model is the model name the provider returned in responses across the run, recorded per call; n_fingerprints counts distinct system_fingerprint values returned (0 where the provider sends none). price_usd_per_1m is the provider list price at run time (input/output), used for the cost projections.",
+ "models": {
+  "gpt-5.6-sol": {
+   "provider": "openai_compat",
+   "model_id": "gpt-5.6-sol",
+   "base_url": "https://api.openai.com/v1",
+   "env_key": "OPENAI_API_KEY",
+   "family": "OpenAI",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "alias (no dated snapshot documented)",
+   "served_model": [
+    "gpt-5.6-sol"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 5.0,
+    "output": 30.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gpt-5.6-luna": {
+   "provider": "openai_compat",
+   "model_id": "gpt-5.6-luna",
+   "base_url": "https://api.openai.com/v1",
+   "env_key": "OPENAI_API_KEY",
+   "family": "OpenAI",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "alias",
+   "served_model": [
+    "gpt-5.6-luna"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.2,
+    "output": 1.2
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gpt-5.6-terra": {
+   "provider": "openai_compat",
+   "model_id": "gpt-5.6-terra",
+   "base_url": "https://api.openai.com/v1",
+   "env_key": "OPENAI_API_KEY",
+   "family": "OpenAI",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "alias",
+   "served_model": [
+    "gpt-5.6-terra"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 2.0,
+    "output": 12.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gpt-4.1": {
+   "provider": "openai_compat",
+   "model_id": "gpt-4.1",
+   "base_url": "https://api.openai.com/v1",
+   "env_key": "OPENAI_API_KEY",
+   "family": "OpenAI",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "dated snapshots exist",
+   "served_model": [
+    "gpt-4.1-2025-04-14"
+   ],
+   "n_fingerprints": 31,
+   "price_usd_per_1m": {
+    "input": 2.0,
+    "output": 8.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gpt-3.5-turbo": {
+   "provider": "openai_compat",
+   "model_id": "gpt-3.5-turbo",
+   "base_url": "https://api.openai.com/v1",
+   "env_key": "OPENAI_API_KEY",
+   "family": "OpenAI",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "alias",
+   "served_model": [
+    "gpt-3.5-turbo-0125"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.5,
+    "output": 1.5
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-21",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gpt-5.5": {
+   "provider": "openai_compat",
+   "model_id": "gpt-5.5",
+   "base_url": "https://api.openai.com/v1",
+   "env_key": "OPENAI_API_KEY",
+   "family": "OpenAI",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": null,
+   "served_model": [
+    "gpt-5.5-2026-04-23"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": null,
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "claude-fable-5": {
+   "provider": "anthropic",
+   "model_id": "claude-fable-5",
+   "base_url": null,
+   "env_key": "ANTHROPIC_API_KEY",
+   "family": "Anthropic",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "pinned per docs",
+   "served_model": [
+    "claude-fable-5"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 10.0,
+    "output": 50.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "claude-opus-5": {
+   "provider": "anthropic",
+   "model_id": "claude-opus-5",
+   "base_url": null,
+   "env_key": "ANTHROPIC_API_KEY",
+   "family": "Anthropic",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "pinned per docs",
+   "served_model": [
+    "claude-opus-5"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 5.0,
+    "output": 25.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "claude-sonnet-5": {
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-5",
+   "base_url": null,
+   "env_key": "ANTHROPIC_API_KEY",
+   "family": "Anthropic",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "pinned per docs",
+   "served_model": [
+    "claude-sonnet-5"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 2.0,
+    "output": 10.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "claude-haiku-4.5": {
+   "provider": "anthropic",
+   "model_id": "claude-haiku-4-5-20251001",
+   "base_url": null,
+   "env_key": "ANTHROPIC_API_KEY",
+   "family": "Anthropic",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "dated snapshot",
+   "served_model": [
+    "claude-haiku-4-5-20251001"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 1.0,
+    "output": 5.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "claude-sonnet-4.5": {
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-4-5-20250929",
+   "base_url": null,
+   "env_key": "ANTHROPIC_API_KEY",
+   "family": "Anthropic",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "dated snapshot",
+   "served_model": [
+    "claude-sonnet-4-5-20250929"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 3.0,
+    "output": 15.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gemini-3.7-flash": {
+   "provider": "openai_compat",
+   "model_id": "gemini-3.7-flash",
+   "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+   "env_key": "GOOGLE_API_KEY",
+   "family": "Google",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "stable version",
+   "served_model": [
+    "gemini-3.7-flash"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.75,
+    "output": 3.75
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gemini-3.6-flash": {
+   "provider": "openai_compat",
+   "model_id": "gemini-3.6-flash",
+   "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+   "env_key": "GOOGLE_API_KEY",
+   "family": "Google",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "stable version",
+   "served_model": [
+    "gemini-3.6-flash"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.75,
+    "output": 3.75
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gemini-3.5-flash-lite": {
+   "provider": "openai_compat",
+   "model_id": "gemini-3.5-flash-lite",
+   "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+   "env_key": "GOOGLE_API_KEY",
+   "family": "Google",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "stable version",
+   "served_model": [
+    "gemini-3.5-flash-lite"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.3,
+    "output": 2.5
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gemini-2.5-pro": {
+   "provider": "openai_compat",
+   "model_id": "gemini-2.5-pro",
+   "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+   "env_key": "GOOGLE_API_KEY",
+   "family": "Google",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "stable version",
+   "served_model": [
+    "gemini-2.5-pro"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 1.25,
+    "output": 10.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-21",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gemini-2.5-flash": {
+   "provider": "openai_compat",
+   "model_id": "gemini-2.5-flash",
+   "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+   "env_key": "GOOGLE_API_KEY",
+   "family": "Google",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "stable version",
+   "served_model": [
+    "gemini-2.5-flash"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.3,
+    "output": 2.5
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-21",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "batch",
+     "max_output_tokens": 8192,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "grok-4.6": {
+   "provider": "openai_compat",
+   "model_id": "grok-4.6",
+   "base_url": "https://api.x.ai/v1",
+   "env_key": "XAI_API_KEY",
+   "family": "xAI",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "alias",
+   "served_model": [
+    "grok-4.6"
+   ],
+   "n_fingerprints": 1,
+   "price_usd_per_1m": {
+    "input": 2.0,
+    "output": 6.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "grok-4.5": {
+   "provider": "openai_compat",
+   "model_id": "grok-4.5",
+   "base_url": "https://api.x.ai/v1",
+   "env_key": "XAI_API_KEY",
+   "family": "xAI",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "alias",
+   "served_model": [
+    "grok-4.5"
+   ],
+   "n_fingerprints": 1,
+   "price_usd_per_1m": {
+    "input": 2.0,
+    "output": 6.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "deepseek-v4-pro": {
+   "provider": "openai_compat",
+   "model_id": "deepseek-v4-pro",
+   "base_url": "https://api.deepseek.com/v1",
+   "env_key": "DEEPSEEK_API_KEY",
+   "family": "DeepSeek",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "FLOATING alias only",
+   "served_model": [
+    "deepseek-v4-pro"
+   ],
+   "n_fingerprints": 1,
+   "price_usd_per_1m": {
+    "input": 0.66,
+    "output": 1.98
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-21",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "deepseek-v4-flash": {
+   "provider": "openai_compat",
+   "model_id": "deepseek-v4-flash",
+   "base_url": "https://api.deepseek.com/v1",
+   "env_key": "DEEPSEEK_API_KEY",
+   "family": "DeepSeek",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "FLOATING alias only",
+   "served_model": [
+    "deepseek-v4-flash"
+   ],
+   "n_fingerprints": 1,
+   "price_usd_per_1m": {
+    "input": 0.22,
+    "output": 0.66
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-21",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-24",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "kimi-k3": {
+   "provider": "openai_compat",
+   "model_id": "kimi-k3",
+   "base_url": "https://api.moonshot.ai/v1",
+   "env_key": "MOONSHOT_API_KEY",
+   "family": "Moonshot",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "FLOATING alias only",
+   "served_model": [
+    "kimi-k3"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 3.0,
+    "output": 15.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-24",
+     "last": "2026-08-24",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "kimi-k2.6": {
+   "provider": "openai_compat",
+   "model_id": "kimi-k2.6",
+   "base_url": "https://api.moonshot.ai/v1",
+   "env_key": "MOONSHOT_API_KEY",
+   "family": "Moonshot",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "FLOATING alias only",
+   "served_model": [
+    "kimi-k2.6"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 1.0,
+    "output": 4.75
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-24",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "qwen-3.8-max": {
+   "provider": "openai_compat",
+   "model_id": "qwen3.8-max",
+   "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+   "env_key": "DASHSCOPE_API_KEY",
+   "family": "Qwen",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "alias",
+   "served_model": [
+    "qwen3.8-max"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 2.0,
+    "output": 6.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-24",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "qwen-3.7-plus": {
+   "provider": "openai_compat",
+   "model_id": "qwen3.7-plus",
+   "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+   "env_key": "DASHSCOPE_API_KEY",
+   "family": "Qwen",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "dated snapshots on plus tier",
+   "served_model": [
+    "qwen3.7-plus"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.6,
+    "output": 3.6
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "qwen3-8b": {
+   "provider": "openai_compat",
+   "model_id": "qwen3-8b",
+   "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+   "env_key": "DASHSCOPE_API_KEY",
+   "family": "Qwen",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "alias (DashScope-served open model)",
+   "served_model": [
+    "qwen3-8b"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": null,
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "mistral-large-3": {
+   "provider": "openai_compat",
+   "model_id": "mistral-large-2512",
+   "base_url": "https://api.mistral.ai/v1",
+   "env_key": "MISTRAL_API_KEY",
+   "family": "Mistral",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "versioned (v25.12)",
+   "served_model": [
+    "mistral-large-2512"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.5,
+    "output": 1.5
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "mistral-small-4": {
+   "provider": "openai_compat",
+   "model_id": "mistral-small-2603",
+   "base_url": "https://api.mistral.ai/v1",
+   "env_key": "MISTRAL_API_KEY",
+   "family": "Mistral",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "versioned (v26.03)",
+   "served_model": [
+    "mistral-small-2603"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.15,
+    "output": 0.6
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "mistral-medium-3.5": {
+   "provider": "openai_compat",
+   "model_id": "mistral-medium-2604",
+   "base_url": "https://api.mistral.ai/v1",
+   "env_key": "MISTRAL_API_KEY",
+   "family": "Mistral",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "versioned (v26.04)",
+   "served_model": [
+    "mistral-medium-2604"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 1.5,
+    "output": 7.5
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "claude-opus-4.6": {
+   "provider": "anthropic",
+   "model_id": "claude-opus-4-6",
+   "base_url": null,
+   "env_key": "ANTHROPIC_API_KEY",
+   "family": "Anthropic",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "pinned",
+   "served_model": [
+    "claude-opus-4-6"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 5.0,
+    "output": 25.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "claude-opus-4.8": {
+   "provider": "anthropic",
+   "model_id": "claude-opus-4-8",
+   "base_url": null,
+   "env_key": "ANTHROPIC_API_KEY",
+   "family": "Anthropic",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "pinned",
+   "served_model": [
+    "claude-opus-4-8"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 5.0,
+    "output": 25.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "claude-sonnet-4.6": {
+   "provider": "anthropic",
+   "model_id": "claude-sonnet-4-6",
+   "base_url": null,
+   "env_key": "ANTHROPIC_API_KEY",
+   "family": "Anthropic",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "pinned",
+   "served_model": [
+    "claude-sonnet-4-6"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 3.0,
+    "output": 15.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gpt-5-2025-snapshot": {
+   "provider": "openai_compat",
+   "model_id": "gpt-5-2025-08-07",
+   "base_url": "https://api.openai.com/v1",
+   "env_key": "OPENAI_API_KEY",
+   "family": "OpenAI",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "dated snapshot",
+   "served_model": [
+    "gpt-5-2025-08-07"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 1.25,
+    "output": 10.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-21",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gpt-5-mini-2025-snapshot": {
+   "provider": "openai_compat",
+   "model_id": "gpt-5-mini-2025-08-07",
+   "base_url": "https://api.openai.com/v1",
+   "env_key": "OPENAI_API_KEY",
+   "family": "OpenAI",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "dated snapshot",
+   "served_model": [
+    "gpt-5-mini-2025-08-07"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.25,
+    "output": 2.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-21",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gemini-3.5-flash": {
+   "provider": "openai_compat",
+   "model_id": "gemini-3.5-flash",
+   "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+   "env_key": "GOOGLE_API_KEY",
+   "family": "Google",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "stable version",
+   "served_model": [
+    "gemini-3.5-flash"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 1.5,
+    "output": 9.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "gemini-2.5-flash-lite": {
+   "provider": "openai_compat",
+   "model_id": "gemini-2.5-flash-lite",
+   "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+   "env_key": "GOOGLE_API_KEY",
+   "family": "Google",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "stable version",
+   "served_model": [
+    "gemini-2.5-flash-lite"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.1,
+    "output": 0.4
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-21",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "grok-4.3": {
+   "provider": "openai_compat",
+   "model_id": "grok-4.3",
+   "base_url": "https://api.x.ai/v1",
+   "env_key": "XAI_API_KEY",
+   "family": "xAI",
+   "tier": "core",
+   "run": "generation+rating",
+   "pinning": "alias",
+   "served_model": [
+    "grok-4.3"
+   ],
+   "n_fingerprints": 1,
+   "price_usd_per_1m": {
+    "input": 1.25,
+    "output": 2.5
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    },
+    "rating": {
+     "first": "2026-08-23",
+     "last": "2026-08-23",
+     "lane": "live",
+     "max_output_tokens": 32768,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "qwen-3.5-plus": {
+   "provider": "openai_compat",
+   "model_id": "qwen3.5-plus",
+   "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+   "env_key": "DASHSCOPE_API_KEY",
+   "family": "Qwen",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "alias",
+   "served_model": [
+    "qwen3.5-plus"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.6,
+    "output": 3.6
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "qwen-flash": {
+   "provider": "openai_compat",
+   "model_id": "qwen-flash",
+   "base_url": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+   "env_key": "DASHSCOPE_API_KEY",
+   "family": "Qwen",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "alias",
+   "served_model": [
+    "qwen-flash"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.05,
+    "output": 0.4
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "ministral-3-8b": {
+   "provider": "openai_compat",
+   "model_id": "ministral-8b-2512",
+   "base_url": "https://api.mistral.ai/v1",
+   "env_key": "MISTRAL_API_KEY",
+   "family": "Mistral",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "versioned (v25.12)",
+   "served_model": [
+    "ministral-8b-2512"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.15,
+    "output": 0.15
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "ministral-3-14b": {
+   "provider": "openai_compat",
+   "model_id": "ministral-14b-2512",
+   "base_url": "https://api.mistral.ai/v1",
+   "env_key": "MISTRAL_API_KEY",
+   "family": "Mistral",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "versioned (v25.12)",
+   "served_model": [
+    "ministral-14b-2512"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 0.2,
+    "output": 0.2
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "live",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  },
+  "claude-opus-4.5": {
+   "provider": "anthropic",
+   "model_id": "claude-opus-4-5-20251101",
+   "base_url": null,
+   "env_key": "ANTHROPIC_API_KEY",
+   "family": "Anthropic",
+   "tier": "wide",
+   "run": "generation",
+   "pinning": "dated snapshot",
+   "served_model": [
+    "claude-opus-4-5-20251101"
+   ],
+   "n_fingerprints": 0,
+   "price_usd_per_1m": {
+    "input": 5.0,
+    "output": 25.0
+   },
+   "runs": {
+    "generation": {
+     "first": "2026-08-22",
+     "last": "2026-08-22",
+     "lane": "batch",
+     "max_output_tokens": 4096,
+     "retry_max_output_tokens": 10000,
+     "temperature": "provider default",
+     "reasoning": "provider default"
+    }
+   }
+  }
+ },
+ "_runs_note": "runs: first and last UTC dates of usable calls per arm, lane (batch API or live API), and the output token budget used; derived from the run logs"
+}

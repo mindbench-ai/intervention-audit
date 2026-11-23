@@ -1,0 +1,19 @@
+# Over GitHub's 100 MB file limit; hosted with the full corpus on Hugging Face.
+data/ratings.jsonl
+data/entities.jsonl
+
+# Local environment and secrets
+.env
+.env.*
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Download cache for data/fetch.py
+data/.cache/

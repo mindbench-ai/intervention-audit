@@ -1,0 +1,3253 @@
+{
+ "seed": 101,
+ "coders": [
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7",
+  "R8"
+ ],
+ "quotas": {
+  "round1": 25,
+  "round2": 50
+ },
+ "assignments": {
+  "mistral-large-3|panic_disorder|caregiver|open|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R3"
+   ]
+  },
+  "claude-fable-5|ptsd|patient|neuromodulation|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R5",
+    "R7"
+   ]
+  },
+  "gpt-5-mini-2025-snapshot|situational_stress_subclinical|patient|psychotherapy|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R8"
+   ]
+  },
+  "qwen3-8b|chronic_insomnia|clinical|medication|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R6"
+   ]
+  },
+  "gpt-3.5-turbo|autism_spectrum_disorder|patient|open|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R7"
+   ]
+  },
+  "mistral-large-3|panic_disorder|caregiver|medication|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R8"
+   ]
+  },
+  "gemini-3.6-flash|narcissistic_personality_disorder|caregiver|psychotherapy|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R5"
+   ]
+  },
+  "gpt-5.6-terra|uncomplicated_bereavement|clinical|medication|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "mistral-small-4|uncomplicated_bereavement|patient|psychotherapy|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "qwen3-8b|major_depressive_disorder|caregiver|open|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R3"
+   ]
+  },
+  "deepseek-v4-pro|adhd_adult|clinical|open|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R7",
+    "R8"
+   ]
+  },
+  "gemini-3.7-flash|autism_spectrum_disorder|clinical|digital|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R5",
+    "R8"
+   ]
+  },
+  "claude-opus-5|bulimia_nervosa|patient|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R6"
+   ]
+  },
+  "grok-4.6|ptsd|clinical|medication|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R4"
+   ]
+  },
+  "gemini-2.5-flash|bipolar_1_maintenance|caregiver|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R7"
+   ]
+  },
+  "qwen-3.5-plus|bipolar_1_maintenance|clinical|medication|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R5"
+   ]
+  },
+  "claude-haiku-4.5|ptsd|clinical|neuromodulation|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R5"
+   ]
+  },
+  "deepseek-v4-pro|schizophrenia_first_episode|clinical|digital|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R6",
+    "R7"
+   ]
+  },
+  "gpt-5.6-luna|binge_eating_disorder|caregiver|medication|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  },
+  "kimi-k2.6|borderline_personality_disorder|clinical|digital|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R4"
+   ]
+  },
+  "gemini-2.5-pro|bipolar_1_maintenance|patient|medication|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R5",
+    "R6"
+   ]
+  },
+  "gemini-3.6-flash|anorexia_nervosa|clinical|neuromodulation|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R7"
+   ]
+  },
+  "deepseek-v4-flash|uncomplicated_bereavement|caregiver|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R8"
+   ]
+  },
+  "claude-opus-5|adhd_adult|clinical|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R4"
+   ]
+  },
+  "gpt-5.6-sol|bipolar_1_maintenance|caregiver|neuromodulation|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R2"
+   ]
+  },
+  "claude-haiku-4.5|binge_eating_disorder|clinical|open|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R6",
+    "R8"
+   ]
+  },
+  "grok-4.6|major_depressive_disorder|patient|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R7"
+   ]
+  },
+  "gpt-5.6-terra|schizophrenia_first_episode|clinical|medication|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R5"
+   ]
+  },
+  "gpt-5.6-sol|panic_disorder|clinical|medication|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R7"
+   ]
+  },
+  "gpt-5.6-luna|bulimia_nervosa|clinical|psychotherapy|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R5"
+   ]
+  },
+  "claude-opus-4.6|social_anxiety_disorder|caregiver|medication|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R8"
+   ]
+  },
+  "ministral-3-14b|narcissistic_personality_disorder|clinical|medication|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R6"
+   ]
+  },
+  "gpt-5.6-sol|binge_eating_disorder|clinical|neuromodulation|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R5",
+    "R6"
+   ]
+  },
+  "gemini-2.5-pro|bipolar_1_maintenance|clinical|neuromodulation|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R2"
+   ]
+  },
+  "claude-opus-4.8|narcissistic_personality_disorder|patient|psychotherapy|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R7",
+    "R8"
+   ]
+  },
+  "qwen-3.5-plus|anorexia_nervosa|patient|neuromodulation|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R4"
+   ]
+  },
+  "qwen-flash|situational_stress_subclinical|caregiver|medication|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R4"
+   ]
+  },
+  "gpt-5.5|situational_stress_subclinical|clinical|medication|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R3"
+   ]
+  },
+  "gpt-5.6-luna|autism_spectrum_disorder|caregiver|medication|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R5",
+    "R7"
+   ]
+  },
+  "gpt-5.6-luna|narcissistic_personality_disorder|clinical|psychotherapy|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R6",
+    "R8"
+   ]
+  },
+  "gemini-3.5-flash|uncomplicated_bereavement|clinical|medication|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R6",
+    "R7"
+   ]
+  },
+  "deepseek-v4-flash|alcohol_use_disorder|caregiver|neuromodulation|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R3"
+   ]
+  },
+  "deepseek-v4-flash|social_anxiety_disorder|patient|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R8"
+   ]
+  },
+  "gemini-3.5-flash-lite|borderline_personality_disorder|patient|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R5"
+   ]
+  },
+  "gpt-4.1|major_depressive_disorder|patient|psychotherapy|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R4"
+   ]
+  },
+  "gpt-5-mini-2025-snapshot|major_depressive_disorder|patient|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "claude-sonnet-4.6|uncomplicated_bereavement|patient|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R8"
+   ]
+  },
+  "gpt-5-mini-2025-snapshot|bipolar_1_maintenance|patient|medication|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R5"
+   ]
+  },
+  "grok-4.3|binge_eating_disorder|clinical|digital|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R7"
+   ]
+  },
+  "gpt-3.5-turbo|panic_disorder|patient|digital|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R7"
+   ]
+  },
+  "claude-sonnet-5|binge_eating_disorder|caregiver|digital|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R5",
+    "R8"
+   ]
+  },
+  "ministral-3-14b|borderline_personality_disorder|caregiver|digital|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R5"
+   ]
+  },
+  "qwen-flash|ocd|patient|open|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "deepseek-v4-pro|autism_spectrum_disorder|clinical|neuromodulation|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R6"
+   ]
+  },
+  "qwen-3.5-plus|bipolar_1_maintenance|clinical|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  },
+  "claude-sonnet-5|major_depressive_disorder|patient|neuromodulation|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R7"
+   ]
+  },
+  "gpt-5.5|uncomplicated_bereavement|patient|psychotherapy|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R6"
+   ]
+  },
+  "gemini-2.5-flash-lite|situational_stress_subclinical|caregiver|psychotherapy|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R4"
+   ]
+  },
+  "claude-opus-4.5|chronic_insomnia|clinical|neuromodulation|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R7"
+   ]
+  },
+  "claude-opus-4.5|major_depressive_disorder|caregiver|open|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R5",
+    "R8"
+   ]
+  },
+  "gemini-3.6-flash|major_depressive_disorder|patient|neuromodulation|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "claude-opus-4.8|ocd|clinical|psychotherapy|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R7"
+   ]
+  },
+  "claude-opus-4.5|narcissistic_personality_disorder|clinical|medication|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R8"
+   ]
+  },
+  "gpt-3.5-turbo|social_anxiety_disorder|caregiver|open|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R5"
+   ]
+  },
+  "gpt-5.5|chronic_insomnia|clinical|digital|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R6",
+    "R7"
+   ]
+  },
+  "gpt-5-2025-snapshot|situational_stress_subclinical|caregiver|digital|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R3"
+   ]
+  },
+  "qwen-3.7-plus|alcohol_use_disorder|clinical|open|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R5"
+   ]
+  },
+  "claude-opus-4.6|generalized_anxiety_disorder|patient|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R8"
+   ]
+  },
+  "gpt-5.6-luna|generalized_anxiety_disorder|clinical|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "gpt-4.1|alcohol_use_disorder|clinical|neuromodulation|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R5",
+    "R7"
+   ]
+  },
+  "gemini-2.5-flash|narcissistic_personality_disorder|clinical|psychotherapy|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R2"
+   ]
+  },
+  "gemini-2.5-pro|borderline_personality_disorder|caregiver|medication|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R7"
+   ]
+  },
+  "qwen3-8b|binge_eating_disorder|caregiver|neuromodulation|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R6",
+    "R8"
+   ]
+  },
+  "gemini-2.5-flash|chronic_insomnia|caregiver|medication|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R4"
+   ]
+  },
+  "gpt-5.6-terra|chronic_insomnia|patient|medication|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R5"
+   ]
+  },
+  "claude-opus-4.8|schizophrenia_first_episode|clinical|neuromodulation|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  },
+  "kimi-k3|ocd|clinical|digital|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R5",
+    "R6"
+   ]
+  },
+  "gemini-3.5-flash|adhd_adult|patient|psychotherapy|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R8"
+   ]
+  },
+  "qwen-3.7-plus|borderline_personality_disorder|patient|open|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R7"
+   ]
+  },
+  "kimi-k2.6|borderline_personality_disorder|clinical|medication|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R4"
+   ]
+  },
+  "grok-4.3|major_depressive_disorder|clinical|psychotherapy|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R3"
+   ]
+  },
+  "gpt-5-2025-snapshot|generalized_anxiety_disorder|caregiver|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R6"
+   ]
+  },
+  "gpt-5.6-luna|bipolar_1_maintenance|clinical|digital|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R5"
+   ]
+  },
+  "qwen-3.7-plus|anorexia_nervosa|clinical|digital|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R7",
+    "R8"
+   ]
+  },
+  "claude-fable-5|panic_disorder|clinical|digital|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  },
+  "claude-sonnet-5|ptsd|patient|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R4"
+   ]
+  },
+  "gpt-5.6-luna|chronic_insomnia|caregiver|open|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R5",
+    "R7"
+   ]
+  },
+  "ministral-3-8b|social_anxiety_disorder|clinical|psychotherapy|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "claude-fable-5|major_depressive_disorder|patient|open|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R8"
+   ]
+  },
+  "grok-4.5|bulimia_nervosa|patient|medication|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R6"
+   ]
+  },
+  "claude-opus-4.6|bipolar_1_maintenance|patient|psychotherapy|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R7"
+   ]
+  },
+  "grok-4.6|bulimia_nervosa|caregiver|neuromodulation|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R5"
+   ]
+  },
+  "grok-4.3|binge_eating_disorder|patient|digital|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R7"
+   ]
+  },
+  "gpt-5-mini-2025-snapshot|social_anxiety_disorder|clinical|medication|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "gpt-5.6-terra|alcohol_use_disorder|caregiver|digital|s2": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R8"
+   ]
+  },
+  "grok-4.5|panic_disorder|clinical|neuromodulation|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R2",
+    "R5"
+   ]
+  },
+  "claude-fable-5|bipolar_1_maintenance|caregiver|digital|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R1",
+    "R2"
+   ]
+  },
+  "ministral-3-14b|borderline_personality_disorder|caregiver|medication|s1": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R4",
+    "R5"
+   ]
+  },
+  "mistral-medium-3.5|panic_disorder|caregiver|open|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R7",
+    "R8"
+   ]
+  },
+  "kimi-k2.6|panic_disorder|clinical|neuromodulation|s0": {
+   "wave": "1",
+   "split": "dev",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "claude-haiku-4.5|anorexia_nervosa|caregiver|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R6"
+   ]
+  },
+  "kimi-k2.6|narcissistic_personality_disorder|patient|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R7"
+   ]
+  },
+  "claude-opus-4.6|ptsd|clinical|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R8"
+   ]
+  },
+  "deepseek-v4-pro|anorexia_nervosa|caregiver|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R2"
+   ]
+  },
+  "gemini-2.5-flash|ptsd|caregiver|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R3"
+   ]
+  },
+  "deepseek-v4-flash|autism_spectrum_disorder|caregiver|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R6"
+   ]
+  },
+  "claude-opus-4.6|situational_stress_subclinical|caregiver|open|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R8"
+   ]
+  },
+  "gpt-4.1|generalized_anxiety_disorder|patient|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R7"
+   ]
+  },
+  "deepseek-v4-flash|ptsd|caregiver|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R7"
+   ]
+  },
+  "gemini-2.5-flash-lite|bipolar_1_maintenance|clinical|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R4"
+   ]
+  },
+  "deepseek-v4-flash|binge_eating_disorder|clinical|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R5"
+   ]
+  },
+  "qwen-3.7-plus|binge_eating_disorder|clinical|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R8"
+   ]
+  },
+  "grok-4.6|autism_spectrum_disorder|caregiver|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "kimi-k2.6|ocd|caregiver|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R4"
+   ]
+  },
+  "claude-opus-4.5|alcohol_use_disorder|clinical|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R5"
+   ]
+  },
+  "gemini-3.7-flash|adhd_adult|caregiver|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R7",
+    "R8"
+   ]
+  },
+  "claude-opus-4.8|borderline_personality_disorder|patient|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R7"
+   ]
+  },
+  "gpt-3.5-turbo|ptsd|caregiver|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R5"
+   ]
+  },
+  "claude-opus-4.6|generalized_anxiety_disorder|clinical|medication|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R4"
+   ]
+  },
+  "grok-4.3|social_anxiety_disorder|caregiver|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R8"
+   ]
+  },
+  "deepseek-v4-pro|autism_spectrum_disorder|patient|medication|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R6"
+   ]
+  },
+  "ministral-3-14b|generalized_anxiety_disorder|clinical|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  },
+  "gemini-3.5-flash-lite|generalized_anxiety_disorder|clinical|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R7"
+   ]
+  },
+  "ministral-3-14b|uncomplicated_bereavement|patient|medication|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R7"
+   ]
+  },
+  "deepseek-v4-flash|social_anxiety_disorder|caregiver|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R3"
+   ]
+  },
+  "gpt-5.5|generalized_anxiety_disorder|caregiver|psychotherapy|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "claude-haiku-4.5|alcohol_use_disorder|patient|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R5"
+   ]
+  },
+  "gemini-3.5-flash-lite|narcissistic_personality_disorder|caregiver|open|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R8"
+   ]
+  },
+  "claude-opus-4.8|ocd|clinical|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R8"
+   ]
+  },
+  "gpt-5.6-terra|chronic_insomnia|caregiver|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R5"
+   ]
+  },
+  "claude-fable-5|borderline_personality_disorder|clinical|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R6"
+   ]
+  },
+  "kimi-k3|ptsd|clinical|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R7"
+   ]
+  },
+  "gpt-5.5|generalized_anxiety_disorder|caregiver|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "claude-opus-5|uncomplicated_bereavement|clinical|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R7"
+   ]
+  },
+  "claude-sonnet-4.5|alcohol_use_disorder|clinical|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R8"
+   ]
+  },
+  "gemini-2.5-pro|panic_disorder|caregiver|psychotherapy|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R5"
+   ]
+  },
+  "gpt-4.1|ptsd|clinical|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R4"
+   ]
+  },
+  "mistral-small-4|binge_eating_disorder|clinical|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R5"
+   ]
+  },
+  "qwen-3.7-plus|adhd_adult|clinical|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R7",
+    "R8"
+   ]
+  },
+  "mistral-medium-3.5|binge_eating_disorder|patient|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R5"
+   ]
+  },
+  "gpt-4.1|social_anxiety_disorder|caregiver|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R8"
+   ]
+  },
+  "gpt-5-2025-snapshot|social_anxiety_disorder|clinical|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R2"
+   ]
+  },
+  "grok-4.6|ocd|clinical|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R7"
+   ]
+  },
+  "kimi-k2.6|borderline_personality_disorder|caregiver|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "claude-haiku-4.5|major_depressive_disorder|clinical|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R8"
+   ]
+  },
+  "claude-opus-4.6|alcohol_use_disorder|caregiver|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R3"
+   ]
+  },
+  "gpt-5.6-sol|bulimia_nervosa|patient|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R7"
+   ]
+  },
+  "gpt-5.6-luna|alcohol_use_disorder|clinical|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R6"
+   ]
+  },
+  "gemini-2.5-pro|borderline_personality_disorder|clinical|medication|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R6"
+   ]
+  },
+  "grok-4.3|narcissistic_personality_disorder|clinical|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R4"
+   ]
+  },
+  "gemini-3.5-flash|panic_disorder|clinical|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R7"
+   ]
+  },
+  "claude-opus-4.8|chronic_insomnia|patient|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  },
+  "gemini-3.6-flash|schizophrenia_first_episode|clinical|psychotherapy|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R7"
+   ]
+  },
+  "gemini-2.5-flash|panic_disorder|caregiver|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R4"
+   ]
+  },
+  "gemini-3.6-flash|narcissistic_personality_disorder|patient|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R8"
+   ]
+  },
+  "claude-fable-5|adhd_adult|caregiver|medication|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R3"
+   ]
+  },
+  "mistral-medium-3.5|adhd_adult|caregiver|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R7"
+   ]
+  },
+  "mistral-small-4|major_depressive_disorder|clinical|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R4"
+   ]
+  },
+  "claude-opus-4.8|narcissistic_personality_disorder|clinical|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R6"
+   ]
+  },
+  "gemini-2.5-flash|alcohol_use_disorder|clinical|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R8"
+   ]
+  },
+  "qwen-3.8-max|anorexia_nervosa|clinical|open|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R7",
+    "R8"
+   ]
+  },
+  "grok-4.5|alcohol_use_disorder|patient|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R5"
+   ]
+  },
+  "claude-sonnet-5|ocd|clinical|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R2"
+   ]
+  },
+  "gemini-3.5-flash-lite|uncomplicated_bereavement|caregiver|open|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R6"
+   ]
+  },
+  "grok-4.5|ocd|clinical|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R4"
+   ]
+  },
+  "gpt-4.1|situational_stress_subclinical|patient|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R8"
+   ]
+  },
+  "grok-4.3|bulimia_nervosa|caregiver|digital|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "deepseek-v4-pro|bulimia_nervosa|clinical|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R7"
+   ]
+  },
+  "gemini-3.5-flash-lite|borderline_personality_disorder|patient|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R7"
+   ]
+  },
+  "qwen3-8b|ptsd|clinical|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R8"
+   ]
+  },
+  "ministral-3-14b|uncomplicated_bereavement|clinical|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R5"
+   ]
+  },
+  "qwen-3.5-plus|ocd|patient|open|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R3"
+   ]
+  },
+  "grok-4.5|bipolar_1_maintenance|clinical|open|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R8"
+   ]
+  },
+  "qwen-flash|narcissistic_personality_disorder|patient|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R3"
+   ]
+  },
+  "ministral-3-14b|alcohol_use_disorder|clinical|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R7"
+   ]
+  },
+  "qwen-3.7-plus|ptsd|caregiver|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R7"
+   ]
+  },
+  "qwen-flash|binge_eating_disorder|caregiver|digital|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "gemini-3.7-flash|major_depressive_disorder|clinical|digital|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R6"
+   ]
+  },
+  "gpt-5.5|ocd|clinical|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R4"
+   ]
+  },
+  "claude-haiku-4.5|ptsd|caregiver|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R5"
+   ]
+  },
+  "gemini-3.5-flash-lite|social_anxiety_disorder|caregiver|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R8"
+   ]
+  },
+  "ministral-3-8b|situational_stress_subclinical|clinical|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  },
+  "claude-opus-5|autism_spectrum_disorder|caregiver|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R5"
+   ]
+  },
+  "qwen-flash|panic_disorder|caregiver|open|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R7"
+   ]
+  },
+  "gemini-3.6-flash|major_depressive_disorder|caregiver|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R8"
+   ]
+  },
+  "gemini-3.7-flash|binge_eating_disorder|patient|digital|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R5"
+   ]
+  },
+  "claude-sonnet-5|generalized_anxiety_disorder|clinical|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R7"
+   ]
+  },
+  "mistral-medium-3.5|chronic_insomnia|clinical|psychotherapy|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "qwen-3.5-plus|anorexia_nervosa|caregiver|psychotherapy|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R4"
+   ]
+  },
+  "gemini-3.5-flash|autism_spectrum_disorder|patient|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R6"
+   ]
+  },
+  "gemini-2.5-pro|binge_eating_disorder|clinical|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R7",
+    "R8"
+   ]
+  },
+  "gemini-3.7-flash|binge_eating_disorder|patient|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R5"
+   ]
+  },
+  "gpt-4.1|chronic_insomnia|caregiver|open|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R3"
+   ]
+  },
+  "grok-4.3|autism_spectrum_disorder|patient|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R8"
+   ]
+  },
+  "kimi-k2.6|generalized_anxiety_disorder|caregiver|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R4"
+   ]
+  },
+  "qwen-flash|schizophrenia_first_episode|clinical|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R7"
+   ]
+  },
+  "gemini-2.5-flash-lite|panic_disorder|caregiver|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  },
+  "gemini-2.5-pro|bulimia_nervosa|patient|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R7"
+   ]
+  },
+  "claude-sonnet-5|chronic_insomnia|caregiver|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R6"
+   ]
+  },
+  "mistral-small-4|anorexia_nervosa|clinical|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R5"
+   ]
+  },
+  "gemini-3.6-flash|bipolar_1_maintenance|clinical|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R6"
+   ]
+  },
+  "claude-opus-5|borderline_personality_disorder|patient|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R3"
+   ]
+  },
+  "kimi-k3|adhd_adult|patient|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R7"
+   ]
+  },
+  "claude-opus-5|borderline_personality_disorder|clinical|digital|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R8"
+   ]
+  },
+  "gemini-3.5-flash|alcohol_use_disorder|caregiver|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R2"
+   ]
+  },
+  "qwen-flash|chronic_insomnia|patient|open|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R4"
+   ]
+  },
+  "claude-opus-4.6|bipolar_1_maintenance|clinical|digital|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R5"
+   ]
+  },
+  "gpt-5.5|anorexia_nervosa|clinical|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R7"
+   ]
+  },
+  "gpt-3.5-turbo|ocd|patient|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R8"
+   ]
+  },
+  "claude-sonnet-5|generalized_anxiety_disorder|caregiver|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R8"
+   ]
+  },
+  "mistral-small-4|autism_spectrum_disorder|patient|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R7"
+   ]
+  },
+  "gpt-5-mini-2025-snapshot|situational_stress_subclinical|patient|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "deepseek-v4-flash|panic_disorder|patient|open|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R5"
+   ]
+  },
+  "gpt-5.5|chronic_insomnia|clinical|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R7"
+   ]
+  },
+  "gpt-5.5|panic_disorder|clinical|open|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R6"
+   ]
+  },
+  "claude-opus-5|social_anxiety_disorder|clinical|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R8"
+   ]
+  },
+  "grok-4.5|autism_spectrum_disorder|caregiver|medication|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R7"
+   ]
+  },
+  "ministral-3-14b|binge_eating_disorder|patient|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "mistral-small-4|borderline_personality_disorder|caregiver|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R8"
+   ]
+  },
+  "gpt-5.6-terra|social_anxiety_disorder|caregiver|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R4"
+   ]
+  },
+  "qwen3-8b|bulimia_nervosa|patient|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  },
+  "claude-opus-5|generalized_anxiety_disorder|patient|psychotherapy|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R7"
+   ]
+  },
+  "claude-opus-4.6|generalized_anxiety_disorder|patient|digital|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R5"
+   ]
+  },
+  "mistral-large-3|ocd|caregiver|open|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R2"
+   ]
+  },
+  "mistral-large-3|ocd|patient|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R4"
+   ]
+  },
+  "grok-4.6|situational_stress_subclinical|patient|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R8"
+   ]
+  },
+  "gemini-3.5-flash|generalized_anxiety_disorder|patient|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R5"
+   ]
+  },
+  "mistral-medium-3.5|social_anxiety_disorder|patient|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R7"
+   ]
+  },
+  "kimi-k2.6|bulimia_nervosa|caregiver|open|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R7"
+   ]
+  },
+  "qwen-3.7-plus|alcohol_use_disorder|patient|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R6"
+   ]
+  },
+  "qwen-3.5-plus|adhd_adult|patient|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R8"
+   ]
+  },
+  "gpt-5.6-luna|panic_disorder|clinical|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R3"
+   ]
+  },
+  "gpt-5.6-terra|anorexia_nervosa|caregiver|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R8"
+   ]
+  },
+  "grok-4.5|anorexia_nervosa|clinical|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "claude-opus-4.8|social_anxiety_disorder|patient|open|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R7"
+   ]
+  },
+  "gpt-4.1|bulimia_nervosa|caregiver|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R5"
+   ]
+  },
+  "gpt-5.6-terra|major_depressive_disorder|caregiver|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R7",
+    "R8"
+   ]
+  },
+  "gpt-5.6-sol|generalized_anxiety_disorder|clinical|open|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R3"
+   ]
+  },
+  "qwen-3.5-plus|situational_stress_subclinical|caregiver|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R4"
+   ]
+  },
+  "claude-opus-4.5|anorexia_nervosa|caregiver|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R6"
+   ]
+  },
+  "claude-sonnet-5|major_depressive_disorder|patient|open|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R7"
+   ]
+  },
+  "mistral-small-4|bulimia_nervosa|clinical|open|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R8"
+   ]
+  },
+  "deepseek-v4-pro|generalized_anxiety_disorder|patient|psychotherapy|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R5"
+   ]
+  },
+  "claude-opus-4.6|bipolar_1_maintenance|caregiver|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R4"
+   ]
+  },
+  "claude-haiku-4.5|generalized_anxiety_disorder|caregiver|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R7"
+   ]
+  },
+  "qwen-flash|panic_disorder|patient|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  },
+  "claude-fable-5|narcissistic_personality_disorder|patient|psychotherapy|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R5"
+   ]
+  },
+  "deepseek-v4-pro|chronic_insomnia|patient|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R6"
+   ]
+  },
+  "deepseek-v4-pro|binge_eating_disorder|clinical|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R8"
+   ]
+  },
+  "gemini-3.5-flash-lite|major_depressive_disorder|clinical|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R6"
+   ]
+  },
+  "mistral-large-3|bulimia_nervosa|patient|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R7"
+   ]
+  },
+  "claude-opus-5|uncomplicated_bereavement|clinical|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R4"
+   ]
+  },
+  "gpt-5.6-luna|autism_spectrum_disorder|caregiver|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R6"
+   ]
+  },
+  "deepseek-v4-flash|generalized_anxiety_disorder|clinical|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R8"
+   ]
+  },
+  "qwen-3.5-plus|autism_spectrum_disorder|patient|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R5"
+   ]
+  },
+  "kimi-k2.6|chronic_insomnia|clinical|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "mistral-small-4|autism_spectrum_disorder|caregiver|open|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R7"
+   ]
+  },
+  "deepseek-v4-flash|borderline_personality_disorder|clinical|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R5"
+   ]
+  },
+  "grok-4.3|alcohol_use_disorder|caregiver|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R3"
+   ]
+  },
+  "claude-opus-4.5|panic_disorder|patient|open|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R7",
+    "R8"
+   ]
+  },
+  "mistral-medium-3.5|social_anxiety_disorder|clinical|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R8"
+   ]
+  },
+  "gpt-4.1|binge_eating_disorder|caregiver|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R4"
+   ]
+  },
+  "ministral-3-8b|borderline_personality_disorder|caregiver|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R2"
+   ]
+  },
+  "gemini-2.5-pro|anorexia_nervosa|clinical|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R7"
+   ]
+  },
+  "deepseek-v4-pro|bulimia_nervosa|clinical|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R3"
+   ]
+  },
+  "qwen-3.7-plus|alcohol_use_disorder|caregiver|psychotherapy|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R8"
+   ]
+  },
+  "qwen-3.5-plus|ptsd|clinical|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R7"
+   ]
+  },
+  "gpt-5-2025-snapshot|chronic_insomnia|clinical|digital|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "claude-opus-4.8|ptsd|clinical|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "mistral-large-3|uncomplicated_bereavement|patient|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R7"
+   ]
+  },
+  "gemini-3.5-flash|adhd_adult|patient|digital|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  },
+  "kimi-k3|major_depressive_disorder|clinical|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R4"
+   ]
+  },
+  "grok-4.3|bipolar_1_maintenance|caregiver|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R3"
+   ]
+  },
+  "claude-sonnet-4.5|anorexia_nervosa|patient|psychotherapy|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R5"
+   ]
+  },
+  "claude-sonnet-4.5|ocd|clinical|digital|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R7",
+    "R8"
+   ]
+  },
+  "claude-opus-4.5|autism_spectrum_disorder|clinical|medication|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R6"
+   ]
+  },
+  "ministral-3-14b|generalized_anxiety_disorder|clinical|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R8"
+   ]
+  },
+  "gpt-3.5-turbo|schizophrenia_first_episode|clinical|neuromodulation|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R7"
+   ]
+  },
+  "claude-sonnet-5|chronic_insomnia|patient|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R4"
+   ]
+  },
+  "claude-sonnet-4.5|major_depressive_disorder|patient|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R5"
+   ]
+  },
+  "kimi-k3|chronic_insomnia|patient|open|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R5"
+   ]
+  },
+  "kimi-k2.6|panic_disorder|clinical|open|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R6",
+    "R7"
+   ]
+  },
+  "gemini-2.5-flash-lite|ocd|clinical|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R3"
+   ]
+  },
+  "qwen3-8b|borderline_personality_disorder|clinical|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R8"
+   ]
+  },
+  "grok-4.6|social_anxiety_disorder|clinical|psychotherapy|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R8"
+   ]
+  },
+  "claude-haiku-4.5|alcohol_use_disorder|clinical|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R6"
+   ]
+  },
+  "ministral-3-14b|adhd_adult|caregiver|medication|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R7"
+   ]
+  },
+  "gpt-3.5-turbo|anorexia_nervosa|caregiver|digital|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R6"
+   ]
+  },
+  "mistral-medium-3.5|adhd_adult|clinical|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R7"
+   ]
+  },
+  "claude-opus-4.8|narcissistic_personality_disorder|patient|medication|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R2"
+   ]
+  },
+  "gpt-5.5|autism_spectrum_disorder|patient|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R5",
+    "R8"
+   ]
+  },
+  "grok-4.5|schizophrenia_first_episode|clinical|psychotherapy|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R4"
+   ]
+  },
+  "claude-opus-4.5|major_depressive_disorder|clinical|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R6"
+   ]
+  },
+  "gemini-3.6-flash|ptsd|patient|psychotherapy|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R7"
+   ]
+  },
+  "claude-sonnet-5|anorexia_nervosa|clinical|neuromodulation|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R5"
+   ]
+  },
+  "gemini-2.5-flash|ptsd|patient|psychotherapy|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R8"
+   ]
+  },
+  "grok-4.6|chronic_insomnia|clinical|neuromodulation|s2": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R1",
+    "R5"
+   ]
+  },
+  "grok-4.6|chronic_insomnia|caregiver|psychotherapy|s1": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R4",
+    "R7"
+   ]
+  },
+  "claude-opus-5|major_depressive_disorder|patient|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R2",
+    "R6"
+   ]
+  },
+  "gpt-5.6-sol|panic_disorder|clinical|psychotherapy|s0": {
+   "wave": "2",
+   "split": "test",
+   "coders": [
+    "R3",
+    "R8"
+   ]
+  }
+ },
+ "orders": {
+  "R1_round1": [
+   "kimi-k2.6|borderline_personality_disorder|clinical|medication|s0",
+   "claude-sonnet-5|ptsd|patient|open|s1",
+   "claude-haiku-4.5|ptsd|clinical|neuromodulation|s1",
+   "grok-4.6|ptsd|clinical|medication|s1",
+   "gpt-5.5|uncomplicated_bereavement|patient|psychotherapy|s1",
+   "gpt-5.6-luna|bulimia_nervosa|clinical|psychotherapy|s0",
+   "claude-opus-4.6|generalized_anxiety_disorder|patient|open|s1",
+   "claude-fable-5|bipolar_1_maintenance|caregiver|digital|s0",
+   "deepseek-v4-flash|alcohol_use_disorder|caregiver|neuromodulation|s2",
+   "gemini-2.5-pro|bipolar_1_maintenance|clinical|neuromodulation|s2",
+   "qwen3-8b|chronic_insomnia|clinical|medication|s1",
+   "claude-opus-4.8|ocd|clinical|psychotherapy|s0",
+   "grok-4.3|major_depressive_disorder|clinical|psychotherapy|s2",
+   "grok-4.3|binge_eating_disorder|patient|digital|s0",
+   "claude-sonnet-4.6|uncomplicated_bereavement|patient|open|s1",
+   "gpt-5.6-terra|chronic_insomnia|patient|medication|s1",
+   "qwen3-8b|major_depressive_disorder|caregiver|open|s2",
+   "gpt-5.6-sol|bipolar_1_maintenance|caregiver|neuromodulation|s2",
+   "claude-fable-5|major_depressive_disorder|patient|open|s2",
+   "gpt-3.5-turbo|autism_spectrum_disorder|patient|open|s0",
+   "qwen-flash|situational_stress_subclinical|caregiver|medication|s2",
+   "deepseek-v4-pro|autism_spectrum_disorder|clinical|neuromodulation|s2",
+   "gemini-2.5-flash|narcissistic_personality_disorder|clinical|psychotherapy|s0",
+   "deepseek-v4-flash|uncomplicated_bereavement|caregiver|open|s1",
+   "gpt-3.5-turbo|panic_disorder|patient|digital|s2"
+  ],
+  "R1_round2": [
+   "kimi-k2.6|borderline_personality_disorder|clinical|medication|s0",
+   "claude-sonnet-5|ptsd|patient|open|s1",
+   "claude-haiku-4.5|ptsd|clinical|neuromodulation|s1",
+   "grok-4.6|ptsd|clinical|medication|s1",
+   "gpt-5.5|uncomplicated_bereavement|patient|psychotherapy|s1",
+   "gpt-5.6-luna|bulimia_nervosa|clinical|psychotherapy|s0",
+   "claude-opus-4.6|generalized_anxiety_disorder|patient|open|s1",
+   "claude-fable-5|bipolar_1_maintenance|caregiver|digital|s0",
+   "deepseek-v4-flash|alcohol_use_disorder|caregiver|neuromodulation|s2",
+   "gemini-2.5-pro|bipolar_1_maintenance|clinical|neuromodulation|s2",
+   "qwen3-8b|chronic_insomnia|clinical|medication|s1",
+   "claude-opus-4.8|ocd|clinical|psychotherapy|s0",
+   "grok-4.3|major_depressive_disorder|clinical|psychotherapy|s2",
+   "grok-4.3|binge_eating_disorder|patient|digital|s0",
+   "claude-sonnet-4.6|uncomplicated_bereavement|patient|open|s1",
+   "gpt-5.6-terra|chronic_insomnia|patient|medication|s1",
+   "qwen3-8b|major_depressive_disorder|caregiver|open|s2",
+   "gpt-5.6-sol|bipolar_1_maintenance|caregiver|neuromodulation|s2",
+   "claude-fable-5|major_depressive_disorder|patient|open|s2",
+   "gpt-3.5-turbo|autism_spectrum_disorder|patient|open|s0",
+   "qwen-flash|situational_stress_subclinical|caregiver|medication|s2",
+   "deepseek-v4-pro|autism_spectrum_disorder|clinical|neuromodulation|s2",
+   "gemini-2.5-flash|narcissistic_personality_disorder|clinical|psychotherapy|s0",
+   "deepseek-v4-flash|uncomplicated_bereavement|caregiver|open|s1",
+   "gpt-3.5-turbo|panic_disorder|patient|digital|s2",
+   "gemini-3.5-flash|alcohol_use_disorder|caregiver|open|s2",
+   "gemini-3.6-flash|ptsd|patient|psychotherapy|s1",
+   "deepseek-v4-pro|anorexia_nervosa|caregiver|neuromodulation|s2",
+   "gemini-3.7-flash|major_depressive_disorder|clinical|digital|s1",
+   "mistral-large-3|ocd|caregiver|open|s0",
+   "qwen-3.5-plus|autism_spectrum_disorder|patient|psychotherapy|s0",
+   "gpt-3.5-turbo|anorexia_nervosa|caregiver|digital|s0",
+   "claude-haiku-4.5|ptsd|caregiver|digital|s0",
+   "claude-sonnet-5|generalized_anxiety_disorder|clinical|neuromodulation|s0",
+   "mistral-small-4|binge_eating_disorder|clinical|digital|s2",
+   "mistral-small-4|autism_spectrum_disorder|caregiver|open|s1",
+   "kimi-k2.6|ocd|caregiver|neuromodulation|s2",
+   "qwen3-8b|ptsd|clinical|psychotherapy|s0",
+   "deepseek-v4-pro|binge_eating_disorder|clinical|neuromodulation|s0",
+   "qwen-flash|narcissistic_personality_disorder|patient|neuromodulation|s2",
+   "claude-opus-4.6|alcohol_use_disorder|caregiver|medication|s0",
+   "kimi-k2.6|bulimia_nervosa|caregiver|open|s1",
+   "gpt-3.5-turbo|ptsd|caregiver|open|s2",
+   "mistral-small-4|major_depressive_disorder|clinical|neuromodulation|s2",
+   "kimi-k3|ptsd|clinical|medication|s0",
+   "deepseek-v4-flash|ptsd|caregiver|medication|s0",
+   "deepseek-v4-pro|bulimia_nervosa|clinical|neuromodulation|s2",
+   "gpt-5.6-sol|generalized_anxiety_disorder|clinical|open|s1",
+   "deepseek-v4-pro|bulimia_nervosa|clinical|open|s2",
+   "gpt-5-2025-snapshot|social_anxiety_disorder|clinical|neuromodulation|s1",
+   "gemini-3.5-flash|autism_spectrum_disorder|patient|psychotherapy|s0",
+   "ministral-3-8b|borderline_personality_disorder|caregiver|medication|s0",
+   "claude-sonnet-4.5|major_depressive_disorder|patient|open|s2",
+   "kimi-k2.6|generalized_anxiety_disorder|caregiver|neuromodulation|s0",
+   "claude-opus-5|borderline_personality_disorder|patient|neuromodulation|s0",
+   "gemini-2.5-pro|borderline_personality_disorder|clinical|medication|s2",
+   "mistral-small-4|borderline_personality_disorder|caregiver|neuromodulation|s2",
+   "claude-sonnet-4.5|alcohol_use_disorder|clinical|neuromodulation|s1",
+   "deepseek-v4-flash|autism_spectrum_disorder|caregiver|neuromodulation|s2",
+   "mistral-large-3|ocd|patient|open|s2",
+   "mistral-small-4|anorexia_nervosa|clinical|medication|s0",
+   "gpt-4.1|bulimia_nervosa|caregiver|digital|s0",
+   "grok-4.6|chronic_insomnia|clinical|neuromodulation|s2",
+   "gemini-3.5-flash-lite|narcissistic_personality_disorder|caregiver|open|s0",
+   "gpt-5.5|panic_disorder|clinical|open|s1",
+   "claude-sonnet-5|ocd|clinical|medication|s0",
+   "deepseek-v4-pro|chronic_insomnia|patient|neuromodulation|s1",
+   "claude-opus-4.6|bipolar_1_maintenance|caregiver|neuromodulation|s0",
+   "kimi-k3|major_depressive_disorder|clinical|digital|s0",
+   "qwen3-8b|borderline_personality_disorder|clinical|digital|s0",
+   "deepseek-v4-flash|social_anxiety_disorder|caregiver|neuromodulation|s1",
+   "grok-4.3|bipolar_1_maintenance|caregiver|open|s2",
+   "gpt-3.5-turbo|ocd|patient|medication|s1",
+   "gemini-2.5-flash|panic_disorder|caregiver|digital|s0",
+   "claude-opus-4.8|narcissistic_personality_disorder|patient|medication|s1"
+  ],
+  "R2_round1": [
+   "claude-opus-4.5|chronic_insomnia|clinical|neuromodulation|s2",
+   "mistral-large-3|panic_disorder|caregiver|medication|s0",
+   "grok-4.5|panic_disorder|clinical|neuromodulation|s0",
+   "claude-opus-4.6|bipolar_1_maintenance|patient|psychotherapy|s0",
+   "gpt-5-2025-snapshot|situational_stress_subclinical|caregiver|digital|s0",
+   "gpt-5.6-sol|bipolar_1_maintenance|caregiver|neuromodulation|s2",
+   "gemini-3.5-flash-lite|borderline_personality_disorder|patient|open|s1",
+   "gemini-2.5-flash|chronic_insomnia|caregiver|medication|s1",
+   "grok-4.3|binge_eating_disorder|clinical|digital|s1",
+   "grok-4.6|major_depressive_disorder|patient|open|s1",
+   "ministral-3-8b|social_anxiety_disorder|clinical|psychotherapy|s1",
+   "gemini-2.5-pro|bipolar_1_maintenance|clinical|neuromodulation|s2",
+   "qwen-3.5-plus|bipolar_1_maintenance|clinical|medication|s1",
+   "gpt-5.6-luna|bipolar_1_maintenance|clinical|digital|s1",
+   "gemini-3.5-flash|adhd_adult|patient|psychotherapy|s1",
+   "gpt-4.1|major_depressive_disorder|patient|psychotherapy|s2",
+   "kimi-k2.6|borderline_personality_disorder|clinical|digital|s2",
+   "mistral-large-3|panic_disorder|caregiver|open|s2",
+   "gemini-3.6-flash|major_depressive_disorder|patient|neuromodulation|s0",
+   "claude-fable-5|bipolar_1_maintenance|caregiver|digital|s0",
+   "mistral-small-4|uncomplicated_bereavement|patient|psychotherapy|s1",
+   "gemini-2.5-flash|narcissistic_personality_disorder|clinical|psychotherapy|s0",
+   "claude-opus-4.6|social_anxiety_disorder|caregiver|medication|s2",
+   "qwen-flash|ocd|patient|open|s0",
+   "gpt-5.5|situational_stress_subclinical|clinical|medication|s0"
+  ],
+  "R2_round2": [
+   "claude-opus-4.5|chronic_insomnia|clinical|neuromodulation|s2",
+   "mistral-large-3|panic_disorder|caregiver|medication|s0",
+   "grok-4.5|panic_disorder|clinical|neuromodulation|s0",
+   "claude-opus-4.6|bipolar_1_maintenance|patient|psychotherapy|s0",
+   "gpt-5-2025-snapshot|situational_stress_subclinical|caregiver|digital|s0",
+   "gpt-5.6-sol|bipolar_1_maintenance|caregiver|neuromodulation|s2",
+   "gemini-3.5-flash-lite|borderline_personality_disorder|patient|open|s1",
+   "gemini-2.5-flash|chronic_insomnia|caregiver|medication|s1",
+   "grok-4.3|binge_eating_disorder|clinical|digital|s1",
+   "grok-4.6|major_depressive_disorder|patient|open|s1",
+   "ministral-3-8b|social_anxiety_disorder|clinical|psychotherapy|s1",
+   "gemini-2.5-pro|bipolar_1_maintenance|clinical|neuromodulation|s2",
+   "qwen-3.5-plus|bipolar_1_maintenance|clinical|medication|s1",
+   "gpt-5.6-luna|bipolar_1_maintenance|clinical|digital|s1",
+   "gemini-3.5-flash|adhd_adult|patient|psychotherapy|s1",
+   "gpt-4.1|major_depressive_disorder|patient|psychotherapy|s2",
+   "kimi-k2.6|borderline_personality_disorder|clinical|digital|s2",
+   "mistral-large-3|panic_disorder|caregiver|open|s2",
+   "gemini-3.6-flash|major_depressive_disorder|patient|neuromodulation|s0",
+   "claude-fable-5|bipolar_1_maintenance|caregiver|digital|s0",
+   "mistral-small-4|uncomplicated_bereavement|patient|psychotherapy|s1",
+   "gemini-2.5-flash|narcissistic_personality_disorder|clinical|psychotherapy|s0",
+   "claude-opus-4.6|social_anxiety_disorder|caregiver|medication|s2",
+   "qwen-flash|ocd|patient|open|s0",
+   "gpt-5.5|situational_stress_subclinical|clinical|medication|s0",
+   "gpt-4.1|chronic_insomnia|caregiver|open|s0",
+   "deepseek-v4-flash|generalized_anxiety_disorder|clinical|psychotherapy|s0",
+   "gpt-5.6-sol|bulimia_nervosa|patient|digital|s2",
+   "grok-4.3|narcissistic_personality_disorder|clinical|psychotherapy|s0",
+   "claude-opus-5|uncomplicated_bereavement|clinical|psychotherapy|s0",
+   "grok-4.5|ocd|clinical|medication|s1",
+   "ministral-3-14b|alcohol_use_disorder|clinical|psychotherapy|s0",
+   "claude-opus-5|major_depressive_disorder|patient|psychotherapy|s0",
+   "gpt-3.5-turbo|schizophrenia_first_episode|clinical|neuromodulation|s0",
+   "gpt-5.6-terra|anorexia_nervosa|caregiver|digital|s2",
+   "ministral-3-14b|uncomplicated_bereavement|patient|medication|s2",
+   "gpt-5.6-luna|panic_disorder|clinical|neuromodulation|s2",
+   "qwen-3.5-plus|situational_stress_subclinical|caregiver|medication|s0",
+   "gemini-3.5-flash|alcohol_use_disorder|caregiver|open|s2",
+   "qwen-flash|binge_eating_disorder|caregiver|digital|s1",
+   "gemini-3.6-flash|major_depressive_disorder|caregiver|medication|s1",
+   "gpt-5-2025-snapshot|social_anxiety_disorder|clinical|neuromodulation|s1",
+   "claude-fable-5|adhd_adult|caregiver|medication|s2",
+   "ministral-3-8b|borderline_personality_disorder|caregiver|medication|s0",
+   "grok-4.6|social_anxiety_disorder|clinical|psychotherapy|s2",
+   "deepseek-v4-pro|anorexia_nervosa|caregiver|neuromodulation|s2",
+   "qwen-3.5-plus|anorexia_nervosa|caregiver|psychotherapy|s1",
+   "gpt-5-2025-snapshot|chronic_insomnia|clinical|digital|s2",
+   "claude-opus-4.5|alcohol_use_disorder|clinical|psychotherapy|s0",
+   "claude-opus-4.8|ocd|clinical|digital|s2",
+   "grok-4.3|alcohol_use_disorder|caregiver|neuromodulation|s2",
+   "ministral-3-14b|binge_eating_disorder|patient|digital|s0",
+   "mistral-medium-3.5|social_anxiety_disorder|patient|neuromodulation|s0",
+   "mistral-medium-3.5|binge_eating_disorder|patient|open|s2",
+   "claude-sonnet-5|ocd|clinical|medication|s0",
+   "claude-opus-4.6|bipolar_1_maintenance|clinical|digital|s1",
+   "claude-sonnet-5|major_depressive_disorder|patient|open|s0",
+   "grok-4.3|social_anxiety_disorder|caregiver|medication|s1",
+   "deepseek-v4-flash|panic_disorder|patient|open|s0",
+   "claude-opus-5|autism_spectrum_disorder|caregiver|digital|s2",
+   "gpt-5.5|generalized_anxiety_disorder|caregiver|neuromodulation|s1",
+   "gpt-5-mini-2025-snapshot|situational_stress_subclinical|patient|neuromodulation|s1",
+   "gemini-2.5-flash|ptsd|caregiver|digital|s2",
+   "mistral-large-3|ocd|caregiver|open|s0",
+   "gemini-2.5-flash-lite|ocd|clinical|neuromodulation|s1",
+   "claude-fable-5|narcissistic_personality_disorder|patient|psychotherapy|s2",
+   "gemini-2.5-pro|bulimia_nervosa|patient|psychotherapy|s0",
+   "grok-4.5|schizophrenia_first_episode|clinical|psychotherapy|s1",
+   "claude-opus-4.8|narcissistic_personality_disorder|patient|medication|s1",
+   "gemini-2.5-flash-lite|bipolar_1_maintenance|clinical|medication|s1",
+   "gpt-5.5|generalized_anxiety_disorder|caregiver|psychotherapy|s1",
+   "claude-sonnet-4.5|anorexia_nervosa|patient|psychotherapy|s1",
+   "qwen-3.5-plus|ocd|patient|open|s0",
+   "gemini-2.5-flash|alcohol_use_disorder|clinical|digital|s2",
+   "claude-opus-4.8|ptsd|clinical|medication|s0"
+  ],
+  "R3_round1": [
+   "gpt-5.6-sol|panic_disorder|clinical|medication|s1",
+   "gemini-2.5-flash-lite|situational_stress_subclinical|caregiver|psychotherapy|s0",
+   "qwen-3.7-plus|borderline_personality_disorder|patient|open|s0",
+   "gpt-5-2025-snapshot|situational_stress_subclinical|caregiver|digital|s0",
+   "gpt-5.6-terra|schizophrenia_first_episode|clinical|medication|s2",
+   "qwen3-8b|major_depressive_disorder|caregiver|open|s2",
+   "gpt-5-mini-2025-snapshot|major_depressive_disorder|patient|open|s1",
+   "gemini-2.5-flash|bipolar_1_maintenance|caregiver|open|s1",
+   "grok-4.3|major_depressive_disorder|clinical|psychotherapy|s2",
+   "gpt-3.5-turbo|social_anxiety_disorder|caregiver|open|s2",
+   "gpt-5.6-luna|generalized_anxiety_disorder|clinical|open|s1",
+   "claude-fable-5|panic_disorder|clinical|digital|s2",
+   "gpt-5-mini-2025-snapshot|social_anxiety_disorder|clinical|medication|s2",
+   "claude-opus-4.8|schizophrenia_first_episode|clinical|neuromodulation|s0",
+   "kimi-k2.6|panic_disorder|clinical|neuromodulation|s0",
+   "gpt-5-mini-2025-snapshot|bipolar_1_maintenance|patient|medication|s1",
+   "gpt-5.6-luna|binge_eating_disorder|caregiver|medication|s0",
+   "deepseek-v4-flash|alcohol_use_disorder|caregiver|neuromodulation|s2",
+   "grok-4.6|bulimia_nervosa|caregiver|neuromodulation|s2",
+   "claude-opus-5|adhd_adult|clinical|open|s1",
+   "qwen-3.5-plus|bipolar_1_maintenance|clinical|open|s1",
+   "gpt-5.5|situational_stress_subclinical|clinical|medication|s0",
+   "qwen-3.5-plus|anorexia_nervosa|patient|neuromodulation|s1",
+   "gpt-5.6-terra|uncomplicated_bereavement|clinical|medication|s0",
+   "mistral-large-3|panic_disorder|caregiver|open|s2"
+  ],
+  "R3_round2": [
+   "gpt-5.6-sol|panic_disorder|clinical|medication|s1",
+   "gemini-2.5-flash-lite|situational_stress_subclinical|caregiver|psychotherapy|s0",
+   "qwen-3.7-plus|borderline_personality_disorder|patient|open|s0",
+   "gpt-5-2025-snapshot|situational_stress_subclinical|caregiver|digital|s0",
+   "gpt-5.6-terra|schizophrenia_first_episode|clinical|medication|s2",
+   "qwen3-8b|major_depressive_disorder|caregiver|open|s2",
+   "gpt-5-mini-2025-snapshot|major_depressive_disorder|patient|open|s1",
+   "gemini-2.5-flash|bipolar_1_maintenance|caregiver|open|s1",
+   "grok-4.3|major_depressive_disorder|clinical|psychotherapy|s2",
+   "gpt-3.5-turbo|social_anxiety_disorder|caregiver|open|s2",
+   "gpt-5.6-luna|generalized_anxiety_disorder|clinical|open|s1",
+   "claude-fable-5|panic_disorder|clinical|digital|s2",
+   "gpt-5-mini-2025-snapshot|social_anxiety_disorder|clinical|medication|s2",
+   "claude-opus-4.8|schizophrenia_first_episode|clinical|neuromodulation|s0",
+   "kimi-k2.6|panic_disorder|clinical|neuromodulation|s0",
+   "gpt-5-mini-2025-snapshot|bipolar_1_maintenance|patient|medication|s1",
+   "gpt-5.6-luna|binge_eating_disorder|caregiver|medication|s0",
+   "deepseek-v4-flash|alcohol_use_disorder|caregiver|neuromodulation|s2",
+   "grok-4.6|bulimia_nervosa|caregiver|neuromodulation|s2",
+   "claude-opus-5|adhd_adult|clinical|open|s1",
+   "qwen-3.5-plus|bipolar_1_maintenance|clinical|open|s1",
+   "gpt-5.5|situational_stress_subclinical|clinical|medication|s0",
+   "qwen-3.5-plus|anorexia_nervosa|patient|neuromodulation|s1",
+   "gpt-5.6-terra|uncomplicated_bereavement|clinical|medication|s0",
+   "mistral-large-3|panic_disorder|caregiver|open|s2",
+   "gpt-5.6-sol|generalized_anxiety_disorder|clinical|open|s1",
+   "mistral-small-4|autism_spectrum_disorder|patient|digital|s0",
+   "grok-4.3|bulimia_nervosa|caregiver|digital|s1",
+   "kimi-k2.6|chronic_insomnia|clinical|open|s2",
+   "ministral-3-8b|situational_stress_subclinical|clinical|medication|s1",
+   "grok-4.3|alcohol_use_disorder|caregiver|neuromodulation|s2",
+   "ministral-3-14b|adhd_adult|caregiver|medication|s0",
+   "mistral-medium-3.5|chronic_insomnia|clinical|psychotherapy|s2",
+   "claude-opus-4.5|major_depressive_disorder|clinical|neuromodulation|s1",
+   "claude-opus-4.6|alcohol_use_disorder|caregiver|medication|s0",
+   "kimi-k2.6|borderline_personality_disorder|caregiver|neuromodulation|s2",
+   "gpt-5.6-sol|panic_disorder|clinical|psychotherapy|s0",
+   "mistral-medium-3.5|adhd_adult|caregiver|neuromodulation|s2",
+   "claude-opus-5|uncomplicated_bereavement|clinical|neuromodulation|s1",
+   "gpt-5.6-terra|chronic_insomnia|caregiver|medication|s0",
+   "gemini-3.7-flash|binge_eating_disorder|patient|medication|s0",
+   "claude-opus-4.6|generalized_anxiety_disorder|clinical|medication|s2",
+   "deepseek-v4-flash|social_anxiety_disorder|caregiver|neuromodulation|s1",
+   "gpt-4.1|ptsd|clinical|neuromodulation|s0",
+   "gpt-4.1|chronic_insomnia|caregiver|open|s0",
+   "qwen-3.5-plus|ocd|patient|open|s0",
+   "gemini-3.5-flash|adhd_adult|patient|digital|s1",
+   "gpt-5.6-luna|panic_disorder|clinical|neuromodulation|s2",
+   "deepseek-v4-pro|generalized_anxiety_disorder|patient|psychotherapy|s2",
+   "mistral-large-3|bulimia_nervosa|patient|psychotherapy|s0",
+   "gemini-2.5-flash-lite|panic_disorder|caregiver|neuromodulation|s0",
+   "gemini-2.5-flash|ptsd|caregiver|digital|s2",
+   "deepseek-v4-pro|bulimia_nervosa|clinical|neuromodulation|s2",
+   "grok-4.3|bipolar_1_maintenance|caregiver|open|s2",
+   "claude-opus-5|borderline_personality_disorder|patient|neuromodulation|s0",
+   "gpt-4.1|binge_eating_disorder|caregiver|open|s2",
+   "claude-sonnet-5|chronic_insomnia|patient|digital|s0",
+   "claude-fable-5|adhd_adult|caregiver|medication|s2",
+   "claude-sonnet-5|anorexia_nervosa|clinical|neuromodulation|s1",
+   "gpt-5.5|chronic_insomnia|clinical|digital|s2",
+   "gemini-3.5-flash|generalized_anxiety_disorder|patient|open|s2",
+   "qwen-flash|chronic_insomnia|patient|open|s1",
+   "grok-4.6|autism_spectrum_disorder|caregiver|digital|s2",
+   "qwen-flash|narcissistic_personality_disorder|patient|neuromodulation|s2",
+   "gemini-2.5-flash-lite|ocd|clinical|neuromodulation|s1",
+   "kimi-k2.6|narcissistic_personality_disorder|patient|neuromodulation|s0",
+   "grok-4.5|anorexia_nervosa|clinical|open|s2",
+   "grok-4.5|alcohol_use_disorder|patient|digital|s0",
+   "qwen3-8b|bulimia_nervosa|patient|neuromodulation|s1",
+   "claude-opus-4.8|chronic_insomnia|patient|medication|s1",
+   "gpt-5.5|ocd|clinical|neuromodulation|s2",
+   "ministral-3-14b|generalized_anxiety_disorder|clinical|open|s2",
+   "gpt-5.6-terra|social_anxiety_disorder|caregiver|neuromodulation|s2",
+   "qwen-flash|panic_disorder|patient|digital|s0",
+   "deepseek-v4-flash|binge_eating_disorder|clinical|digital|s2"
+  ],
+  "R4_round1": [
+   "qwen-3.7-plus|alcohol_use_disorder|clinical|open|s2",
+   "ministral-3-14b|borderline_personality_disorder|caregiver|medication|s1",
+   "claude-opus-5|adhd_adult|clinical|open|s1",
+   "ministral-3-14b|narcissistic_personality_disorder|clinical|medication|s1",
+   "kimi-k2.6|borderline_personality_disorder|clinical|digital|s2",
+   "deepseek-v4-flash|social_anxiety_disorder|patient|open|s1",
+   "gpt-5.6-terra|alcohol_use_disorder|caregiver|digital|s2",
+   "ministral-3-14b|borderline_personality_disorder|caregiver|digital|s2",
+   "kimi-k2.6|borderline_personality_disorder|clinical|medication|s0",
+   "claude-opus-5|bulimia_nervosa|patient|open|s1",
+   "gpt-5-2025-snapshot|generalized_anxiety_disorder|caregiver|open|s1",
+   "gemini-2.5-flash|chronic_insomnia|caregiver|medication|s1",
+   "gpt-4.1|major_depressive_disorder|patient|psychotherapy|s2",
+   "gemini-2.5-flash-lite|situational_stress_subclinical|caregiver|psychotherapy|s0",
+   "claude-opus-4.5|narcissistic_personality_disorder|clinical|medication|s2",
+   "grok-4.5|bulimia_nervosa|patient|medication|s2",
+   "gemini-3.6-flash|narcissistic_personality_disorder|caregiver|psychotherapy|s1",
+   "gpt-5-mini-2025-snapshot|situational_stress_subclinical|patient|psychotherapy|s1",
+   "claude-sonnet-5|ptsd|patient|open|s1",
+   "qwen-flash|situational_stress_subclinical|caregiver|medication|s2",
+   "gemini-2.5-pro|borderline_personality_disorder|caregiver|medication|s0",
+   "gemini-3.6-flash|anorexia_nervosa|clinical|neuromodulation|s1",
+   "grok-4.6|ptsd|clinical|medication|s1",
+   "qwen-3.5-plus|anorexia_nervosa|patient|neuromodulation|s1",
+   "claude-sonnet-5|major_depressive_disorder|patient|neuromodulation|s0"
+  ],
+  "R4_round2": [
+   "qwen-3.7-plus|alcohol_use_disorder|clinical|open|s2",
+   "ministral-3-14b|borderline_personality_disorder|caregiver|medication|s1",
+   "claude-opus-5|adhd_adult|clinical|open|s1",
+   "ministral-3-14b|narcissistic_personality_disorder|clinical|medication|s1",
+   "kimi-k2.6|borderline_personality_disorder|clinical|digital|s2",
+   "deepseek-v4-flash|social_anxiety_disorder|patient|open|s1",
+   "gpt-5.6-terra|alcohol_use_disorder|caregiver|digital|s2",
+   "ministral-3-14b|borderline_personality_disorder|caregiver|digital|s2",
+   "kimi-k2.6|borderline_personality_disorder|clinical|medication|s0",
+   "claude-opus-5|bulimia_nervosa|patient|open|s1",
+   "gpt-5-2025-snapshot|generalized_anxiety_disorder|caregiver|open|s1",
+   "gemini-2.5-flash|chronic_insomnia|caregiver|medication|s1",
+   "gpt-4.1|major_depressive_disorder|patient|psychotherapy|s2",
+   "gemini-2.5-flash-lite|situational_stress_subclinical|caregiver|psychotherapy|s0",
+   "claude-opus-4.5|narcissistic_personality_disorder|clinical|medication|s2",
+   "grok-4.5|bulimia_nervosa|patient|medication|s2",
+   "gemini-3.6-flash|narcissistic_personality_disorder|caregiver|psychotherapy|s1",
+   "gpt-5-mini-2025-snapshot|situational_stress_subclinical|patient|psychotherapy|s1",
+   "claude-sonnet-5|ptsd|patient|open|s1",
+   "qwen-flash|situational_stress_subclinical|caregiver|medication|s2",
+   "gemini-2.5-pro|borderline_personality_disorder|caregiver|medication|s0",
+   "gemini-3.6-flash|anorexia_nervosa|clinical|neuromodulation|s1",
+   "grok-4.6|ptsd|clinical|medication|s1",
+   "qwen-3.5-plus|anorexia_nervosa|patient|neuromodulation|s1",
+   "claude-sonnet-5|major_depressive_disorder|patient|neuromodulation|s0",
+   "gemini-2.5-flash|panic_disorder|caregiver|digital|s0",
+   "gemini-3.5-flash-lite|uncomplicated_bereavement|caregiver|open|s1",
+   "kimi-k3|chronic_insomnia|patient|open|s0",
+   "claude-opus-4.5|autism_spectrum_disorder|clinical|medication|s2",
+   "gpt-4.1|generalized_anxiety_disorder|patient|psychotherapy|s0",
+   "claude-haiku-4.5|major_depressive_disorder|clinical|neuromodulation|s1",
+   "gemini-2.5-flash|ptsd|patient|psychotherapy|s1",
+   "mistral-small-4|major_depressive_disorder|clinical|neuromodulation|s2",
+   "grok-4.5|ocd|clinical|medication|s1",
+   "kimi-k2.6|generalized_anxiety_disorder|caregiver|neuromodulation|s0",
+   "claude-sonnet-5|chronic_insomnia|caregiver|psychotherapy|s0",
+   "qwen-3.7-plus|alcohol_use_disorder|caregiver|psychotherapy|s1",
+   "gemini-3.7-flash|binge_eating_disorder|patient|digital|s1",
+   "gpt-5.6-luna|autism_spectrum_disorder|caregiver|digital|s0",
+   "grok-4.6|ocd|clinical|neuromodulation|s2",
+   "gpt-5.5|ocd|clinical|neuromodulation|s2",
+   "kimi-k3|adhd_adult|patient|digital|s2",
+   "deepseek-v4-pro|autism_spectrum_disorder|patient|medication|s2",
+   "gpt-4.1|ptsd|clinical|neuromodulation|s0",
+   "claude-opus-5|social_anxiety_disorder|clinical|psychotherapy|s0",
+   "mistral-large-3|ocd|patient|open|s2",
+   "gemini-2.5-pro|panic_disorder|caregiver|psychotherapy|s1",
+   "kimi-k3|major_depressive_disorder|clinical|digital|s0",
+   "qwen-flash|chronic_insomnia|patient|open|s1",
+   "qwen-flash|panic_disorder|caregiver|open|s1",
+   "qwen-3.5-plus|anorexia_nervosa|caregiver|psychotherapy|s1",
+   "grok-4.5|schizophrenia_first_episode|clinical|psychotherapy|s1",
+   "qwen-3.5-plus|situational_stress_subclinical|caregiver|medication|s0",
+   "ministral-3-14b|uncomplicated_bereavement|clinical|psychotherapy|s0",
+   "claude-sonnet-5|generalized_anxiety_disorder|caregiver|medication|s0",
+   "claude-opus-5|uncomplicated_bereavement|clinical|psychotherapy|s0",
+   "qwen-3.7-plus|alcohol_use_disorder|patient|neuromodulation|s0",
+   "gpt-5.6-terra|social_anxiety_disorder|caregiver|neuromodulation|s2",
+   "grok-4.3|narcissistic_personality_disorder|clinical|psychotherapy|s0",
+   "gemini-2.5-flash-lite|bipolar_1_maintenance|clinical|medication|s1",
+   "grok-4.6|chronic_insomnia|caregiver|psychotherapy|s1",
+   "claude-opus-4.8|social_anxiety_disorder|patient|open|s1",
+   "mistral-medium-3.5|adhd_adult|clinical|psychotherapy|s0",
+   "deepseek-v4-flash|borderline_personality_disorder|clinical|medication|s1",
+   "claude-haiku-4.5|generalized_anxiety_disorder|caregiver|neuromodulation|s1",
+   "grok-4.5|bipolar_1_maintenance|clinical|open|s1",
+   "claude-opus-4.6|generalized_anxiety_disorder|clinical|medication|s2",
+   "claude-sonnet-5|chronic_insomnia|patient|digital|s0",
+   "claude-opus-4.6|ptsd|clinical|medication|s0",
+   "claude-haiku-4.5|alcohol_use_disorder|patient|neuromodulation|s1",
+   "gpt-4.1|binge_eating_disorder|caregiver|open|s2",
+   "kimi-k2.6|ocd|caregiver|neuromodulation|s2",
+   "claude-opus-4.6|generalized_anxiety_disorder|patient|digital|s1",
+   "claude-fable-5|borderline_personality_disorder|clinical|open|s2",
+   "claude-opus-4.6|bipolar_1_maintenance|caregiver|neuromodulation|s0"
+  ],
+  "R5_round1": [
+   "kimi-k3|ocd|clinical|digital|s2",
+   "gpt-5.6-luna|bipolar_1_maintenance|clinical|digital|s1",
+   "gpt-5.6-sol|binge_eating_disorder|clinical|neuromodulation|s2",
+   "gpt-4.1|alcohol_use_disorder|clinical|neuromodulation|s0",
+   "claude-sonnet-5|binge_eating_disorder|caregiver|digital|s2",
+   "claude-fable-5|ptsd|patient|neuromodulation|s1",
+   "claude-opus-4.5|major_depressive_disorder|caregiver|open|s2",
+   "grok-4.5|panic_disorder|clinical|neuromodulation|s0",
+   "ministral-3-14b|borderline_personality_disorder|caregiver|digital|s2",
+   "gpt-5.6-luna|autism_spectrum_disorder|caregiver|medication|s0",
+   "gpt-5.6-luna|bulimia_nervosa|clinical|psychotherapy|s0",
+   "gemini-2.5-pro|bipolar_1_maintenance|patient|medication|s1",
+   "gpt-5.6-terra|schizophrenia_first_episode|clinical|medication|s2",
+   "gemini-3.7-flash|autism_spectrum_disorder|clinical|digital|s2",
+   "qwen-3.7-plus|alcohol_use_disorder|clinical|open|s2",
+   "gpt-5.6-luna|chronic_insomnia|caregiver|open|s1",
+   "claude-haiku-4.5|ptsd|clinical|neuromodulation|s1",
+   "gpt-5-mini-2025-snapshot|bipolar_1_maintenance|patient|medication|s1",
+   "gpt-5.6-terra|chronic_insomnia|patient|medication|s1",
+   "gemini-3.5-flash-lite|borderline_personality_disorder|patient|open|s1",
+   "ministral-3-14b|borderline_personality_disorder|caregiver|medication|s1",
+   "gemini-3.6-flash|narcissistic_personality_disorder|caregiver|psychotherapy|s1",
+   "qwen-3.5-plus|bipolar_1_maintenance|clinical|medication|s1",
+   "gpt-3.5-turbo|social_anxiety_disorder|caregiver|open|s2",
+   "grok-4.6|bulimia_nervosa|caregiver|neuromodulation|s2"
+  ],
+  "R5_round2": [
+   "kimi-k3|ocd|clinical|digital|s2",
+   "gpt-5.6-luna|bipolar_1_maintenance|clinical|digital|s1",
+   "gpt-5.6-sol|binge_eating_disorder|clinical|neuromodulation|s2",
+   "gpt-4.1|alcohol_use_disorder|clinical|neuromodulation|s0",
+   "claude-sonnet-5|binge_eating_disorder|caregiver|digital|s2",
+   "claude-fable-5|ptsd|patient|neuromodulation|s1",
+   "claude-opus-4.5|major_depressive_disorder|caregiver|open|s2",
+   "grok-4.5|panic_disorder|clinical|neuromodulation|s0",
+   "ministral-3-14b|borderline_personality_disorder|caregiver|digital|s2",
+   "gpt-5.6-luna|autism_spectrum_disorder|caregiver|medication|s0",
+   "gpt-5.6-luna|bulimia_nervosa|clinical|psychotherapy|s0",
+   "gemini-2.5-pro|bipolar_1_maintenance|patient|medication|s1",
+   "gpt-5.6-terra|schizophrenia_first_episode|clinical|medication|s2",
+   "gemini-3.7-flash|autism_spectrum_disorder|clinical|digital|s2",
+   "qwen-3.7-plus|alcohol_use_disorder|clinical|open|s2",
+   "gpt-5.6-luna|chronic_insomnia|caregiver|open|s1",
+   "claude-haiku-4.5|ptsd|clinical|neuromodulation|s1",
+   "gpt-5-mini-2025-snapshot|bipolar_1_maintenance|patient|medication|s1",
+   "gpt-5.6-terra|chronic_insomnia|patient|medication|s1",
+   "gemini-3.5-flash-lite|borderline_personality_disorder|patient|open|s1",
+   "ministral-3-14b|borderline_personality_disorder|caregiver|medication|s1",
+   "gemini-3.6-flash|narcissistic_personality_disorder|caregiver|psychotherapy|s1",
+   "qwen-3.5-plus|bipolar_1_maintenance|clinical|medication|s1",
+   "gpt-3.5-turbo|social_anxiety_disorder|caregiver|open|s2",
+   "grok-4.6|bulimia_nervosa|caregiver|neuromodulation|s2",
+   "gemini-3.5-flash|panic_disorder|clinical|open|s2",
+   "gpt-5.6-luna|alcohol_use_disorder|clinical|open|s2",
+   "claude-opus-4.6|situational_stress_subclinical|caregiver|open|s0",
+   "gpt-3.5-turbo|ptsd|caregiver|open|s2",
+   "deepseek-v4-pro|generalized_anxiety_disorder|patient|psychotherapy|s2",
+   "gpt-5.6-terra|chronic_insomnia|caregiver|medication|s0",
+   "ministral-3-14b|uncomplicated_bereavement|clinical|psychotherapy|s0",
+   "claude-haiku-4.5|ptsd|caregiver|digital|s0",
+   "gemini-3.5-flash|generalized_anxiety_disorder|patient|open|s2",
+   "qwen-3.7-plus|ptsd|caregiver|open|s2",
+   "deepseek-v4-flash|panic_disorder|patient|open|s0",
+   "grok-4.3|autism_spectrum_disorder|patient|neuromodulation|s1",
+   "claude-sonnet-4.5|anorexia_nervosa|patient|psychotherapy|s1",
+   "gemini-3.6-flash|narcissistic_personality_disorder|patient|neuromodulation|s2",
+   "gemini-3.6-flash|bipolar_1_maintenance|clinical|neuromodulation|s0",
+   "claude-sonnet-4.5|major_depressive_disorder|patient|open|s2",
+   "gemini-3.7-flash|binge_eating_disorder|patient|digital|s1",
+   "claude-haiku-4.5|anorexia_nervosa|caregiver|neuromodulation|s0",
+   "gemini-3.5-flash-lite|major_depressive_disorder|clinical|medication|s1",
+   "claude-opus-4.6|generalized_anxiety_disorder|patient|digital|s1",
+   "gpt-5.5|anorexia_nervosa|clinical|neuromodulation|s2",
+   "gpt-4.1|bulimia_nervosa|caregiver|digital|s0",
+   "grok-4.5|alcohol_use_disorder|patient|digital|s0",
+   "deepseek-v4-flash|binge_eating_disorder|clinical|digital|s2",
+   "mistral-medium-3.5|social_anxiety_disorder|clinical|medication|s1",
+   "claude-opus-4.5|anorexia_nervosa|caregiver|digital|s0",
+   "claude-opus-5|autism_spectrum_disorder|caregiver|digital|s2",
+   "claude-opus-4.5|alcohol_use_disorder|clinical|psychotherapy|s0",
+   "gemini-3.7-flash|binge_eating_disorder|patient|medication|s0",
+   "gemini-3.5-flash-lite|generalized_anxiety_disorder|clinical|medication|s1",
+   "claude-haiku-4.5|alcohol_use_disorder|clinical|neuromodulation|s1",
+   "claude-haiku-4.5|alcohol_use_disorder|patient|neuromodulation|s1",
+   "gemini-2.5-pro|panic_disorder|caregiver|psychotherapy|s1",
+   "mistral-medium-3.5|binge_eating_disorder|patient|open|s2",
+   "qwen-3.5-plus|autism_spectrum_disorder|patient|psychotherapy|s0",
+   "qwen-3.5-plus|ptsd|clinical|medication|s0",
+   "mistral-small-4|binge_eating_disorder|clinical|digital|s2",
+   "claude-fable-5|narcissistic_personality_disorder|patient|psychotherapy|s2",
+   "deepseek-v4-flash|borderline_personality_disorder|clinical|medication|s1",
+   "qwen-3.5-plus|adhd_adult|patient|digital|s0",
+   "gpt-4.1|situational_stress_subclinical|patient|medication|s0",
+   "grok-4.5|autism_spectrum_disorder|caregiver|medication|s2",
+   "claude-sonnet-5|anorexia_nervosa|clinical|neuromodulation|s1",
+   "mistral-large-3|uncomplicated_bereavement|patient|psychotherapy|s0",
+   "mistral-small-4|anorexia_nervosa|clinical|medication|s0",
+   "claude-opus-4.6|bipolar_1_maintenance|clinical|digital|s1",
+   "grok-4.6|chronic_insomnia|clinical|neuromodulation|s2",
+   "gpt-5.5|autism_spectrum_disorder|patient|neuromodulation|s2",
+   "claude-opus-4.8|narcissistic_personality_disorder|clinical|neuromodulation|s1",
+   "kimi-k3|chronic_insomnia|patient|open|s0"
+  ],
+  "R6_round1": [
+   "kimi-k3|ocd|clinical|digital|s2",
+   "gpt-5.5|chronic_insomnia|clinical|digital|s1",
+   "deepseek-v4-pro|schizophrenia_first_episode|clinical|digital|s0",
+   "grok-4.5|bulimia_nervosa|patient|medication|s2",
+   "qwen-flash|ocd|patient|open|s0",
+   "ministral-3-8b|social_anxiety_disorder|clinical|psychotherapy|s1",
+   "gemini-2.5-pro|bipolar_1_maintenance|patient|medication|s1",
+   "gemini-3.5-flash|uncomplicated_bereavement|clinical|medication|s0",
+   "gpt-5.5|uncomplicated_bereavement|patient|psychotherapy|s1",
+   "mistral-small-4|uncomplicated_bereavement|patient|psychotherapy|s1",
+   "gemini-3.6-flash|major_depressive_disorder|patient|neuromodulation|s0",
+   "gpt-5.6-luna|narcissistic_personality_disorder|clinical|psychotherapy|s2",
+   "gpt-5.6-luna|generalized_anxiety_disorder|clinical|open|s1",
+   "gpt-5.6-sol|binge_eating_disorder|clinical|neuromodulation|s2",
+   "gpt-5-mini-2025-snapshot|social_anxiety_disorder|clinical|medication|s2",
+   "qwen3-8b|binge_eating_disorder|caregiver|neuromodulation|s2",
+   "qwen3-8b|chronic_insomnia|clinical|medication|s1",
+   "claude-haiku-4.5|binge_eating_disorder|clinical|open|s2",
+   "claude-opus-5|bulimia_nervosa|patient|open|s1",
+   "gpt-5-2025-snapshot|generalized_anxiety_disorder|caregiver|open|s1",
+   "ministral-3-14b|narcissistic_personality_disorder|clinical|medication|s1",
+   "gpt-5.6-terra|uncomplicated_bereavement|clinical|medication|s0",
+   "kimi-k2.6|panic_disorder|clinical|neuromodulation|s0",
+   "gpt-5-mini-2025-snapshot|major_depressive_disorder|patient|open|s1",
+   "deepseek-v4-pro|autism_spectrum_disorder|clinical|neuromodulation|s2"
+  ],
+  "R6_round2": [
+   "kimi-k3|ocd|clinical|digital|s2",
+   "gpt-5.5|chronic_insomnia|clinical|digital|s1",
+   "deepseek-v4-pro|schizophrenia_first_episode|clinical|digital|s0",
+   "grok-4.5|bulimia_nervosa|patient|medication|s2",
+   "qwen-flash|ocd|patient|open|s0",
+   "ministral-3-8b|social_anxiety_disorder|clinical|psychotherapy|s1",
+   "gemini-2.5-pro|bipolar_1_maintenance|patient|medication|s1",
+   "gemini-3.5-flash|uncomplicated_bereavement|clinical|medication|s0",
+   "gpt-5.5|uncomplicated_bereavement|patient|psychotherapy|s1",
+   "mistral-small-4|uncomplicated_bereavement|patient|psychotherapy|s1",
+   "gemini-3.6-flash|major_depressive_disorder|patient|neuromodulation|s0",
+   "gpt-5.6-luna|narcissistic_personality_disorder|clinical|psychotherapy|s2",
+   "gpt-5.6-luna|generalized_anxiety_disorder|clinical|open|s1",
+   "gpt-5.6-sol|binge_eating_disorder|clinical|neuromodulation|s2",
+   "gpt-5-mini-2025-snapshot|social_anxiety_disorder|clinical|medication|s2",
+   "qwen3-8b|binge_eating_disorder|caregiver|neuromodulation|s2",
+   "qwen3-8b|chronic_insomnia|clinical|medication|s1",
+   "claude-haiku-4.5|binge_eating_disorder|clinical|open|s2",
+   "claude-opus-5|bulimia_nervosa|patient|open|s1",
+   "gpt-5-2025-snapshot|generalized_anxiety_disorder|caregiver|open|s1",
+   "ministral-3-14b|narcissistic_personality_disorder|clinical|medication|s1",
+   "gpt-5.6-terra|uncomplicated_bereavement|clinical|medication|s0",
+   "kimi-k2.6|panic_disorder|clinical|neuromodulation|s0",
+   "gpt-5-mini-2025-snapshot|major_depressive_disorder|patient|open|s1",
+   "deepseek-v4-pro|autism_spectrum_disorder|clinical|neuromodulation|s2",
+   "qwen-3.7-plus|binge_eating_disorder|clinical|neuromodulation|s1",
+   "deepseek-v4-pro|autism_spectrum_disorder|patient|medication|s2",
+   "claude-sonnet-5|chronic_insomnia|caregiver|psychotherapy|s0",
+   "claude-haiku-4.5|anorexia_nervosa|caregiver|neuromodulation|s0",
+   "gpt-5.5|panic_disorder|clinical|open|s1",
+   "mistral-medium-3.5|chronic_insomnia|clinical|psychotherapy|s2",
+   "gpt-5-mini-2025-snapshot|situational_stress_subclinical|patient|neuromodulation|s1",
+   "qwen-3.7-plus|alcohol_use_disorder|patient|neuromodulation|s0",
+   "gemini-3.6-flash|bipolar_1_maintenance|clinical|neuromodulation|s0",
+   "grok-4.6|situational_stress_subclinical|patient|neuromodulation|s1",
+   "gemini-3.5-flash-lite|borderline_personality_disorder|patient|medication|s0",
+   "deepseek-v4-flash|autism_spectrum_disorder|caregiver|neuromodulation|s2",
+   "gpt-5-2025-snapshot|chronic_insomnia|clinical|digital|s2",
+   "gemini-3.7-flash|major_depressive_disorder|clinical|digital|s1",
+   "gpt-5.6-luna|alcohol_use_disorder|clinical|open|s2",
+   "gemini-3.6-flash|schizophrenia_first_episode|clinical|psychotherapy|s2",
+   "ministral-3-14b|generalized_anxiety_disorder|clinical|psychotherapy|s0",
+   "claude-opus-5|generalized_anxiety_disorder|patient|psychotherapy|s1",
+   "ministral-3-14b|binge_eating_disorder|patient|digital|s0",
+   "claude-opus-4.5|anorexia_nervosa|caregiver|digital|s0",
+   "mistral-small-4|bulimia_nervosa|clinical|open|s0",
+   "claude-fable-5|borderline_personality_disorder|clinical|open|s2",
+   "kimi-k2.6|chronic_insomnia|clinical|open|s2",
+   "claude-haiku-4.5|alcohol_use_disorder|clinical|neuromodulation|s1",
+   "deepseek-v4-pro|chronic_insomnia|patient|neuromodulation|s1",
+   "gemini-3.5-flash-lite|major_depressive_disorder|clinical|medication|s1",
+   "claude-opus-4.5|major_depressive_disorder|clinical|neuromodulation|s1",
+   "claude-opus-4.5|autism_spectrum_disorder|clinical|medication|s2",
+   "gemini-2.5-pro|anorexia_nervosa|clinical|open|s2",
+   "kimi-k2.6|panic_disorder|clinical|open|s2",
+   "qwen-flash|schizophrenia_first_episode|clinical|neuromodulation|s0",
+   "claude-opus-4.8|narcissistic_personality_disorder|clinical|neuromodulation|s1",
+   "claude-opus-4.8|ptsd|clinical|medication|s0",
+   "claude-opus-5|borderline_personality_disorder|clinical|digital|s1",
+   "grok-4.3|bulimia_nervosa|caregiver|digital|s1",
+   "qwen-flash|binge_eating_disorder|caregiver|digital|s1",
+   "gpt-4.1|social_anxiety_disorder|caregiver|medication|s1",
+   "kimi-k2.6|borderline_personality_disorder|caregiver|neuromodulation|s2",
+   "claude-opus-5|major_depressive_disorder|patient|psychotherapy|s0",
+   "gpt-5.6-luna|autism_spectrum_disorder|caregiver|digital|s0",
+   "gpt-3.5-turbo|anorexia_nervosa|caregiver|digital|s0",
+   "grok-4.5|anorexia_nervosa|clinical|open|s2",
+   "grok-4.6|autism_spectrum_disorder|caregiver|digital|s2",
+   "gemini-2.5-pro|borderline_personality_disorder|clinical|medication|s2",
+   "gemini-3.5-flash|autism_spectrum_disorder|patient|psychotherapy|s0",
+   "gpt-5.5|generalized_anxiety_disorder|caregiver|neuromodulation|s1",
+   "claude-opus-4.8|borderline_personality_disorder|patient|psychotherapy|s0",
+   "gemini-3.5-flash-lite|social_anxiety_disorder|caregiver|neuromodulation|s0",
+   "gemini-3.5-flash-lite|uncomplicated_bereavement|caregiver|open|s1",
+   "gpt-5.5|generalized_anxiety_disorder|caregiver|psychotherapy|s1"
+  ],
+  "R7_round1": [
+   "claude-fable-5|ptsd|patient|neuromodulation|s1",
+   "claude-opus-4.6|bipolar_1_maintenance|patient|psychotherapy|s0",
+   "claude-sonnet-5|major_depressive_disorder|patient|neuromodulation|s0",
+   "gpt-5.6-luna|chronic_insomnia|caregiver|open|s1",
+   "gpt-3.5-turbo|autism_spectrum_disorder|patient|open|s0",
+   "gemini-2.5-pro|borderline_personality_disorder|caregiver|medication|s0",
+   "gemini-3.6-flash|anorexia_nervosa|clinical|neuromodulation|s1",
+   "gemini-2.5-flash|bipolar_1_maintenance|caregiver|open|s1",
+   "qwen-3.7-plus|anorexia_nervosa|clinical|digital|s1",
+   "gpt-5.6-luna|autism_spectrum_disorder|caregiver|medication|s0",
+   "grok-4.3|binge_eating_disorder|patient|digital|s0",
+   "gpt-4.1|alcohol_use_disorder|clinical|neuromodulation|s0",
+   "claude-opus-4.8|ocd|clinical|psychotherapy|s0",
+   "qwen-3.7-plus|borderline_personality_disorder|patient|open|s0",
+   "gpt-5.5|chronic_insomnia|clinical|digital|s1",
+   "deepseek-v4-pro|adhd_adult|clinical|open|s0",
+   "deepseek-v4-pro|schizophrenia_first_episode|clinical|digital|s0",
+   "grok-4.3|binge_eating_disorder|clinical|digital|s1",
+   "gpt-3.5-turbo|panic_disorder|patient|digital|s2",
+   "grok-4.6|major_depressive_disorder|patient|open|s1",
+   "gemini-3.5-flash|uncomplicated_bereavement|clinical|medication|s0",
+   "claude-opus-4.8|narcissistic_personality_disorder|patient|psychotherapy|s2",
+   "gpt-5.6-sol|panic_disorder|clinical|medication|s1",
+   "mistral-medium-3.5|panic_disorder|caregiver|open|s0",
+   "claude-opus-4.5|chronic_insomnia|clinical|neuromodulation|s2"
+  ],
+  "R7_round2": [
+   "claude-fable-5|ptsd|patient|neuromodulation|s1",
+   "claude-opus-4.6|bipolar_1_maintenance|patient|psychotherapy|s0",
+   "claude-sonnet-5|major_depressive_disorder|patient|neuromodulation|s0",
+   "gpt-5.6-luna|chronic_insomnia|caregiver|open|s1",
+   "gpt-3.5-turbo|autism_spectrum_disorder|patient|open|s0",
+   "gemini-2.5-pro|borderline_personality_disorder|caregiver|medication|s0",
+   "gemini-3.6-flash|anorexia_nervosa|clinical|neuromodulation|s1",
+   "gemini-2.5-flash|bipolar_1_maintenance|caregiver|open|s1",
+   "qwen-3.7-plus|anorexia_nervosa|clinical|digital|s1",
+   "gpt-5.6-luna|autism_spectrum_disorder|caregiver|medication|s0",
+   "grok-4.3|binge_eating_disorder|patient|digital|s0",
+   "gpt-4.1|alcohol_use_disorder|clinical|neuromodulation|s0",
+   "claude-opus-4.8|ocd|clinical|psychotherapy|s0",
+   "qwen-3.7-plus|borderline_personality_disorder|patient|open|s0",
+   "gpt-5.5|chronic_insomnia|clinical|digital|s1",
+   "deepseek-v4-pro|adhd_adult|clinical|open|s0",
+   "deepseek-v4-pro|schizophrenia_first_episode|clinical|digital|s0",
+   "grok-4.3|binge_eating_disorder|clinical|digital|s1",
+   "gpt-3.5-turbo|panic_disorder|patient|digital|s2",
+   "grok-4.6|major_depressive_disorder|patient|open|s1",
+   "gemini-3.5-flash|uncomplicated_bereavement|clinical|medication|s0",
+   "claude-opus-4.8|narcissistic_personality_disorder|patient|psychotherapy|s2",
+   "gpt-5.6-sol|panic_disorder|clinical|medication|s1",
+   "mistral-medium-3.5|panic_disorder|caregiver|open|s0",
+   "claude-opus-4.5|chronic_insomnia|clinical|neuromodulation|s2",
+   "gpt-5.6-sol|bulimia_nervosa|patient|digital|s2",
+   "grok-4.6|ocd|clinical|neuromodulation|s2",
+   "mistral-large-3|bulimia_nervosa|patient|psychotherapy|s0",
+   "qwen-3.8-max|anorexia_nervosa|clinical|open|s0",
+   "claude-sonnet-5|generalized_anxiety_disorder|clinical|neuromodulation|s0",
+   "mistral-small-4|autism_spectrum_disorder|patient|digital|s0",
+   "mistral-medium-3.5|adhd_adult|clinical|psychotherapy|s0",
+   "claude-haiku-4.5|generalized_anxiety_disorder|caregiver|neuromodulation|s1",
+   "gemini-3.6-flash|ptsd|patient|psychotherapy|s1",
+   "claude-opus-4.8|borderline_personality_disorder|patient|psychotherapy|s0",
+   "gemini-2.5-pro|bulimia_nervosa|patient|psychotherapy|s0",
+   "gpt-5.5|chronic_insomnia|clinical|digital|s2",
+   "gemini-2.5-pro|anorexia_nervosa|clinical|open|s2",
+   "qwen-3.5-plus|ptsd|clinical|medication|s0",
+   "grok-4.6|chronic_insomnia|caregiver|psychotherapy|s1",
+   "deepseek-v4-flash|ptsd|caregiver|medication|s0",
+   "gemini-2.5-pro|binge_eating_disorder|clinical|neuromodulation|s1",
+   "ministral-3-14b|alcohol_use_disorder|clinical|psychotherapy|s0",
+   "claude-opus-4.5|panic_disorder|patient|open|s0",
+   "ministral-3-14b|uncomplicated_bereavement|patient|medication|s2",
+   "qwen-3.7-plus|adhd_adult|clinical|digital|s0",
+   "gpt-5.5|anorexia_nervosa|clinical|neuromodulation|s2",
+   "claude-opus-5|uncomplicated_bereavement|clinical|neuromodulation|s1",
+   "deepseek-v4-pro|bulimia_nervosa|clinical|open|s2",
+   "mistral-large-3|uncomplicated_bereavement|patient|psychotherapy|s0",
+   "gpt-4.1|generalized_anxiety_disorder|patient|psychotherapy|s0",
+   "gemini-3.5-flash|panic_disorder|clinical|open|s2",
+   "gemini-3.6-flash|schizophrenia_first_episode|clinical|psychotherapy|s2",
+   "claude-opus-5|generalized_anxiety_disorder|patient|psychotherapy|s1",
+   "gemini-3.7-flash|adhd_adult|caregiver|neuromodulation|s0",
+   "kimi-k2.6|bulimia_nervosa|caregiver|open|s1",
+   "gpt-3.5-turbo|schizophrenia_first_episode|clinical|neuromodulation|s0",
+   "kimi-k3|ptsd|clinical|medication|s0",
+   "gemini-3.5-flash-lite|borderline_personality_disorder|patient|medication|s0",
+   "claude-opus-4.8|social_anxiety_disorder|patient|open|s1",
+   "kimi-k2.6|narcissistic_personality_disorder|patient|neuromodulation|s0",
+   "kimi-k2.6|panic_disorder|clinical|open|s2",
+   "gemini-3.5-flash-lite|generalized_anxiety_disorder|clinical|medication|s1",
+   "ministral-3-14b|adhd_adult|caregiver|medication|s0",
+   "mistral-medium-3.5|adhd_adult|caregiver|neuromodulation|s2",
+   "qwen-flash|panic_disorder|caregiver|open|s1",
+   "kimi-k3|adhd_adult|patient|digital|s2",
+   "qwen-flash|schizophrenia_first_episode|clinical|neuromodulation|s0",
+   "claude-sonnet-4.5|ocd|clinical|digital|s1",
+   "qwen-3.7-plus|ptsd|caregiver|open|s2",
+   "mistral-small-4|autism_spectrum_disorder|caregiver|open|s1",
+   "mistral-medium-3.5|social_anxiety_disorder|patient|neuromodulation|s0",
+   "claude-sonnet-5|major_depressive_disorder|patient|open|s0",
+   "grok-4.5|autism_spectrum_disorder|caregiver|medication|s2",
+   "gpt-5.6-terra|major_depressive_disorder|caregiver|digital|s0"
+  ],
+  "R8_round1": [
+   "claude-opus-4.5|major_depressive_disorder|caregiver|open|s2",
+   "deepseek-v4-flash|social_anxiety_disorder|patient|open|s1",
+   "claude-haiku-4.5|binge_eating_disorder|clinical|open|s2",
+   "claude-opus-4.8|schizophrenia_first_episode|clinical|neuromodulation|s0",
+   "gpt-5.6-terra|alcohol_use_disorder|caregiver|digital|s2",
+   "qwen-3.5-plus|bipolar_1_maintenance|clinical|open|s1",
+   "claude-opus-4.6|social_anxiety_disorder|caregiver|medication|s2",
+   "deepseek-v4-pro|adhd_adult|clinical|open|s0",
+   "claude-opus-4.8|narcissistic_personality_disorder|patient|psychotherapy|s2",
+   "gpt-5-mini-2025-snapshot|situational_stress_subclinical|patient|psychotherapy|s1",
+   "mistral-large-3|panic_disorder|caregiver|medication|s0",
+   "claude-sonnet-5|binge_eating_disorder|caregiver|digital|s2",
+   "gpt-5.6-luna|binge_eating_disorder|caregiver|medication|s0",
+   "gpt-5.6-luna|narcissistic_personality_disorder|clinical|psychotherapy|s2",
+   "gemini-3.5-flash|adhd_adult|patient|psychotherapy|s1",
+   "qwen-3.7-plus|anorexia_nervosa|clinical|digital|s1",
+   "claude-fable-5|panic_disorder|clinical|digital|s2",
+   "claude-sonnet-4.6|uncomplicated_bereavement|patient|open|s1",
+   "claude-fable-5|major_depressive_disorder|patient|open|s2",
+   "qwen3-8b|binge_eating_disorder|caregiver|neuromodulation|s2",
+   "gemini-3.7-flash|autism_spectrum_disorder|clinical|digital|s2",
+   "claude-opus-4.6|generalized_anxiety_disorder|patient|open|s1",
+   "claude-opus-4.5|narcissistic_personality_disorder|clinical|medication|s2",
+   "deepseek-v4-flash|uncomplicated_bereavement|caregiver|open|s1",
+   "mistral-medium-3.5|panic_disorder|caregiver|open|s0"
+  ],
+  "R8_round2": [
+   "claude-opus-4.5|major_depressive_disorder|caregiver|open|s2",
+   "deepseek-v4-flash|social_anxiety_disorder|patient|open|s1",
+   "claude-haiku-4.5|binge_eating_disorder|clinical|open|s2",
+   "claude-opus-4.8|schizophrenia_first_episode|clinical|neuromodulation|s0",
+   "gpt-5.6-terra|alcohol_use_disorder|caregiver|digital|s2",
+   "qwen-3.5-plus|bipolar_1_maintenance|clinical|open|s1",
+   "claude-opus-4.6|social_anxiety_disorder|caregiver|medication|s2",
+   "deepseek-v4-pro|adhd_adult|clinical|open|s0",
+   "claude-opus-4.8|narcissistic_personality_disorder|patient|psychotherapy|s2",
+   "gpt-5-mini-2025-snapshot|situational_stress_subclinical|patient|psychotherapy|s1",
+   "mistral-large-3|panic_disorder|caregiver|medication|s0",
+   "claude-sonnet-5|binge_eating_disorder|caregiver|digital|s2",
+   "gpt-5.6-luna|binge_eating_disorder|caregiver|medication|s0",
+   "gpt-5.6-luna|narcissistic_personality_disorder|clinical|psychotherapy|s2",
+   "gemini-3.5-flash|adhd_adult|patient|psychotherapy|s1",
+   "qwen-3.7-plus|anorexia_nervosa|clinical|digital|s1",
+   "claude-fable-5|panic_disorder|clinical|digital|s2",
+   "claude-sonnet-4.6|uncomplicated_bereavement|patient|open|s1",
+   "claude-fable-5|major_depressive_disorder|patient|open|s2",
+   "qwen3-8b|binge_eating_disorder|caregiver|neuromodulation|s2",
+   "gemini-3.7-flash|autism_spectrum_disorder|clinical|digital|s2",
+   "claude-opus-4.6|generalized_anxiety_disorder|patient|open|s1",
+   "claude-opus-4.5|narcissistic_personality_disorder|clinical|medication|s2",
+   "deepseek-v4-flash|uncomplicated_bereavement|caregiver|open|s1",
+   "mistral-medium-3.5|panic_disorder|caregiver|open|s0",
+   "qwen-3.8-max|anorexia_nervosa|clinical|open|s0",
+   "gemini-3.7-flash|adhd_adult|caregiver|neuromodulation|s0",
+   "ministral-3-14b|generalized_anxiety_disorder|clinical|psychotherapy|s0",
+   "gpt-5.6-terra|anorexia_nervosa|caregiver|digital|s2",
+   "gpt-5.5|autism_spectrum_disorder|patient|neuromodulation|s2",
+   "claude-opus-5|social_anxiety_disorder|clinical|psychotherapy|s0",
+   "mistral-small-4|bulimia_nervosa|clinical|open|s0",
+   "grok-4.3|social_anxiety_disorder|caregiver|medication|s1",
+   "claude-opus-4.5|panic_disorder|patient|open|s0",
+   "gemini-2.5-flash-lite|panic_disorder|caregiver|neuromodulation|s0",
+   "grok-4.5|bipolar_1_maintenance|clinical|open|s1",
+   "claude-sonnet-4.5|alcohol_use_disorder|clinical|neuromodulation|s1",
+   "qwen3-8b|borderline_personality_disorder|clinical|digital|s0",
+   "claude-haiku-4.5|major_depressive_disorder|clinical|neuromodulation|s1",
+   "claude-opus-4.6|situational_stress_subclinical|caregiver|open|s0",
+   "gemini-2.5-pro|binge_eating_disorder|clinical|neuromodulation|s1",
+   "gemini-3.6-flash|major_depressive_disorder|caregiver|medication|s1",
+   "qwen-3.7-plus|adhd_adult|clinical|digital|s0",
+   "ministral-3-14b|generalized_anxiety_disorder|clinical|open|s2",
+   "qwen-3.7-plus|binge_eating_disorder|clinical|neuromodulation|s1",
+   "gpt-4.1|situational_stress_subclinical|patient|medication|s0",
+   "ministral-3-8b|situational_stress_subclinical|clinical|medication|s1",
+   "qwen-flash|panic_disorder|patient|digital|s0",
+   "deepseek-v4-flash|generalized_anxiety_disorder|clinical|psychotherapy|s0",
+   "mistral-small-4|borderline_personality_disorder|caregiver|neuromodulation|s2",
+   "grok-4.3|autism_spectrum_disorder|patient|neuromodulation|s1",
+   "claude-opus-4.8|ocd|clinical|digital|s2",
+   "gpt-3.5-turbo|ocd|patient|medication|s1",
+   "gemini-3.5-flash|adhd_adult|patient|digital|s1",
+   "mistral-medium-3.5|social_anxiety_disorder|clinical|medication|s1",
+   "grok-4.6|situational_stress_subclinical|patient|neuromodulation|s1",
+   "gpt-5.6-terra|major_depressive_disorder|caregiver|digital|s0",
+   "claude-sonnet-5|generalized_anxiety_disorder|caregiver|medication|s0",
+   "claude-opus-5|borderline_personality_disorder|clinical|digital|s1",
+   "claude-sonnet-4.5|ocd|clinical|digital|s1",
+   "claude-opus-4.8|chronic_insomnia|patient|medication|s1",
+   "gpt-5.6-sol|panic_disorder|clinical|psychotherapy|s0",
+   "gemini-3.5-flash-lite|social_anxiety_disorder|caregiver|neuromodulation|s0",
+   "gpt-4.1|social_anxiety_disorder|caregiver|medication|s1",
+   "qwen-3.7-plus|alcohol_use_disorder|caregiver|psychotherapy|s1",
+   "gemini-2.5-flash|ptsd|patient|psychotherapy|s1",
+   "claude-opus-4.6|ptsd|clinical|medication|s0",
+   "grok-4.6|social_anxiety_disorder|clinical|psychotherapy|s2",
+   "gemini-2.5-flash|alcohol_use_disorder|clinical|digital|s2",
+   "qwen3-8b|ptsd|clinical|psychotherapy|s0",
+   "gemini-3.6-flash|narcissistic_personality_disorder|patient|neuromodulation|s2",
+   "qwen-3.5-plus|adhd_adult|patient|digital|s0",
+   "qwen3-8b|bulimia_nervosa|patient|neuromodulation|s1",
+   "deepseek-v4-pro|binge_eating_disorder|clinical|neuromodulation|s0",
+   "gemini-3.5-flash-lite|narcissistic_personality_disorder|caregiver|open|s0"
+  ]
+ }
+}

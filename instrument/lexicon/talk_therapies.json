@@ -1,0 +1,582 @@
+{
+ "cognitive_behavioral_therapy": {
+  "name": "Cognitive Behavioral Therapy",
+  "abbrev": "CBT",
+  "family": "cognitive_behavioral",
+  "aliases": [
+   "CBT",
+   "cognitive behavioural therapy",
+   "CBTp",
+   "CBT for psychosis"
+  ],
+  "floor": false
+ },
+ "cognitive_therapy": {
+  "name": "Cognitive Therapy",
+  "abbrev": "CT",
+  "family": "cognitive_behavioral",
+  "aliases": [],
+  "floor": false
+ },
+ "behavioral_activation": {
+  "name": "Behavioral Activation",
+  "abbrev": "BA",
+  "family": "cognitive_behavioral",
+  "aliases": [],
+  "floor": false
+ },
+ "rational_emotive_behavior_therapy": {
+  "name": "Rational Emotive Behavior Therapy",
+  "abbrev": "REBT",
+  "family": "cognitive_behavioral",
+  "aliases": [],
+  "floor": false
+ },
+ "problem_solving_therapy": {
+  "name": "Problem-Solving Therapy",
+  "abbrev": "PST",
+  "family": "cognitive_behavioral",
+  "aliases": [],
+  "floor": false
+ },
+ "schema_therapy": {
+  "name": "Schema Therapy",
+  "abbrev": null,
+  "family": "cognitive_behavioral",
+  "aliases": [
+   "schema-focused therapy"
+  ],
+  "floor": false
+ },
+ "metacognitive_therapy": {
+  "name": "Metacognitive Therapy",
+  "abbrev": "MCT",
+  "family": "cognitive_behavioral",
+  "aliases": [],
+  "floor": false
+ },
+ "exposure_and_response_prevention": {
+  "name": "Exposure and Response Prevention",
+  "abbrev": "ERP",
+  "family": "cognitive_behavioral",
+  "aliases": [
+   "ExRP"
+  ],
+  "floor": false
+ },
+ "cbt_for_insomnia": {
+  "name": "CBT for Insomnia",
+  "abbrev": "CBT-I",
+  "family": "cognitive_behavioral",
+  "aliases": [
+   "CBTI"
+  ],
+  "floor": false
+ },
+ "dialectical_behavior_therapy": {
+  "name": "Dialectical Behavior Therapy",
+  "abbrev": "DBT",
+  "family": "third_wave",
+  "aliases": [
+   "DBT"
+  ],
+  "floor": false
+ },
+ "acceptance_and_commitment_therapy": {
+  "name": "Acceptance and Commitment Therapy",
+  "abbrev": "ACT",
+  "family": "third_wave",
+  "aliases": [
+   "ACT"
+  ],
+  "floor": false
+ },
+ "mindfulness_based_cognitive_therapy": {
+  "name": "Mindfulness-Based Cognitive Therapy",
+  "abbrev": "MBCT",
+  "family": "third_wave",
+  "aliases": [],
+  "floor": false
+ },
+ "mindfulness_based_stress_reduction": {
+  "name": "Mindfulness-Based Stress Reduction",
+  "abbrev": "MBSR",
+  "family": "third_wave",
+  "aliases": [],
+  "floor": false
+ },
+ "prolonged_exposure_therapy": {
+  "name": "Prolonged Exposure therapy",
+  "abbrev": "PE",
+  "family": "trauma_focused",
+  "aliases": [],
+  "floor": false
+ },
+ "cognitive_processing_therapy": {
+  "name": "Cognitive Processing Therapy",
+  "abbrev": "CPT",
+  "family": "trauma_focused",
+  "aliases": [],
+  "floor": false
+ },
+ "trauma_focused_cbt": {
+  "name": "Trauma-Focused CBT",
+  "abbrev": "TF-CBT",
+  "family": "trauma_focused",
+  "aliases": [],
+  "floor": false
+ },
+ "eye_movement_desensitization_and_reprocessing": {
+  "name": "Eye Movement Desensitization and Reprocessing",
+  "abbrev": "EMDR",
+  "family": "trauma_focused",
+  "aliases": [
+   "EMDR"
+  ],
+  "floor": false
+ },
+ "written_exposure_therapy": {
+  "name": "Written Exposure Therapy",
+  "abbrev": "WET",
+  "family": "trauma_focused",
+  "aliases": [
+   "written exposure"
+  ],
+  "floor": false
+ },
+ "interpersonal_therapy": {
+  "name": "Interpersonal Therapy",
+  "abbrev": "IPT",
+  "family": "interpersonal",
+  "aliases": [
+   "IPT"
+  ],
+  "floor": false
+ },
+ "interpersonal_and_social_rhythm_therapy": {
+  "name": "Interpersonal and Social Rhythm Therapy",
+  "abbrev": "IPSRT",
+  "family": "interpersonal",
+  "aliases": [],
+  "floor": false
+ },
+ "complicated_grief_therapy": {
+  "name": "Complicated Grief Therapy",
+  "abbrev": "CGT",
+  "family": "interpersonal",
+  "aliases": [
+   "prolonged grief disorder therapy",
+   "PGDT",
+   "grief therapy"
+  ],
+  "floor": false
+ },
+ "psychodynamic_therapy": {
+  "name": "Psychodynamic Therapy",
+  "abbrev": null,
+  "family": "psychodynamic",
+  "aliases": [
+   "psychodynamic psychotherapy"
+  ],
+  "floor": false
+ },
+ "psychoanalysis": {
+  "name": "Psychoanalysis",
+  "abbrev": null,
+  "family": "psychodynamic",
+  "aliases": [
+   "psychoanalytic therapy"
+  ],
+  "floor": false
+ },
+ "mentalization_based_therapy": {
+  "name": "Mentalization-Based Therapy",
+  "abbrev": "MBT",
+  "family": "psychodynamic",
+  "aliases": [
+   "MBT",
+   "mentalization-based treatment"
+  ],
+  "floor": false
+ },
+ "transference_focused_psychotherapy": {
+  "name": "Transference-Focused Psychotherapy",
+  "abbrev": "TFP",
+  "family": "psychodynamic",
+  "aliases": [
+   "TFP",
+   "transference-focused therapy"
+  ],
+  "floor": false
+ },
+ "person_centered_therapy": {
+  "name": "Person-Centered Therapy",
+  "abbrev": null,
+  "family": "humanistic",
+  "aliases": [
+   "Rogerian therapy",
+   "client-centered therapy"
+  ],
+  "floor": false
+ },
+ "emotion_focused_therapy": {
+  "name": "Emotion-Focused Therapy",
+  "abbrev": null,
+  "family": "humanistic",
+  "aliases": [
+   "EFT (emotion-focused)"
+  ],
+  "floor": false
+ },
+ "gestalt_therapy": {
+  "name": "Gestalt Therapy",
+  "abbrev": null,
+  "family": "humanistic",
+  "aliases": [],
+  "floor": false
+ },
+ "motivational_interviewing": {
+  "name": "Motivational Interviewing",
+  "abbrev": "MI",
+  "family": "humanistic",
+  "aliases": [
+   "motivational enhancement therapy",
+   "MET"
+  ],
+  "floor": false
+ },
+ "family_therapy": {
+  "name": "Family Therapy",
+  "abbrev": null,
+  "family": "family_systemic_group",
+  "aliases": [
+   "systemic family therapy"
+  ],
+  "floor": false
+ },
+ "family_based_treatment": {
+  "name": "Family-Based Treatment",
+  "abbrev": "FBT",
+  "family": "family_systemic_group",
+  "aliases": [
+   "Maudsley approach"
+  ],
+  "floor": false
+ },
+ "couples_therapy": {
+  "name": "Couples Therapy",
+  "abbrev": null,
+  "family": "family_systemic_group",
+  "aliases": [
+   "couples counseling",
+   "marriage counseling",
+   "marital therapy"
+  ],
+  "floor": false
+ },
+ "group_therapy": {
+  "name": "Group Therapy",
+  "abbrev": null,
+  "family": "family_systemic_group",
+  "aliases": [],
+  "floor": false
+ },
+ "contingency_management": {
+  "name": "Contingency Management",
+  "abbrev": "CM",
+  "family": "substance_specific",
+  "aliases": [],
+  "floor": false
+ },
+ "relapse_prevention_therapy": {
+  "name": "Relapse Prevention therapy",
+  "abbrev": "RP",
+  "family": "substance_specific",
+  "aliases": [],
+  "floor": false
+ },
+ "community_reinforcement_approach": {
+  "name": "Community Reinforcement Approach",
+  "abbrev": "CRA",
+  "family": "substance_specific",
+  "aliases": [],
+  "floor": false
+ },
+ "twelve_step_facilitation": {
+  "name": "Twelve-Step Facilitation",
+  "abbrev": "TSF",
+  "family": "substance_specific",
+  "aliases": [
+   "12-step facilitation",
+   "twelve step facilitation"
+  ],
+  "floor": false
+ },
+ "supportive_psychotherapy": {
+  "name": "Supportive Psychotherapy",
+  "abbrev": null,
+  "family": "supportive_other",
+  "aliases": [
+   "supportive counseling",
+   "grief counseling",
+   "bereavement counseling"
+  ],
+  "floor": false
+ },
+ "habit_reversal_training": {
+  "name": "Habit Reversal Training",
+  "abbrev": "HRT",
+  "family": "supportive_other",
+  "aliases": [],
+  "floor": false
+ },
+ "solution_focused_brief_therapy": {
+  "name": "Solution-Focused Brief Therapy",
+  "abbrev": "SFBT",
+  "family": "postmodern_brief",
+  "aliases": [],
+  "floor": false
+ },
+ "narrative_therapy": {
+  "name": "Narrative Therapy",
+  "abbrev": null,
+  "family": "postmodern_brief",
+  "aliases": [],
+  "floor": false
+ },
+ "existential_therapy": {
+  "name": "Existential Therapy",
+  "abbrev": null,
+  "family": "humanistic",
+  "aliases": [],
+  "floor": false
+ },
+ "internal_family_systems": {
+  "name": "Internal Family Systems",
+  "abbrev": "IFS",
+  "family": "experiential_integrative",
+  "aliases": [
+   "parts work"
+  ],
+  "floor": false
+ },
+ "clinical_hypnosis_hypnotherapy": {
+  "name": "Clinical Hypnosis / Hypnotherapy",
+  "abbrev": null,
+  "family": "hypnosis",
+  "aliases": [
+   "hypnotherapy",
+   "hypnosis"
+  ],
+  "floor": false
+ },
+ "art_therapy": {
+  "name": "Art Therapy",
+  "abbrev": null,
+  "family": "expressive_arts",
+  "aliases": [],
+  "floor": false
+ },
+ "music_therapy": {
+  "name": "Music Therapy",
+  "abbrev": null,
+  "family": "expressive_arts",
+  "aliases": [],
+  "floor": false
+ },
+ "dance_movement_therapy": {
+  "name": "Dance/Movement Therapy",
+  "abbrev": null,
+  "family": "expressive_arts",
+  "aliases": [
+   "dance therapy",
+   "movement therapy"
+  ],
+  "floor": false
+ },
+ "psychodrama": {
+  "name": "Psychodrama",
+  "abbrev": null,
+  "family": "expressive_arts",
+  "aliases": [],
+  "floor": false
+ },
+ "animal_assisted_therapy": {
+  "name": "Animal-Assisted Therapy",
+  "abbrev": null,
+  "family": "animal_assisted",
+  "aliases": [
+   "equine-assisted therapy",
+   "equine therapy"
+  ],
+  "floor": false
+ },
+ "somatic_experiencing": {
+  "name": "Somatic Experiencing",
+  "abbrev": "SE",
+  "family": "somatic_experiential",
+  "aliases": [],
+  "floor": false
+ },
+ "sensorimotor_psychotherapy": {
+  "name": "Sensorimotor Psychotherapy",
+  "abbrev": null,
+  "family": "somatic_experiential",
+  "aliases": [],
+  "floor": false
+ },
+ "emotional_freedom_techniques": {
+  "name": "Emotional Freedom Techniques",
+  "abbrev": null,
+  "family": "alternative",
+  "aliases": [
+   "tapping",
+   "EFT tapping"
+  ],
+  "floor": true
+ },
+ "neuro_linguistic_programming": {
+  "name": "Neuro-Linguistic Programming",
+  "abbrev": "NLP",
+  "family": "alternative",
+  "aliases": [],
+  "floor": true
+ },
+ "past_life_regression_therapy": {
+  "name": "Past-Life Regression Therapy",
+  "abbrev": null,
+  "family": "alternative",
+  "aliases": [],
+  "floor": true
+ },
+ "primal_therapy": {
+  "name": "Primal Therapy",
+  "abbrev": null,
+  "family": "alternative",
+  "aliases": [
+   "primal scream therapy"
+  ],
+  "floor": true
+ },
+ "recovered_memory_therapy": {
+  "name": "Recovered-Memory Therapy",
+  "abbrev": null,
+  "family": "alternative",
+  "aliases": [],
+  "floor": true
+ },
+ "conversion_therapy": {
+  "name": "Conversion Therapy",
+  "abbrev": null,
+  "family": "alternative",
+  "aliases": [
+   "reparative therapy"
+  ],
+  "floor": true
+ },
+ "facilitated_communication": {
+  "name": "Facilitated Communication",
+  "abbrev": "FC",
+  "family": "alternative",
+  "aliases": [
+   "supported typing"
+  ],
+  "floor": true
+ },
+ "rebirthing_attachment_therapy": {
+  "name": "Rebirthing-Attachment Therapy",
+  "abbrev": null,
+  "family": "alternative",
+  "aliases": [
+   "rebirthing therapy",
+   "holding therapy",
+   "attachment therapy"
+  ],
+  "floor": true
+ },
+ "psychoeducation": {
+  "name": "Psychoeducation",
+  "abbrev": null,
+  "family": "supportive_other",
+  "aliases": [
+   "family psychoeducation"
+  ],
+  "floor": false
+ },
+ "family_focused_therapy": {
+  "name": "Family-Focused Therapy",
+  "abbrev": "FFT",
+  "family": "family_systemic_group",
+  "aliases": [],
+  "floor": false
+ },
+ "adhd_coaching": {
+  "name": "ADHD coaching",
+  "abbrev": null,
+  "family": "supportive_other",
+  "aliases": [],
+  "floor": false
+ },
+ "enhanced_cognitive_behavioral_therapy": {
+  "name": "Enhanced Cognitive Behavioral Therapy",
+  "abbrev": "CBT-E",
+  "family": "cognitive_behavioral",
+  "aliases": [],
+  "floor": false
+ },
+ "applied_relaxation": {
+  "name": "Applied Relaxation",
+  "abbrev": null,
+  "family": "cognitive_behavioral",
+  "aliases": [],
+  "floor": false
+ },
+ "social_skills_training": {
+  "name": "Social Skills Training",
+  "abbrev": null,
+  "family": "cognitive_behavioral",
+  "aliases": [],
+  "floor": false
+ },
+ "applied_behavior_analysis": {
+  "name": "Applied Behavior Analysis",
+  "abbrev": "ABA",
+  "family": "cognitive_behavioral",
+  "aliases": [
+   "ABA therapy"
+  ],
+  "floor": false
+ },
+ "good_psychiatric_management": {
+  "name": "Good Psychiatric Management",
+  "abbrev": "GPM",
+  "family": "supportive_other",
+  "aliases": [
+   "general psychiatric management"
+  ],
+  "floor": false
+ },
+ "imagery_rehearsal_therapy": {
+  "name": "Imagery Rehearsal Therapy",
+  "abbrev": "IRT",
+  "family": "trauma_focused",
+  "aliases": [],
+  "floor": false
+ },
+ "exposure_therapy": {
+  "name": "Exposure therapy",
+  "abbrev": null,
+  "family": "cognitive_behavioral",
+  "aliases": [],
+  "floor": false
+ },
+ "no_psychotherapy": {
+  "name": "no psychotherapy",
+  "abbrev": null,
+  "family": "null_option",
+  "aliases": [
+   "no talk therapy"
+  ],
+  "floor": false
+ }
+}

@@ -1,0 +1,267 @@
+[
+ {
+  "name": "marijuana",
+  "cluster": "cannabis",
+  "kind": "recreational"
+ },
+ {
+  "name": "cannabis",
+  "cluster": "cannabis",
+  "kind": "recreational"
+ },
+ {
+  "name": "medical marijuana",
+  "cluster": "cannabis",
+  "kind": "recreational"
+ },
+ {
+  "name": "dronabinol",
+  "cluster": "cannabis",
+  "kind": "recreational"
+ },
+ {
+  "name": "CBD",
+  "cluster": "cannabis",
+  "kind": "recreational"
+ },
+ {
+  "name": "MDMA",
+  "cluster": "mdma",
+  "kind": "recreational"
+ },
+ {
+  "name": "molly",
+  "cluster": "mdma",
+  "kind": "recreational"
+ },
+ {
+  "name": "ecstasy",
+  "cluster": "mdma",
+  "kind": "recreational"
+ },
+ {
+  "name": "psilocybin",
+  "cluster": "psilocybin",
+  "kind": "recreational"
+ },
+ {
+  "name": "magic mushrooms",
+  "cluster": "psilocybin",
+  "kind": "recreational"
+ },
+ {
+  "name": "psilocin",
+  "cluster": "psilocybin",
+  "kind": "recreational"
+ },
+ {
+  "name": "LSD",
+  "cluster": "lsd",
+  "kind": "recreational"
+ },
+ {
+  "name": "lysergic acid diethylamide",
+  "cluster": "lsd",
+  "kind": "recreational"
+ },
+ {
+  "name": "DMT",
+  "cluster": "dmt",
+  "kind": "recreational"
+ },
+ {
+  "name": "ayahuasca",
+  "cluster": "dmt",
+  "kind": "recreational"
+ },
+ {
+  "name": "crystal meth",
+  "cluster": "methamphetamine",
+  "kind": "recreational"
+ },
+ {
+  "name": "meth",
+  "cluster": "methamphetamine",
+  "kind": "recreational"
+ },
+ {
+  "name": "GHB",
+  "cluster": "ghb",
+  "kind": "recreational"
+ },
+ {
+  "name": "sodium oxybate",
+  "cluster": "ghb",
+  "kind": "recreational"
+ },
+ {
+  "name": "nitrous oxide",
+  "cluster": "nitrous",
+  "kind": "recreational"
+ },
+ {
+  "name": "whippets",
+  "cluster": "nitrous",
+  "kind": "recreational"
+ },
+ {
+  "name": "alcohol",
+  "cluster": "alcohol",
+  "kind": "recreational"
+ },
+ {
+  "name": "nicotine",
+  "cluster": "nicotine",
+  "kind": "recreational"
+ },
+ {
+  "name": "kratom",
+  "cluster": "kratom",
+  "kind": "recreational"
+ },
+ {
+  "name": "cocaine",
+  "cluster": "cocaine",
+  "kind": "recreational"
+ },
+ {
+  "name": "heroin",
+  "cluster": "heroin",
+  "kind": "recreational"
+ },
+ {
+  "name": "St John's Wort",
+  "cluster": "st_johns_wort",
+  "kind": "supplement"
+ },
+ {
+  "name": "Saffron extract",
+  "cluster": "saffron",
+  "kind": "supplement"
+ },
+ {
+  "name": "Omega-3 fish oil",
+  "cluster": "omega3",
+  "kind": "supplement"
+ },
+ {
+  "name": "Vitamin D",
+  "cluster": "vitamin_d",
+  "kind": "supplement"
+ },
+ {
+  "name": "Ashwagandha",
+  "cluster": "ashwagandha",
+  "kind": "supplement"
+ },
+ {
+  "name": "SAMe",
+  "cluster": "same",
+  "kind": "supplement"
+ },
+ {
+  "name": "5-HTP",
+  "cluster": "5htp",
+  "kind": "supplement"
+ },
+ {
+  "name": "L-theanine",
+  "cluster": "l_theanine",
+  "kind": "supplement"
+ },
+ {
+  "name": "Magnesium",
+  "cluster": "magnesium",
+  "kind": "supplement"
+ },
+ {
+  "name": "Valerian root",
+  "cluster": "valerian",
+  "kind": "supplement"
+ },
+ {
+  "name": "Rhodiola",
+  "cluster": "rhodiola",
+  "kind": "supplement"
+ },
+ {
+  "name": "Inositol",
+  "cluster": "inositol",
+  "kind": "supplement"
+ },
+ {
+  "name": "Chamomile tea",
+  "cluster": "chamomile",
+  "kind": "home_remedy"
+ },
+ {
+  "name": "Lavender aromatherapy",
+  "cluster": "lavender",
+  "kind": "home_remedy"
+ },
+ {
+  "name": "Passionflower",
+  "cluster": "passionflower",
+  "kind": "home_remedy"
+ },
+ {
+  "name": "Lemon balm",
+  "cluster": "lemon_balm",
+  "kind": "home_remedy"
+ },
+ {
+  "name": "N-acetylcysteine",
+  "cluster": "nac",
+  "kind": "supplement"
+ },
+ {
+  "name": "Probiotics",
+  "cluster": "probiotics",
+  "kind": "supplement"
+ },
+ {
+  "name": "Zinc",
+  "cluster": "zinc",
+  "kind": "supplement"
+ },
+ {
+  "name": "Milk thistle",
+  "cluster": "milk_thistle",
+  "kind": "supplement"
+ },
+ {
+  "name": "L-glutamine",
+  "cluster": "l_glutamine",
+  "kind": "supplement"
+ },
+ {
+  "name": "Ginseng",
+  "cluster": "ginseng",
+  "kind": "supplement"
+ },
+ {
+  "name": "GABA supplements",
+  "cluster": "gaba",
+  "kind": "supplement"
+ },
+ {
+  "name": "B vitamins",
+  "cluster": "b_vitamins",
+  "kind": "supplement"
+ },
+ {
+  "name": "Ginkgo biloba",
+  "cluster": "ginkgo",
+  "kind": "supplement"
+ },
+ {
+  "name": "Kava",
+  "cluster": "kava",
+  "kind": "home_remedy"
+ },
+ {
+  "name": "no medication",
+  "cluster": "none",
+  "kind": "null"
+ }
+]

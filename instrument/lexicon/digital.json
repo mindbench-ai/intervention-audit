@@ -1,0 +1,749 @@
+{
+ "reset": {
+  "name": "reSET",
+  "family": "digital",
+  "regulatory": "fda_pdt",
+  "availability": "restricted",
+  "aliases": []
+ },
+ "reset_o": {
+  "name": "reSET-O",
+  "family": "digital",
+  "regulatory": "fda_pdt",
+  "availability": "restricted",
+  "aliases": []
+ },
+ "somryst": {
+  "name": "Somryst",
+  "family": "digital",
+  "regulatory": "fda_pdt",
+  "availability": "verify",
+  "aliases": []
+ },
+ "endeavorrx": {
+  "name": "EndeavorRx",
+  "family": "digital",
+  "regulatory": "fda_pdt",
+  "availability": "active",
+  "aliases": []
+ },
+ "rejoyn": {
+  "name": "Rejoyn",
+  "family": "digital",
+  "regulatory": "fda_pdt",
+  "availability": "active",
+  "aliases": []
+ },
+ "sleepio": {
+  "name": "Sleepio",
+  "family": "digital",
+  "regulatory": "fda_pdt",
+  "availability": "active",
+  "aliases": []
+ },
+ "daylight": {
+  "name": "Daylight",
+  "family": "digital",
+  "regulatory": "fda_pdt",
+  "availability": "active",
+  "aliases": [
+   "DaylightRx"
+  ]
+ },
+ "freespira": {
+  "name": "Freespira",
+  "family": "digital",
+  "regulatory": "fda_pdt",
+  "availability": "active",
+  "aliases": []
+ },
+ "nightware": {
+  "name": "NightWare",
+  "family": "digital",
+  "regulatory": "fda_pdt",
+  "availability": "active",
+  "aliases": []
+ },
+ "chatgpt": {
+  "name": "ChatGPT",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": []
+ },
+ "claude": {
+  "name": "Claude",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": []
+ },
+ "gemini": {
+  "name": "Gemini",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": []
+ },
+ "meta_ai": {
+  "name": "Meta AI",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": []
+ },
+ "grok": {
+  "name": "Grok",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": []
+ },
+ "deepseek": {
+  "name": "DeepSeek",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": []
+ },
+ "kimi": {
+  "name": "Kimi",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": []
+ },
+ "pi": {
+  "name": "Pi",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "verify",
+  "aliases": [
+   "Pi AI"
+  ]
+ },
+ "microsoft_copilot": {
+  "name": "Microsoft Copilot",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": [
+   "Copilot"
+  ]
+ },
+ "perplexity": {
+  "name": "Perplexity",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": []
+ },
+ "qwen": {
+  "name": "Qwen",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": []
+ },
+ "doubao": {
+  "name": "Doubao",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": []
+ },
+ "le_chat": {
+  "name": "Le Chat",
+  "family": "digital",
+  "regulatory": "ai_assistant",
+  "availability": "active",
+  "aliases": [
+   "Mistral Le Chat"
+  ]
+ },
+ "replika": {
+  "name": "Replika",
+  "family": "digital",
+  "regulatory": "companion_ai",
+  "availability": "active",
+  "aliases": []
+ },
+ "character_ai": {
+  "name": "Character.AI",
+  "family": "digital",
+  "regulatory": "companion_ai",
+  "availability": "active",
+  "aliases": [
+   "Character AI",
+   "c.ai"
+  ]
+ },
+ "talkie": {
+  "name": "Talkie",
+  "family": "digital",
+  "regulatory": "companion_ai",
+  "availability": "active",
+  "aliases": []
+ },
+ "chai": {
+  "name": "Chai",
+  "family": "digital",
+  "regulatory": "companion_ai",
+  "availability": "active",
+  "aliases": []
+ },
+ "nomi": {
+  "name": "Nomi",
+  "family": "digital",
+  "regulatory": "companion_ai",
+  "availability": "active",
+  "aliases": []
+ },
+ "kindroid": {
+  "name": "Kindroid",
+  "family": "digital",
+  "regulatory": "companion_ai",
+  "availability": "active",
+  "aliases": []
+ },
+ "snapchat_my_ai": {
+  "name": "Snapchat My AI",
+  "family": "digital",
+  "regulatory": "companion_ai",
+  "availability": "active",
+  "aliases": []
+ },
+ "janitor_ai": {
+  "name": "Janitor AI",
+  "family": "digital",
+  "regulatory": "companion_ai",
+  "availability": "active",
+  "aliases": [
+   "JanitorAI"
+  ]
+ },
+ "woebot": {
+  "name": "Woebot",
+  "family": "digital",
+  "regulatory": "consumer_ai",
+  "availability": "discontinued",
+  "aliases": []
+ },
+ "wysa": {
+  "name": "Wysa",
+  "family": "digital",
+  "regulatory": "consumer_ai",
+  "availability": "active",
+  "aliases": []
+ },
+ "youper": {
+  "name": "Youper",
+  "family": "digital",
+  "regulatory": "consumer_ai",
+  "availability": "active",
+  "aliases": []
+ },
+ "ash_by_slingshot_ai": {
+  "name": "Ash by Slingshot AI",
+  "family": "digital",
+  "regulatory": "consumer_ai",
+  "availability": "verify",
+  "aliases": [
+   "Ash"
+  ]
+ },
+ "betterhelp": {
+  "name": "BetterHelp",
+  "family": "digital",
+  "regulatory": "telehealth",
+  "availability": "active",
+  "aliases": []
+ },
+ "talkspace": {
+  "name": "Talkspace",
+  "family": "digital",
+  "regulatory": "telehealth",
+  "availability": "active",
+  "aliases": []
+ },
+ "spring_health": {
+  "name": "Spring Health",
+  "family": "digital",
+  "regulatory": "telehealth",
+  "availability": "active",
+  "aliases": []
+ },
+ "talkiatry": {
+  "name": "Talkiatry",
+  "family": "digital",
+  "regulatory": "telehealth",
+  "availability": "active",
+  "aliases": []
+ },
+ "cerebral": {
+  "name": "Cerebral",
+  "family": "digital",
+  "regulatory": "telehealth",
+  "availability": "active",
+  "aliases": []
+ },
+ "brightside_health": {
+  "name": "Brightside Health",
+  "family": "digital",
+  "regulatory": "telehealth",
+  "availability": "active",
+  "aliases": []
+ },
+ "done": {
+  "name": "Done",
+  "family": "digital",
+  "regulatory": "telehealth",
+  "availability": "active",
+  "aliases": []
+ },
+ "headspace": {
+  "name": "Headspace",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "calm": {
+  "name": "Calm",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "sanvello": {
+  "name": "Sanvello",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "restricted",
+  "aliases": [
+   "AbleTo SelfCare+"
+  ]
+ },
+ "happify": {
+  "name": "Happify",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "restricted",
+  "aliases": [
+   "Twill"
+  ]
+ },
+ "finch": {
+  "name": "Finch",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "insight_timer": {
+  "name": "Insight Timer",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "aura": {
+  "name": "Aura",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "balance": {
+  "name": "Balance",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "nocd": {
+  "name": "NOCD",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "numo": {
+  "name": "Numo",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": [
+   "Numo ADHD"
+  ]
+ },
+ "shmoody": {
+  "name": "Shmoody",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "betwixt": {
+  "name": "Betwixt",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "ptsd_coach": {
+  "name": "PTSD Coach",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "ptsd_family_coach": {
+  "name": "PTSD Family Coach",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "act_coach": {
+  "name": "ACT Coach",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "calm_harm": {
+  "name": "Calm Harm",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "emoods": {
+  "name": "eMoods",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "effecto": {
+  "name": "Effecto",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "drinkcoach": {
+  "name": "DrinkCoach",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "nomo": {
+  "name": "Nomo",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "reframe": {
+  "name": "Reframe",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "kwit": {
+  "name": "Kwit",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "i_am_sober": {
+  "name": "I Am Sober",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "craving_to_quit": {
+  "name": "Craving to Quit",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "weconnect_health": {
+  "name": "WEconnect Health",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "poppy_seed_health": {
+  "name": "Poppy Seed Health",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "nourish": {
+  "name": "Nourish",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "brighter_bite": {
+  "name": "Brighter Bite",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "ocd_mantra": {
+  "name": "OCD Mantra",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "ocd_app": {
+  "name": "OCD.app",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "bedtyme": {
+  "name": "BedTyme",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "bettersleep": {
+  "name": "BetterSleep",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "avrora": {
+  "name": "Avrora",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "alora": {
+  "name": "Alora",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "mindshift": {
+  "name": "MindShift",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "daylio": {
+  "name": "Daylio",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "recovery_record": {
+  "name": "Recovery Record",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "verify",
+  "aliases": []
+ },
+ "rise_up_recover": {
+  "name": "Rise Up + Recover",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": [
+   "Rise Up and Recover"
+  ]
+ },
+ "moodmission": {
+  "name": "MoodMission",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "mindstrong": {
+  "name": "Mindstrong",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "discontinued",
+  "aliases": []
+ },
+ "cbt_i_coach": {
+  "name": "CBT-I Coach",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "breathwrk": {
+  "name": "Breathwrk",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "moodgym": {
+  "name": "MoodGYM",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "moodtools": {
+  "name": "MoodTools",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "sober_grid": {
+  "name": "Sober Grid",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "moodpath": {
+  "name": "Moodpath",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "verify",
+  "aliases": [
+   "MindDoc"
+  ]
+ },
+ "dbt_coach": {
+  "name": "DBT Coach",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": [
+   "DBT Diary Card and Skills Coach"
+  ]
+ },
+ "inflow": {
+  "name": "Inflow",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": [
+   "Inflow ADHD"
+  ]
+ },
+ "rootd": {
+  "name": "Rootd",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "brain_in_hand": {
+  "name": "Brain in Hand",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "active",
+  "aliases": []
+ },
+ "my3": {
+  "name": "MY3",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "verify",
+  "aliases": [
+   "MY3 safety plan"
+  ]
+ },
+ "virtual_hope_box": {
+  "name": "Virtual Hope Box",
+  "family": "digital",
+  "regulatory": "consumer",
+  "availability": "verify",
+  "aliases": []
+ },
+ "habitica": {
+  "name": "Habitica",
+  "family": "digital",
+  "regulatory": "general_wellness",
+  "availability": "active",
+  "aliases": []
+ },
+ "todoist": {
+  "name": "Todoist",
+  "family": "digital",
+  "regulatory": "general_wellness",
+  "availability": "active",
+  "aliases": []
+ },
+ "noom": {
+  "name": "Noom",
+  "family": "digital",
+  "regulatory": "general_wellness",
+  "availability": "active",
+  "aliases": []
+ },
+ "myfitnesspal": {
+  "name": "MyFitnessPal",
+  "family": "digital",
+  "regulatory": "general_wellness",
+  "availability": "active",
+  "aliases": []
+ },
+ "forest": {
+  "name": "Forest",
+  "family": "digital",
+  "regulatory": "general_wellness",
+  "availability": "active",
+  "aliases": []
+ },
+ "medisafe": {
+  "name": "Medisafe",
+  "family": "digital",
+  "regulatory": "general_wellness",
+  "availability": "active",
+  "aliases": []
+ },
+ "sleep_cycle": {
+  "name": "Sleep Cycle",
+  "family": "digital",
+  "regulatory": "general_wellness",
+  "availability": "active",
+  "aliases": []
+ },
+ "ten_percent_happier": {
+  "name": "Ten Percent Happier",
+  "family": "digital",
+  "regulatory": "general_wellness",
+  "availability": "active",
+  "aliases": [
+   "Happier app"
+  ]
+ },
+ "no_digital_intervention": {
+  "name": "no digital intervention",
+  "family": "null_option",
+  "regulatory": null,
+  "availability": null,
+  "aliases": []
+ }
+}

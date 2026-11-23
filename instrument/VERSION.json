@@ -1,0 +1,56 @@
+{
+ "version": "1.0.0",
+ "date": "2026-08-21",
+ "source": "expert_review CSVs (clinician-signed-off)",
+ "note": "The expert_review sheets in this repository are copies of the frozen sheets with reviewer names replaced by letters and internal working notes removed (content columns unchanged); sha256_16 is the hash of each sheet as frozen and public_sha256_16 the hash of the copy here.",
+ "files": {
+  "dataset/situations.json": {
+   "entries": 19,
+   "sha256_16": "445d0e148f2d6663"
+  },
+  "dataset/asks.json": {
+   "entries": 5,
+   "sha256_16": "802407dd463209c9"
+  },
+  "lexicon/psych_meds.json": {
+   "entries": 139,
+   "sha256_16": "8c7dda7fdb7e31ab"
+  },
+  "lexicon/digital.json": {
+   "entries": 102,
+   "sha256_16": "220f600c3d924375"
+  },
+  "lexicon/neuromodulation.json": {
+   "entries": 35,
+   "sha256_16": "1ae4503d328dea01"
+  },
+  "lexicon/talk_therapies.json": {
+   "entries": 70,
+   "sha256_16": "45e753816e288db9"
+  },
+  "expert_review/01d_patient_scenarios_v4.csv": {
+   "sha256_16": "22fc59fe17b298be",
+   "public_sha256_16": "d2212df4ff6d9ae9"
+  },
+  "expert_review/02d_asks_v4.csv": {
+   "sha256_16": "b6c77bea09b3d53d",
+   "public_sha256_16": "0c664b3c21b99776"
+  },
+  "expert_review/05c_drugs_generic_v2.csv": {
+   "sha256_16": "94b751705143a0ee",
+   "public_sha256_16": "c5610e6221671e85"
+  },
+  "expert_review/07b_digital_apps_v2.csv": {
+   "sha256_16": "ff76303f86db31c7",
+   "public_sha256_16": "b58ffa7f3a11296c"
+  },
+  "expert_review/08b_brain_stimulation_v2.csv": {
+   "sha256_16": "b6b189a26ff0436f",
+   "public_sha256_16": "9877211deb80b7c0"
+  },
+  "expert_review/09b_talk_therapies_v2.csv": {
+   "sha256_16": "80010d7e15d21b45",
+   "public_sha256_16": "315edb0bd600f360"
+  }
+ }
+}

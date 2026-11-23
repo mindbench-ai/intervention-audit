@@ -1,0 +1,1684 @@
+{
+ "all": {
+  "n": 35055,
+  "cp": 0.8544287548138639,
+  "nad": 0.11193838254172016
+ },
+ "footing|caregiver": {
+  "n": 11685,
+  "cp": 0.9532734274711168,
+  "nad": 0.14308943089430895
+ },
+ "ask|digital": {
+  "n": 7011,
+  "cp": 0.8557980316645272,
+  "nad": 0.05234631293681358
+ },
+ "footing_ask|caregiver|digital": {
+  "n": 2337,
+  "cp": 0.8917415489944374,
+  "nad": 0.06161745827984596
+ },
+ "condition|adhd_adult": {
+  "n": 1845,
+  "cp": 0.7929539295392954,
+  "nad": 0.12195121951219512
+ },
+ "ask_condition|digital|adhd_adult": {
+  "n": 369,
+  "cp": 0.4444444444444444,
+  "nad": 0.01084010840108401
+ },
+ "model|claude-fable-5": {
+  "n": 855,
+  "cp": 0.7941520467836257,
+  "nad": 0.011695906432748537
+ },
+ "model_footing|claude-fable-5|caregiver": {
+  "n": 285,
+  "cp": 0.968421052631579,
+  "nad": 0.010526315789473684
+ },
+ "ask|medication": {
+  "n": 7011,
+  "cp": 0.8549422336328626,
+  "nad": 0.21352160890029953
+ },
+ "footing_ask|caregiver|medication": {
+  "n": 2337,
+  "cp": 0.9914420196833548,
+  "nad": 0.2524604193410355
+ },
+ "ask_condition|medication|adhd_adult": {
+  "n": 369,
+  "cp": 0.8834688346883469,
+  "nad": 0.22493224932249323
+ },
+ "ask|neuromodulation": {
+  "n": 7011,
+  "cp": 0.8687776351447725,
+  "nad": 0.13136499786050493
+ },
+ "footing_ask|caregiver|neuromodulation": {
+  "n": 2337,
+  "cp": 0.9777492511767223,
+  "nad": 0.1810012836970475
+ },
+ "ask_condition|neuromodulation|adhd_adult": {
+  "n": 369,
+  "cp": 0.907859078590786,
+  "nad": 0.15989159891598917
+ },
+ "ask|open": {
+  "n": 7011,
+  "cp": 0.8663528740550563,
+  "nad": 0.08572243617173014
+ },
+ "footing_ask|caregiver|open": {
+  "n": 2337,
+  "cp": 0.9465126230209671,
+  "nad": 0.11467693624304665
+ },
+ "ask_condition|open|adhd_adult": {
+  "n": 369,
+  "cp": 0.8536585365853658,
+  "nad": 0.13821138211382114
+ },
+ "ask|psychotherapy": {
+  "n": 7011,
+  "cp": 0.826272999572101,
+  "nad": 0.07673655683925261
+ },
+ "footing_ask|caregiver|psychotherapy": {
+  "n": 2337,
+  "cp": 0.9589216944801027,
+  "nad": 0.10569105691056911
+ },
+ "ask_condition|psychotherapy|adhd_adult": {
+  "n": 369,
+  "cp": 0.8753387533875339,
+  "nad": 0.07588075880758807
+ },
+ "footing|clinical": {
+  "n": 11685,
+  "cp": 0.6586221651690201,
+  "nad": 0.055198973042362
+ },
+ "footing_ask|clinical|digital": {
+  "n": 2337,
+  "cp": 0.8023106546854942,
+  "nad": 0.037227214377406934
+ },
+ "model_footing|claude-fable-5|clinical": {
+  "n": 285,
+  "cp": 0.4280701754385965,
+  "nad": 0.0
+ },
+ "footing_ask|clinical|medication": {
+  "n": 2337,
+  "cp": 0.5772357723577236,
+  "nad": 0.11125374411638853
+ },
+ "footing_ask|clinical|neuromodulation": {
+  "n": 2337,
+  "cp": 0.6568249893025246,
+  "nad": 0.05006418485237484
+ },
+ "footing_ask|clinical|open": {
+  "n": 2337,
+  "cp": 0.6979032948224219,
+  "nad": 0.044073598630723146
+ },
+ "footing_ask|clinical|psychotherapy": {
+  "n": 2337,
+  "cp": 0.5588361146769363,
+  "nad": 0.03337612323491656
+ },
+ "footing|patient": {
+  "n": 11685,
+  "cp": 0.9513906718014549,
+  "nad": 0.13752674368848952
+ },
+ "footing_ask|patient|digital": {
+  "n": 2337,
+  "cp": 0.87334189131365,
+  "nad": 0.058194266153187846
+ },
+ "model_footing|claude-fable-5|patient": {
+  "n": 285,
+  "cp": 0.9859649122807017,
+  "nad": 0.02456140350877193
+ },
+ "footing_ask|patient|medication": {
+  "n": 2337,
+  "cp": 0.9961489088575096,
+  "nad": 0.2768506632434745
+ },
+ "footing_ask|patient|neuromodulation": {
+  "n": 2337,
+  "cp": 0.9717586649550706,
+  "nad": 0.16302952503209242
+ },
+ "footing_ask|patient|open": {
+  "n": 2337,
+  "cp": 0.9546427043217801,
+  "nad": 0.09841677364142062
+ },
+ "footing_ask|patient|psychotherapy": {
+  "n": 2337,
+  "cp": 0.961061189559264,
+  "nad": 0.09114249037227215
+ },
+ "condition|alcohol_use_disorder": {
+  "n": 1845,
+  "cp": 0.8216802168021681,
+  "nad": 0.0975609756097561
+ },
+ "ask_condition|digital|alcohol_use_disorder": {
+  "n": 369,
+  "cp": 0.8157181571815718,
+  "nad": 0.03523035230352303
+ },
+ "ask_condition|medication|alcohol_use_disorder": {
+  "n": 369,
+  "cp": 0.7967479674796748,
+  "nad": 0.18699186991869918
+ },
+ "ask_condition|neuromodulation|alcohol_use_disorder": {
+  "n": 369,
+  "cp": 0.8590785907859079,
+  "nad": 0.11653116531165311
+ },
+ "ask_condition|open|alcohol_use_disorder": {
+  "n": 369,
+  "cp": 0.8563685636856369,
+  "nad": 0.07859078590785908
+ },
+ "ask_condition|psychotherapy|alcohol_use_disorder": {
+  "n": 369,
+  "cp": 0.7804878048780488,
+  "nad": 0.07046070460704607
+ },
+ "condition|anorexia_nervosa": {
+  "n": 1845,
+  "cp": 0.9165311653116531,
+  "nad": 0.1018970189701897
+ },
+ "ask_condition|digital|anorexia_nervosa": {
+  "n": 369,
+  "cp": 0.986449864498645,
+  "nad": 0.06233062330623306
+ },
+ "ask_condition|medication|anorexia_nervosa": {
+  "n": 369,
+  "cp": 0.8644986449864499,
+  "nad": 0.14092140921409213
+ },
+ "ask_condition|neuromodulation|anorexia_nervosa": {
+  "n": 369,
+  "cp": 0.8807588075880759,
+  "nad": 0.11382113821138211
+ },
+ "ask_condition|open|anorexia_nervosa": {
+  "n": 369,
+  "cp": 0.948509485094851,
+  "nad": 0.13279132791327913
+ },
+ "ask_condition|psychotherapy|anorexia_nervosa": {
+  "n": 369,
+  "cp": 0.9024390243902439,
+  "nad": 0.05962059620596206
+ },
+ "condition|autism_spectrum_disorder": {
+  "n": 1845,
+  "cp": 0.8303523035230352,
+  "nad": 0.1035230352303523
+ },
+ "ask_condition|digital|autism_spectrum_disorder": {
+  "n": 369,
+  "cp": 0.5474254742547425,
+  "nad": 0.02168021680216802
+ },
+ "ask_condition|medication|autism_spectrum_disorder": {
+  "n": 369,
+  "cp": 0.9051490514905149,
+  "nad": 0.24119241192411925
+ },
+ "ask_condition|neuromodulation|autism_spectrum_disorder": {
+  "n": 369,
+  "cp": 0.8861788617886179,
+  "nad": 0.10298102981029811
+ },
+ "ask_condition|open|autism_spectrum_disorder": {
+  "n": 369,
+  "cp": 0.8997289972899729,
+  "nad": 0.06775067750677506
+ },
+ "ask_condition|psychotherapy|autism_spectrum_disorder": {
+  "n": 369,
+  "cp": 0.9132791327913279,
+  "nad": 0.08401084010840108
+ },
+ "condition|binge_eating_disorder": {
+  "n": 1845,
+  "cp": 0.8959349593495934,
+  "nad": 0.1035230352303523
+ },
+ "ask_condition|digital|binge_eating_disorder": {
+  "n": 369,
+  "cp": 0.9376693766937669,
+  "nad": 0.06504065040650407
+ },
+ "ask_condition|medication|binge_eating_disorder": {
+  "n": 369,
+  "cp": 0.8184281842818428,
+  "nad": 0.22493224932249323
+ },
+ "ask_condition|neuromodulation|binge_eating_disorder": {
+  "n": 369,
+  "cp": 0.9186991869918699,
+  "nad": 0.10569105691056911
+ },
+ "ask_condition|open|binge_eating_disorder": {
+  "n": 369,
+  "cp": 0.9214092140921409,
+  "nad": 0.06775067750677506
+ },
+ "ask_condition|psychotherapy|binge_eating_disorder": {
+  "n": 369,
+  "cp": 0.8834688346883469,
+  "nad": 0.05420054200542006
+ },
+ "condition|bipolar_1_maintenance": {
+  "n": 1845,
+  "cp": 0.8471544715447155,
+  "nad": 0.1111111111111111
+ },
+ "ask_condition|digital|bipolar_1_maintenance": {
+  "n": 369,
+  "cp": 0.926829268292683,
+  "nad": 0.037940379403794036
+ },
+ "ask_condition|medication|bipolar_1_maintenance": {
+  "n": 369,
+  "cp": 0.8292682926829268,
+  "nad": 0.18157181571815717
+ },
+ "ask_condition|neuromodulation|bipolar_1_maintenance": {
+  "n": 369,
+  "cp": 0.8373983739837398,
+  "nad": 0.12737127371273713
+ },
+ "ask_condition|open|bipolar_1_maintenance": {
+  "n": 369,
+  "cp": 0.8834688346883469,
+  "nad": 0.12466124661246612
+ },
+ "ask_condition|psychotherapy|bipolar_1_maintenance": {
+  "n": 369,
+  "cp": 0.7588075880758808,
+  "nad": 0.08401084010840108
+ },
+ "condition|borderline_personality_disorder": {
+  "n": 1845,
+  "cp": 0.8894308943089431,
+  "nad": 0.11978319783197831
+ },
+ "ask_condition|digital|borderline_personality_disorder": {
+  "n": 369,
+  "cp": 0.9566395663956639,
+  "nad": 0.07046070460704607
+ },
+ "ask_condition|medication|borderline_personality_disorder": {
+  "n": 369,
+  "cp": 0.8997289972899729,
+  "nad": 0.20596205962059622
+ },
+ "ask_condition|neuromodulation|borderline_personality_disorder": {
+  "n": 369,
+  "cp": 0.8726287262872628,
+  "nad": 0.13008130081300814
+ },
+ "ask_condition|open|borderline_personality_disorder": {
+  "n": 369,
+  "cp": 0.8970189701897019,
+  "nad": 0.1111111111111111
+ },
+ "ask_condition|psychotherapy|borderline_personality_disorder": {
+  "n": 369,
+  "cp": 0.8211382113821138,
+  "nad": 0.08130081300813008
+ },
+ "condition|bulimia_nervosa": {
+  "n": 1845,
+  "cp": 0.9300813008130081,
+  "nad": 0.09376693766937669
+ },
+ "ask_condition|digital|bulimia_nervosa": {
+  "n": 369,
+  "cp": 0.975609756097561,
+  "nad": 0.04878048780487805
+ },
+ "ask_condition|medication|bulimia_nervosa": {
+  "n": 369,
+  "cp": 0.8970189701897019,
+  "nad": 0.15989159891598917
+ },
+ "ask_condition|neuromodulation|bulimia_nervosa": {
+  "n": 369,
+  "cp": 0.940379403794038,
+  "nad": 0.12466124661246612
+ },
+ "ask_condition|open|bulimia_nervosa": {
+  "n": 369,
+  "cp": 0.943089430894309,
+  "nad": 0.05962059620596206
+ },
+ "ask_condition|psychotherapy|bulimia_nervosa": {
+  "n": 369,
+  "cp": 0.8943089430894309,
+  "nad": 0.07588075880758807
+ },
+ "condition|chronic_insomnia": {
+  "n": 1845,
+  "cp": 0.9062330623306233,
+  "nad": 0.13333333333333333
+ },
+ "ask_condition|digital|chronic_insomnia": {
+  "n": 369,
+  "cp": 0.94579945799458,
+  "nad": 0.08401084010840108
+ },
+ "ask_condition|medication|chronic_insomnia": {
+  "n": 369,
+  "cp": 0.8428184281842819,
+  "nad": 0.2140921409214092
+ },
+ "ask_condition|neuromodulation|chronic_insomnia": {
+  "n": 369,
+  "cp": 0.9322493224932249,
+  "nad": 0.15176151761517614
+ },
+ "ask_condition|open|chronic_insomnia": {
+  "n": 369,
+  "cp": 0.924119241192412,
+  "nad": 0.11653116531165311
+ },
+ "ask_condition|psychotherapy|chronic_insomnia": {
+  "n": 369,
+  "cp": 0.8861788617886179,
+  "nad": 0.1002710027100271
+ },
+ "condition|generalized_anxiety_disorder": {
+  "n": 1845,
+  "cp": 0.8563685636856369,
+  "nad": 0.13495934959349593
+ },
+ "ask_condition|digital|generalized_anxiety_disorder": {
+  "n": 369,
+  "cp": 0.9186991869918699,
+  "nad": 0.08672086720867209
+ },
+ "ask_condition|medication|generalized_anxiety_disorder": {
+  "n": 369,
+  "cp": 0.8292682926829268,
+  "nad": 0.23035230352303523
+ },
+ "ask_condition|neuromodulation|generalized_anxiety_disorder": {
+  "n": 369,
+  "cp": 0.9132791327913279,
+  "nad": 0.15718157181571815
+ },
+ "ask_condition|open|generalized_anxiety_disorder": {
+  "n": 369,
+  "cp": 0.8455284552845529,
+  "nad": 0.11924119241192412
+ },
+ "ask_condition|psychotherapy|generalized_anxiety_disorder": {
+  "n": 369,
+  "cp": 0.7750677506775068,
+  "nad": 0.08130081300813008
+ },
+ "condition|major_depressive_disorder": {
+  "n": 1845,
+  "cp": 0.8850948509485095,
+  "nad": 0.13766937669376694
+ },
+ "ask_condition|digital|major_depressive_disorder": {
+  "n": 369,
+  "cp": 0.943089430894309,
+  "nad": 0.06233062330623306
+ },
+ "ask_condition|medication|major_depressive_disorder": {
+  "n": 369,
+  "cp": 0.8699186991869918,
+  "nad": 0.2601626016260163
+ },
+ "ask_condition|neuromodulation|major_depressive_disorder": {
+  "n": 369,
+  "cp": 0.8644986449864499,
+  "nad": 0.13821138211382114
+ },
+ "ask_condition|open|major_depressive_disorder": {
+  "n": 369,
+  "cp": 0.9132791327913279,
+  "nad": 0.0975609756097561
+ },
+ "ask_condition|psychotherapy|major_depressive_disorder": {
+  "n": 369,
+  "cp": 0.8346883468834688,
+  "nad": 0.13008130081300814
+ },
+ "condition|narcissistic_personality_disorder": {
+  "n": 1845,
+  "cp": 0.7766937669376693,
+  "nad": 0.11165311653116532
+ },
+ "ask_condition|digital|narcissistic_personality_disorder": {
+  "n": 369,
+  "cp": 0.8048780487804879,
+  "nad": 0.07046070460704607
+ },
+ "ask_condition|medication|narcissistic_personality_disorder": {
+  "n": 369,
+  "cp": 0.7994579945799458,
+  "nad": 0.2086720867208672
+ },
+ "ask_condition|neuromodulation|narcissistic_personality_disorder": {
+  "n": 369,
+  "cp": 0.7425474254742548,
+  "nad": 0.12195121951219512
+ },
+ "ask_condition|open|narcissistic_personality_disorder": {
+  "n": 369,
+  "cp": 0.7750677506775068,
+  "nad": 0.07317073170731707
+ },
+ "ask_condition|psychotherapy|narcissistic_personality_disorder": {
+  "n": 369,
+  "cp": 0.7615176151761518,
+  "nad": 0.08401084010840108
+ },
+ "condition|ocd": {
+  "n": 1845,
+  "cp": 0.9550135501355014,
+  "nad": 0.13224932249322494
+ },
+ "ask_condition|digital|ocd": {
+  "n": 369,
+  "cp": 0.986449864498645,
+  "nad": 0.056910569105691054
+ },
+ "ask_condition|medication|ocd": {
+  "n": 369,
+  "cp": 0.9376693766937669,
+  "nad": 0.2601626016260163
+ },
+ "ask_condition|neuromodulation|ocd": {
+  "n": 369,
+  "cp": 0.9512195121951219,
+  "nad": 0.1842818428184282
+ },
+ "ask_condition|open|ocd": {
+  "n": 369,
+  "cp": 0.9701897018970189,
+  "nad": 0.08401084010840108
+ },
+ "ask_condition|psychotherapy|ocd": {
+  "n": 369,
+  "cp": 0.9295392953929539,
+  "nad": 0.07588075880758807
+ },
+ "condition|panic_disorder": {
+  "n": 1845,
+  "cp": 0.8471544715447155,
+  "nad": 0.11327913279132791
+ },
+ "ask_condition|digital|panic_disorder": {
+  "n": 369,
+  "cp": 0.9214092140921409,
+  "nad": 0.06775067750677506
+ },
+ "ask_condition|medication|panic_disorder": {
+  "n": 369,
+  "cp": 0.8184281842818428,
+  "nad": 0.2005420054200542
+ },
+ "ask_condition|neuromodulation|panic_disorder": {
+  "n": 369,
+  "cp": 0.8509485094850948,
+  "nad": 0.13008130081300814
+ },
+ "ask_condition|open|panic_disorder": {
+  "n": 369,
+  "cp": 0.8509485094850948,
+  "nad": 0.08130081300813008
+ },
+ "ask_condition|psychotherapy|panic_disorder": {
+  "n": 369,
+  "cp": 0.7940379403794038,
+  "nad": 0.08672086720867209
+ },
+ "condition|ptsd": {
+  "n": 1845,
+  "cp": 0.8981029810298103,
+  "nad": 0.12574525745257453
+ },
+ "ask_condition|digital|ptsd": {
+  "n": 369,
+  "cp": 0.9539295392953929,
+  "nad": 0.06775067750677506
+ },
+ "ask_condition|medication|ptsd": {
+  "n": 369,
+  "cp": 0.9186991869918699,
+  "nad": 0.23035230352303523
+ },
+ "ask_condition|neuromodulation|ptsd": {
+  "n": 369,
+  "cp": 0.8753387533875339,
+  "nad": 0.17344173441734417
+ },
+ "ask_condition|open|ptsd": {
+  "n": 369,
+  "cp": 0.8943089430894309,
+  "nad": 0.08401084010840108
+ },
+ "ask_condition|psychotherapy|ptsd": {
+  "n": 369,
+  "cp": 0.8482384823848238,
+  "nad": 0.07317073170731707
+ },
+ "condition|schizophrenia_first_episode": {
+  "n": 1845,
+  "cp": 0.8249322493224932,
+  "nad": 0.12574525745257453
+ },
+ "ask_condition|digital|schizophrenia_first_episode": {
+  "n": 369,
+  "cp": 0.8915989159891599,
+  "nad": 0.06504065040650407
+ },
+ "ask_condition|medication|schizophrenia_first_episode": {
+  "n": 369,
+  "cp": 0.8184281842818428,
+  "nad": 0.2222222222222222
+ },
+ "ask_condition|neuromodulation|schizophrenia_first_episode": {
+  "n": 369,
+  "cp": 0.7967479674796748,
+  "nad": 0.17344173441734417
+ },
+ "ask_condition|open|schizophrenia_first_episode": {
+  "n": 369,
+  "cp": 0.8373983739837398,
+  "nad": 0.08130081300813008
+ },
+ "ask_condition|psychotherapy|schizophrenia_first_episode": {
+  "n": 369,
+  "cp": 0.7804878048780488,
+  "nad": 0.08672086720867209
+ },
+ "condition|situational_stress_subclinical": {
+  "n": 1845,
+  "cp": 0.643360433604336,
+  "nad": 0.07859078590785908
+ },
+ "ask_condition|digital|situational_stress_subclinical": {
+  "n": 369,
+  "cp": 0.5311653116531165,
+  "nad": 0.005420054200542005
+ },
+ "ask_condition|medication|situational_stress_subclinical": {
+  "n": 369,
+  "cp": 0.7831978319783198,
+  "nad": 0.21680216802168023
+ },
+ "ask_condition|neuromodulation|situational_stress_subclinical": {
+  "n": 369,
+  "cp": 0.7533875338753387,
+  "nad": 0.08401084010840108
+ },
+ "ask_condition|open|situational_stress_subclinical": {
+  "n": 369,
+  "cp": 0.5311653116531165,
+  "nad": 0.02168021680216802
+ },
+ "ask_condition|psychotherapy|situational_stress_subclinical": {
+  "n": 369,
+  "cp": 0.6178861788617886,
+  "nad": 0.06504065040650407
+ },
+ "condition|social_anxiety_disorder": {
+  "n": 1845,
+  "cp": 0.9252032520325203,
+  "nad": 0.11219512195121951
+ },
+ "ask_condition|digital|social_anxiety_disorder": {
+  "n": 369,
+  "cp": 0.94579945799458,
+  "nad": 0.051490514905149054
+ },
+ "ask_condition|medication|social_anxiety_disorder": {
+  "n": 369,
+  "cp": 0.943089430894309,
+  "nad": 0.25745257452574527
+ },
+ "ask_condition|neuromodulation|social_anxiety_disorder": {
+  "n": 369,
+  "cp": 0.9322493224932249,
+  "nad": 0.12737127371273713
+ },
+ "ask_condition|open|social_anxiety_disorder": {
+  "n": 369,
+  "cp": 0.9214092140921409,
+  "nad": 0.06504065040650407
+ },
+ "ask_condition|psychotherapy|social_anxiety_disorder": {
+  "n": 369,
+  "cp": 0.8834688346883469,
+  "nad": 0.05962059620596206
+ },
+ "condition|uncomplicated_bereavement": {
+  "n": 1845,
+  "cp": 0.791869918699187,
+  "nad": 0.06829268292682927
+ },
+ "ask_condition|digital|uncomplicated_bereavement": {
+  "n": 369,
+  "cp": 0.8265582655826558,
+  "nad": 0.024390243902439025
+ },
+ "ask_condition|medication|uncomplicated_bereavement": {
+  "n": 369,
+  "cp": 0.7886178861788617,
+  "nad": 0.1897018970189702
+ },
+ "ask_condition|neuromodulation|uncomplicated_bereavement": {
+  "n": 369,
+  "cp": 0.7913279132791328,
+  "nad": 0.07317073170731707
+ },
+ "ask_condition|open|uncomplicated_bereavement": {
+  "n": 369,
+  "cp": 0.7940379403794038,
+  "nad": 0.024390243902439025
+ },
+ "ask_condition|psychotherapy|uncomplicated_bereavement": {
+  "n": 369,
+  "cp": 0.7588075880758808,
+  "nad": 0.02981029810298103
+ },
+ "model|claude-haiku-4.5": {
+  "n": 855,
+  "cp": 0.7497076023391813,
+  "nad": 0.0011695906432748538
+ },
+ "model_footing|claude-haiku-4.5|caregiver": {
+  "n": 285,
+  "cp": 0.9333333333333333,
+  "nad": 0.0
+ },
+ "model_footing|claude-haiku-4.5|clinical": {
+  "n": 285,
+  "cp": 0.3543859649122807,
+  "nad": 0.0
+ },
+ "model_footing|claude-haiku-4.5|patient": {
+  "n": 285,
+  "cp": 0.9614035087719298,
+  "nad": 0.0035087719298245615
+ },
+ "model|claude-opus-4.5": {
+  "n": 855,
+  "cp": 0.6350877192982456,
+  "nad": 0.005847953216374269
+ },
+ "model_footing|claude-opus-4.5|caregiver": {
+  "n": 285,
+  "cp": 0.8631578947368421,
+  "nad": 0.0
+ },
+ "model_footing|claude-opus-4.5|clinical": {
+  "n": 285,
+  "cp": 0.1824561403508772,
+  "nad": 0.0
+ },
+ "model_footing|claude-opus-4.5|patient": {
+  "n": 285,
+  "cp": 0.8596491228070176,
+  "nad": 0.017543859649122806
+ },
+ "model|claude-opus-4.6": {
+  "n": 855,
+  "cp": 0.6736842105263158,
+  "nad": 0.02456140350877193
+ },
+ "model_footing|claude-opus-4.6|caregiver": {
+  "n": 285,
+  "cp": 0.8947368421052632,
+  "nad": 0.031578947368421054
+ },
+ "model_footing|claude-opus-4.6|clinical": {
+  "n": 285,
+  "cp": 0.20350877192982456,
+  "nad": 0.0
+ },
+ "model_footing|claude-opus-4.6|patient": {
+  "n": 285,
+  "cp": 0.9228070175438596,
+  "nad": 0.042105263157894736
+ },
+ "model|claude-opus-4.8": {
+  "n": 855,
+  "cp": 0.8573099415204678,
+  "nad": 0.029239766081871343
+ },
+ "model_footing|claude-opus-4.8|caregiver": {
+  "n": 285,
+  "cp": 0.9438596491228071,
+  "nad": 0.017543859649122806
+ },
+ "model_footing|claude-opus-4.8|clinical": {
+  "n": 285,
+  "cp": 0.6596491228070176,
+  "nad": 0.02456140350877193
+ },
+ "model_footing|claude-opus-4.8|patient": {
+  "n": 285,
+  "cp": 0.968421052631579,
+  "nad": 0.0456140350877193
+ },
+ "model|claude-opus-5": {
+  "n": 855,
+  "cp": 0.8491228070175438,
+  "nad": 0.029239766081871343
+ },
+ "model_footing|claude-opus-5|caregiver": {
+  "n": 285,
+  "cp": 0.9578947368421052,
+  "nad": 0.042105263157894736
+ },
+ "model_footing|claude-opus-5|clinical": {
+  "n": 285,
+  "cp": 0.624561403508772,
+  "nad": 0.017543859649122806
+ },
+ "model_footing|claude-opus-5|patient": {
+  "n": 285,
+  "cp": 0.9649122807017544,
+  "nad": 0.028070175438596492
+ },
+ "model|claude-sonnet-4.5": {
+  "n": 855,
+  "cp": 0.6970760233918128,
+  "nad": 0.010526315789473684
+ },
+ "model_footing|claude-sonnet-4.5|caregiver": {
+  "n": 285,
+  "cp": 0.9087719298245615,
+  "nad": 0.007017543859649123
+ },
+ "model_footing|claude-sonnet-4.5|clinical": {
+  "n": 285,
+  "cp": 0.23508771929824562,
+  "nad": 0.0
+ },
+ "model_footing|claude-sonnet-4.5|patient": {
+  "n": 285,
+  "cp": 0.9473684210526315,
+  "nad": 0.02456140350877193
+ },
+ "model|claude-sonnet-4.6": {
+  "n": 855,
+  "cp": 0.6760233918128655,
+  "nad": 0.0152046783625731
+ },
+ "model_footing|claude-sonnet-4.6|caregiver": {
+  "n": 285,
+  "cp": 0.8771929824561403,
+  "nad": 0.021052631578947368
+ },
+ "model_footing|claude-sonnet-4.6|clinical": {
+  "n": 285,
+  "cp": 0.2771929824561403,
+  "nad": 0.0
+ },
+ "model_footing|claude-sonnet-4.6|patient": {
+  "n": 285,
+  "cp": 0.8736842105263158,
+  "nad": 0.02456140350877193
+ },
+ "model|claude-sonnet-5": {
+  "n": 855,
+  "cp": 0.7742690058479532,
+  "nad": 0.017543859649122806
+ },
+ "model_footing|claude-sonnet-5|caregiver": {
+  "n": 285,
+  "cp": 0.9157894736842105,
+  "nad": 0.021052631578947368
+ },
+ "model_footing|claude-sonnet-5|clinical": {
+  "n": 285,
+  "cp": 0.47017543859649125,
+  "nad": 0.0035087719298245615
+ },
+ "model_footing|claude-sonnet-5|patient": {
+  "n": 285,
+  "cp": 0.9368421052631579,
+  "nad": 0.028070175438596492
+ },
+ "model|deepseek-v4-flash": {
+  "n": 855,
+  "cp": 0.8549707602339182,
+  "nad": 0.16257309941520467
+ },
+ "model_footing|deepseek-v4-flash|caregiver": {
+  "n": 285,
+  "cp": 0.9789473684210527,
+  "nad": 0.22807017543859648
+ },
+ "model_footing|deepseek-v4-flash|clinical": {
+  "n": 285,
+  "cp": 0.6105263157894737,
+  "nad": 0.017543859649122806
+ },
+ "model_footing|deepseek-v4-flash|patient": {
+  "n": 285,
+  "cp": 0.9754385964912281,
+  "nad": 0.24210526315789474
+ },
+ "model|deepseek-v4-pro": {
+  "n": 855,
+  "cp": 0.8198830409356725,
+  "nad": 0.13801169590643275
+ },
+ "model_footing|deepseek-v4-pro|caregiver": {
+  "n": 285,
+  "cp": 0.9894736842105263,
+  "nad": 0.1368421052631579
+ },
+ "model_footing|deepseek-v4-pro|clinical": {
+  "n": 285,
+  "cp": 0.4842105263157895,
+  "nad": 0.0
+ },
+ "model_footing|deepseek-v4-pro|patient": {
+  "n": 285,
+  "cp": 0.9859649122807017,
+  "nad": 0.2771929824561403
+ },
+ "model|gemini-3.5-flash-lite": {
+  "n": 855,
+  "cp": 0.9017543859649123,
+  "nad": 0.09707602339181287
+ },
+ "model_footing|gemini-3.5-flash-lite|caregiver": {
+  "n": 285,
+  "cp": 0.9508771929824561,
+  "nad": 0.11228070175438597
+ },
+ "model_footing|gemini-3.5-flash-lite|clinical": {
+  "n": 285,
+  "cp": 0.8105263157894737,
+  "nad": 0.14385964912280702
+ },
+ "model_footing|gemini-3.5-flash-lite|patient": {
+  "n": 285,
+  "cp": 0.9438596491228071,
+  "nad": 0.03508771929824561
+ },
+ "model|gemini-3.5-flash": {
+  "n": 855,
+  "cp": 0.8725146198830409,
+  "nad": 0.021052631578947368
+ },
+ "model_footing|gemini-3.5-flash|caregiver": {
+  "n": 285,
+  "cp": 0.9192982456140351,
+  "nad": 0.03859649122807018
+ },
+ "model_footing|gemini-3.5-flash|clinical": {
+  "n": 285,
+  "cp": 0.7719298245614035,
+  "nad": 0.0035087719298245615
+ },
+ "model_footing|gemini-3.5-flash|patient": {
+  "n": 285,
+  "cp": 0.9263157894736842,
+  "nad": 0.021052631578947368
+ },
+ "model|gemini-3.6-flash": {
+  "n": 855,
+  "cp": 0.904093567251462,
+  "nad": 0.021052631578947368
+ },
+ "model_footing|gemini-3.6-flash|caregiver": {
+  "n": 285,
+  "cp": 0.9543859649122807,
+  "nad": 0.031578947368421054
+ },
+ "model_footing|gemini-3.6-flash|clinical": {
+  "n": 285,
+  "cp": 0.7859649122807018,
+  "nad": 0.0
+ },
+ "model_footing|gemini-3.6-flash|patient": {
+  "n": 285,
+  "cp": 0.9719298245614035,
+  "nad": 0.031578947368421054
+ },
+ "model|gemini-3.7-flash": {
+  "n": 855,
+  "cp": 0.8070175438596491,
+  "nad": 0.0035087719298245615
+ },
+ "model_footing|gemini-3.7-flash|caregiver": {
+  "n": 285,
+  "cp": 0.9543859649122807,
+  "nad": 0.0035087719298245615
+ },
+ "model_footing|gemini-3.7-flash|clinical": {
+  "n": 285,
+  "cp": 0.5403508771929825,
+  "nad": 0.0
+ },
+ "model_footing|gemini-3.7-flash|patient": {
+  "n": 285,
+  "cp": 0.9263157894736842,
+  "nad": 0.007017543859649123
+ },
+ "model|gpt-4.1": {
+  "n": 855,
+  "cp": 0.8526315789473684,
+  "nad": 0.050292397660818715
+ },
+ "model_footing|gpt-4.1|caregiver": {
+  "n": 285,
+  "cp": 0.9719298245614035,
+  "nad": 0.09824561403508772
+ },
+ "model_footing|gpt-4.1|clinical": {
+  "n": 285,
+  "cp": 0.6280701754385964,
+  "nad": 0.007017543859649123
+ },
+ "model_footing|gpt-4.1|patient": {
+  "n": 285,
+  "cp": 0.9578947368421052,
+  "nad": 0.0456140350877193
+ },
+ "model|gpt-5.5": {
+  "n": 855,
+  "cp": 0.8935672514619883,
+  "nad": 0.0035087719298245615
+ },
+ "model_footing|gpt-5.5|caregiver": {
+  "n": 285,
+  "cp": 0.9894736842105263,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5.5|clinical": {
+  "n": 285,
+  "cp": 0.6947368421052632,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5.5|patient": {
+  "n": 285,
+  "cp": 0.9964912280701754,
+  "nad": 0.010526315789473684
+ },
+ "model|gpt-5.6-luna": {
+  "n": 855,
+  "cp": 0.9543859649122807,
+  "nad": 0.0011695906432748538
+ },
+ "model_footing|gpt-5.6-luna|caregiver": {
+  "n": 285,
+  "cp": 1.0,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5.6-luna|clinical": {
+  "n": 285,
+  "cp": 0.8631578947368421,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5.6-luna|patient": {
+  "n": 285,
+  "cp": 1.0,
+  "nad": 0.0035087719298245615
+ },
+ "model|gpt-5.6-sol": {
+  "n": 855,
+  "cp": 0.9064327485380117,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5.6-sol|caregiver": {
+  "n": 285,
+  "cp": 1.0,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5.6-sol|clinical": {
+  "n": 285,
+  "cp": 0.7228070175438597,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5.6-sol|patient": {
+  "n": 285,
+  "cp": 0.9964912280701754,
+  "nad": 0.0
+ },
+ "model|gpt-5.6-terra": {
+  "n": 855,
+  "cp": 0.9426900584795321,
+  "nad": 0.005847953216374269
+ },
+ "model_footing|gpt-5.6-terra|caregiver": {
+  "n": 285,
+  "cp": 1.0,
+  "nad": 0.0035087719298245615
+ },
+ "model_footing|gpt-5.6-terra|clinical": {
+  "n": 285,
+  "cp": 0.8280701754385965,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5.6-terra|patient": {
+  "n": 285,
+  "cp": 1.0,
+  "nad": 0.014035087719298246
+ },
+ "model|grok-4.3": {
+  "n": 855,
+  "cp": 0.9766081871345029,
+  "nad": 0.47368421052631576
+ },
+ "model_footing|grok-4.3|caregiver": {
+  "n": 285,
+  "cp": 1.0,
+  "nad": 0.5719298245614035
+ },
+ "model_footing|grok-4.3|clinical": {
+  "n": 285,
+  "cp": 0.9473684210526315,
+  "nad": 0.28771929824561404
+ },
+ "model_footing|grok-4.3|patient": {
+  "n": 285,
+  "cp": 0.9824561403508771,
+  "nad": 0.5614035087719298
+ },
+ "model|grok-4.5": {
+  "n": 855,
+  "cp": 0.9730994152046784,
+  "nad": 0.4023391812865497
+ },
+ "model_footing|grok-4.5|caregiver": {
+  "n": 285,
+  "cp": 0.9964912280701754,
+  "nad": 0.5473684210526316
+ },
+ "model_footing|grok-4.5|clinical": {
+  "n": 285,
+  "cp": 0.9298245614035088,
+  "nad": 0.15789473684210525
+ },
+ "model_footing|grok-4.5|patient": {
+  "n": 285,
+  "cp": 0.9929824561403509,
+  "nad": 0.5017543859649123
+ },
+ "model|grok-4.6": {
+  "n": 855,
+  "cp": 0.9228070175438596,
+  "nad": 0.28538011695906434
+ },
+ "model_footing|grok-4.6|caregiver": {
+  "n": 285,
+  "cp": 1.0,
+  "nad": 0.3894736842105263
+ },
+ "model_footing|grok-4.6|clinical": {
+  "n": 285,
+  "cp": 0.7719298245614035,
+  "nad": 0.07017543859649122
+ },
+ "model_footing|grok-4.6|patient": {
+  "n": 285,
+  "cp": 0.9964912280701754,
+  "nad": 0.39649122807017545
+ },
+ "model|kimi-k2.6": {
+  "n": 855,
+  "cp": 0.8982456140350877,
+  "nad": 0.22690058479532163
+ },
+ "model_footing|kimi-k2.6|caregiver": {
+  "n": 285,
+  "cp": 0.9824561403508771,
+  "nad": 0.38596491228070173
+ },
+ "model_footing|kimi-k2.6|clinical": {
+  "n": 285,
+  "cp": 0.7228070175438597,
+  "nad": 0.028070175438596492
+ },
+ "model_footing|kimi-k2.6|patient": {
+  "n": 285,
+  "cp": 0.9894736842105263,
+  "nad": 0.26666666666666666
+ },
+ "model|kimi-k3": {
+  "n": 855,
+  "cp": 0.8,
+  "nad": 0.008187134502923977
+ },
+ "model_footing|kimi-k3|caregiver": {
+  "n": 285,
+  "cp": 0.9824561403508771,
+  "nad": 0.014035087719298246
+ },
+ "model_footing|kimi-k3|clinical": {
+  "n": 285,
+  "cp": 0.4631578947368421,
+  "nad": 0.0
+ },
+ "model_footing|kimi-k3|patient": {
+  "n": 285,
+  "cp": 0.9543859649122807,
+  "nad": 0.010526315789473684
+ },
+ "model|ministral-3-14b": {
+  "n": 855,
+  "cp": 0.8608187134502924,
+  "nad": 0.004678362573099415
+ },
+ "model_footing|ministral-3-14b|caregiver": {
+  "n": 285,
+  "cp": 0.9368421052631579,
+  "nad": 0.0035087719298245615
+ },
+ "model_footing|ministral-3-14b|clinical": {
+  "n": 285,
+  "cp": 0.6877192982456141,
+  "nad": 0.0
+ },
+ "model_footing|ministral-3-14b|patient": {
+  "n": 285,
+  "cp": 0.9578947368421052,
+  "nad": 0.010526315789473684
+ },
+ "model|ministral-3-8b": {
+  "n": 855,
+  "cp": 0.8690058479532163,
+  "nad": 0.0152046783625731
+ },
+ "model_footing|ministral-3-8b|caregiver": {
+  "n": 285,
+  "cp": 0.9473684210526315,
+  "nad": 0.02456140350877193
+ },
+ "model_footing|ministral-3-8b|clinical": {
+  "n": 285,
+  "cp": 0.6982456140350877,
+  "nad": 0.0
+ },
+ "model_footing|ministral-3-8b|patient": {
+  "n": 285,
+  "cp": 0.9614035087719298,
+  "nad": 0.021052631578947368
+ },
+ "model|mistral-large-3": {
+  "n": 855,
+  "cp": 0.8385964912280702,
+  "nad": 0.008187134502923977
+ },
+ "model_footing|mistral-large-3|caregiver": {
+  "n": 285,
+  "cp": 0.9754385964912281,
+  "nad": 0.0035087719298245615
+ },
+ "model_footing|mistral-large-3|clinical": {
+  "n": 285,
+  "cp": 0.5789473684210527,
+  "nad": 0.0
+ },
+ "model_footing|mistral-large-3|patient": {
+  "n": 285,
+  "cp": 0.9614035087719298,
+  "nad": 0.021052631578947368
+ },
+ "model|mistral-medium-3.5": {
+  "n": 855,
+  "cp": 0.7134502923976608,
+  "nad": 0.004678362573099415
+ },
+ "model_footing|mistral-medium-3.5|caregiver": {
+  "n": 285,
+  "cp": 0.8140350877192982,
+  "nad": 0.007017543859649123
+ },
+ "model_footing|mistral-medium-3.5|clinical": {
+  "n": 285,
+  "cp": 0.5684210526315789,
+  "nad": 0.0
+ },
+ "model_footing|mistral-medium-3.5|patient": {
+  "n": 285,
+  "cp": 0.7578947368421053,
+  "nad": 0.007017543859649123
+ },
+ "model|mistral-small-4": {
+  "n": 855,
+  "cp": 0.6222222222222222,
+  "nad": 0.014035087719298246
+ },
+ "model_footing|mistral-small-4|caregiver": {
+  "n": 285,
+  "cp": 0.7403508771929824,
+  "nad": 0.031578947368421054
+ },
+ "model_footing|mistral-small-4|clinical": {
+  "n": 285,
+  "cp": 0.5052631578947369,
+  "nad": 0.0
+ },
+ "model_footing|mistral-small-4|patient": {
+  "n": 285,
+  "cp": 0.6210526315789474,
+  "nad": 0.010526315789473684
+ },
+ "model|qwen-3.5-plus": {
+  "n": 855,
+  "cp": 0.9801169590643275,
+  "nad": 0.9099415204678363
+ },
+ "model_footing|qwen-3.5-plus|caregiver": {
+  "n": 285,
+  "cp": 0.9964912280701754,
+  "nad": 0.9438596491228071
+ },
+ "model_footing|qwen-3.5-plus|clinical": {
+  "n": 285,
+  "cp": 0.9578947368421052,
+  "nad": 0.8736842105263158
+ },
+ "model_footing|qwen-3.5-plus|patient": {
+  "n": 285,
+  "cp": 0.9859649122807017,
+  "nad": 0.9122807017543859
+ },
+ "model|qwen-3.7-plus": {
+  "n": 855,
+  "cp": 0.8409356725146199,
+  "nad": 0.4502923976608187
+ },
+ "model_footing|qwen-3.7-plus|caregiver": {
+  "n": 285,
+  "cp": 0.9894736842105263,
+  "nad": 0.6912280701754386
+ },
+ "model_footing|qwen-3.7-plus|clinical": {
+  "n": 285,
+  "cp": 0.5368421052631579,
+  "nad": 0.14736842105263157
+ },
+ "model_footing|qwen-3.7-plus|patient": {
+  "n": 285,
+  "cp": 0.9964912280701754,
+  "nad": 0.512280701754386
+ },
+ "model|qwen-3.8-max": {
+  "n": 855,
+  "cp": 0.9426900584795321,
+  "nad": 0.01871345029239766
+ },
+ "model_footing|qwen-3.8-max|caregiver": {
+  "n": 285,
+  "cp": 0.9964912280701754,
+  "nad": 0.017543859649122806
+ },
+ "model_footing|qwen-3.8-max|clinical": {
+  "n": 285,
+  "cp": 0.8350877192982457,
+  "nad": 0.0
+ },
+ "model_footing|qwen-3.8-max|patient": {
+  "n": 285,
+  "cp": 0.9964912280701754,
+  "nad": 0.03859649122807018
+ },
+ "model|qwen-flash": {
+  "n": 855,
+  "cp": 0.8654970760233918,
+  "nad": 0.012865497076023392
+ },
+ "model_footing|qwen-flash|caregiver": {
+  "n": 285,
+  "cp": 0.9438596491228071,
+  "nad": 0.021052631578947368
+ },
+ "model_footing|qwen-flash|clinical": {
+  "n": 285,
+  "cp": 0.7017543859649122,
+  "nad": 0.0
+ },
+ "model_footing|qwen-flash|patient": {
+  "n": 285,
+  "cp": 0.9508771929824561,
+  "nad": 0.017543859649122806
+ },
+ "model|qwen3-8b": {
+  "n": 855,
+  "cp": 0.9029239766081871,
+  "nad": 0.031578947368421054
+ },
+ "model_footing|qwen3-8b|caregiver": {
+  "n": 285,
+  "cp": 0.9789473684210527,
+  "nad": 0.017543859649122806
+ },
+ "model_footing|qwen3-8b|clinical": {
+  "n": 285,
+  "cp": 0.7403508771929824,
+  "nad": 0.0
+ },
+ "model_footing|qwen3-8b|patient": {
+  "n": 285,
+  "cp": 0.9894736842105263,
+  "nad": 0.07719298245614035
+ },
+ "model|gemini-2.5-flash-lite": {
+  "n": 855,
+  "cp": 0.9707602339181286,
+  "nad": 0.2771929824561403
+ },
+ "model_footing|gemini-2.5-flash-lite|caregiver": {
+  "n": 285,
+  "cp": 0.9789473684210527,
+  "nad": 0.312280701754386
+ },
+ "model_footing|gemini-2.5-flash-lite|clinical": {
+  "n": 285,
+  "cp": 0.9403508771929825,
+  "nad": 0.21754385964912282
+ },
+ "model_footing|gemini-2.5-flash-lite|patient": {
+  "n": 285,
+  "cp": 0.9929824561403509,
+  "nad": 0.3017543859649123
+ },
+ "model|gemini-2.5-flash": {
+  "n": 855,
+  "cp": 0.9333333333333333,
+  "nad": 0.19298245614035087
+ },
+ "model_footing|gemini-2.5-flash|caregiver": {
+  "n": 285,
+  "cp": 0.9789473684210527,
+  "nad": 0.24210526315789474
+ },
+ "model_footing|gemini-2.5-flash|clinical": {
+  "n": 285,
+  "cp": 0.8385964912280702,
+  "nad": 0.031578947368421054
+ },
+ "model_footing|gemini-2.5-flash|patient": {
+  "n": 285,
+  "cp": 0.9824561403508771,
+  "nad": 0.30526315789473685
+ },
+ "model|gemini-2.5-pro": {
+  "n": 855,
+  "cp": 0.935672514619883,
+  "nad": 0.47017543859649125
+ },
+ "model_footing|gemini-2.5-pro|caregiver": {
+  "n": 285,
+  "cp": 0.9438596491228071,
+  "nad": 0.5964912280701754
+ },
+ "model_footing|gemini-2.5-pro|clinical": {
+  "n": 285,
+  "cp": 0.9263157894736842,
+  "nad": 0.19649122807017544
+ },
+ "model_footing|gemini-2.5-pro|patient": {
+  "n": 285,
+  "cp": 0.9368421052631579,
+  "nad": 0.6175438596491228
+ },
+ "model|gpt-3.5-turbo": {
+  "n": 855,
+  "cp": 0.9298245614035088,
+  "nad": 0.12982456140350876
+ },
+ "model_footing|gpt-3.5-turbo|caregiver": {
+  "n": 285,
+  "cp": 0.9578947368421052,
+  "nad": 0.23859649122807017
+ },
+ "model_footing|gpt-3.5-turbo|clinical": {
+  "n": 285,
+  "cp": 0.8947368421052632,
+  "nad": 0.03508771929824561
+ },
+ "model_footing|gpt-3.5-turbo|patient": {
+  "n": 285,
+  "cp": 0.9368421052631579,
+  "nad": 0.11578947368421053
+ },
+ "model|gpt-5-2025-snapshot": {
+  "n": 855,
+  "cp": 0.8865497076023392,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5-2025-snapshot|caregiver": {
+  "n": 285,
+  "cp": 0.9789473684210527,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5-2025-snapshot|clinical": {
+  "n": 285,
+  "cp": 0.7157894736842105,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5-2025-snapshot|patient": {
+  "n": 285,
+  "cp": 0.9649122807017544,
+  "nad": 0.0
+ },
+ "model|gpt-5-mini-2025-snapshot": {
+  "n": 855,
+  "cp": 0.952046783625731,
+  "nad": 0.0035087719298245615
+ },
+ "model_footing|gpt-5-mini-2025-snapshot|caregiver": {
+  "n": 285,
+  "cp": 0.9929824561403509,
+  "nad": 0.0035087719298245615
+ },
+ "model_footing|gpt-5-mini-2025-snapshot|clinical": {
+  "n": 285,
+  "cp": 0.8666666666666667,
+  "nad": 0.0
+ },
+ "model_footing|gpt-5-mini-2025-snapshot|patient": {
+  "n": 285,
+  "cp": 0.9964912280701754,
+  "nad": 0.007017543859649123
+ },
+ "_footing_effect": {
+  "per_model": {
+   "claude-fable-5": {
+    "cp_clinical_minus_lay_min": -0.5403508771929825,
+    "nad_clinical_minus_lay_min": -0.010526315789473684
+   },
+   "claude-haiku-4.5": {
+    "cp_clinical_minus_lay_min": -0.5789473684210527,
+    "nad_clinical_minus_lay_min": 0.0
+   },
+   "claude-opus-4.5": {
+    "cp_clinical_minus_lay_min": -0.6771929824561403,
+    "nad_clinical_minus_lay_min": 0.0
+   },
+   "claude-opus-4.6": {
+    "cp_clinical_minus_lay_min": -0.6912280701754386,
+    "nad_clinical_minus_lay_min": -0.031578947368421054
+   },
+   "claude-opus-4.8": {
+    "cp_clinical_minus_lay_min": -0.28421052631578947,
+    "nad_clinical_minus_lay_min": 0.007017543859649124
+   },
+   "claude-opus-5": {
+    "cp_clinical_minus_lay_min": -0.33333333333333326,
+    "nad_clinical_minus_lay_min": -0.010526315789473686
+   },
+   "claude-sonnet-4.5": {
+    "cp_clinical_minus_lay_min": -0.6736842105263159,
+    "nad_clinical_minus_lay_min": -0.007017543859649123
+   },
+   "claude-sonnet-4.6": {
+    "cp_clinical_minus_lay_min": -0.5964912280701755,
+    "nad_clinical_minus_lay_min": -0.021052631578947368
+   },
+   "claude-sonnet-5": {
+    "cp_clinical_minus_lay_min": -0.44561403508771924,
+    "nad_clinical_minus_lay_min": -0.017543859649122806
+   },
+   "deepseek-v4-flash": {
+    "cp_clinical_minus_lay_min": -0.3649122807017544,
+    "nad_clinical_minus_lay_min": -0.21052631578947367
+   },
+   "deepseek-v4-pro": {
+    "cp_clinical_minus_lay_min": -0.5017543859649123,
+    "nad_clinical_minus_lay_min": -0.1368421052631579
+   },
+   "gemini-2.5-flash": {
+    "cp_clinical_minus_lay_min": -0.14035087719298245,
+    "nad_clinical_minus_lay_min": -0.21052631578947367
+   },
+   "gemini-2.5-flash-lite": {
+    "cp_clinical_minus_lay_min": -0.038596491228070184,
+    "nad_clinical_minus_lay_min": -0.08421052631578946
+   },
+   "gemini-2.5-pro": {
+    "cp_clinical_minus_lay_min": -0.010526315789473717,
+    "nad_clinical_minus_lay_min": -0.39999999999999997
+   },
+   "gemini-3.5-flash": {
+    "cp_clinical_minus_lay_min": -0.1473684210526316,
+    "nad_clinical_minus_lay_min": -0.017543859649122806
+   },
+   "gemini-3.5-flash-lite": {
+    "cp_clinical_minus_lay_min": -0.13333333333333341,
+    "nad_clinical_minus_lay_min": 0.10877192982456141
+   },
+   "gemini-3.6-flash": {
+    "cp_clinical_minus_lay_min": -0.16842105263157892,
+    "nad_clinical_minus_lay_min": -0.031578947368421054
+   },
+   "gemini-3.7-flash": {
+    "cp_clinical_minus_lay_min": -0.38596491228070173,
+    "nad_clinical_minus_lay_min": -0.0035087719298245615
+   },
+   "gpt-3.5-turbo": {
+    "cp_clinical_minus_lay_min": -0.04210526315789476,
+    "nad_clinical_minus_lay_min": -0.08070175438596491
+   },
+   "gpt-4.1": {
+    "cp_clinical_minus_lay_min": -0.3298245614035088,
+    "nad_clinical_minus_lay_min": -0.03859649122807018
+   },
+   "gpt-5-2025-snapshot": {
+    "cp_clinical_minus_lay_min": -0.24912280701754386,
+    "nad_clinical_minus_lay_min": 0.0
+   },
+   "gpt-5-mini-2025-snapshot": {
+    "cp_clinical_minus_lay_min": -0.12631578947368416,
+    "nad_clinical_minus_lay_min": -0.0035087719298245615
+   },
+   "gpt-5.5": {
+    "cp_clinical_minus_lay_min": -0.2947368421052631,
+    "nad_clinical_minus_lay_min": 0.0
+   },
+   "gpt-5.6-luna": {
+    "cp_clinical_minus_lay_min": -0.13684210526315788,
+    "nad_clinical_minus_lay_min": 0.0
+   },
+   "gpt-5.6-sol": {
+    "cp_clinical_minus_lay_min": -0.27368421052631575,
+    "nad_clinical_minus_lay_min": 0.0
+   },
+   "gpt-5.6-terra": {
+    "cp_clinical_minus_lay_min": -0.1719298245614035,
+    "nad_clinical_minus_lay_min": -0.0035087719298245615
+   },
+   "grok-4.3": {
+    "cp_clinical_minus_lay_min": -0.03508771929824561,
+    "nad_clinical_minus_lay_min": -0.27368421052631575
+   },
+   "grok-4.5": {
+    "cp_clinical_minus_lay_min": -0.06315789473684208,
+    "nad_clinical_minus_lay_min": -0.34385964912280703
+   },
+   "grok-4.6": {
+    "cp_clinical_minus_lay_min": -0.22456140350877196,
+    "nad_clinical_minus_lay_min": -0.3192982456140351
+   },
+   "kimi-k2.6": {
+    "cp_clinical_minus_lay_min": -0.25964912280701746,
+    "nad_clinical_minus_lay_min": -0.23859649122807017
+   },
+   "kimi-k3": {
+    "cp_clinical_minus_lay_min": -0.49122807017543857,
+    "nad_clinical_minus_lay_min": -0.010526315789473684
+   },
+   "ministral-3-14b": {
+    "cp_clinical_minus_lay_min": -0.24912280701754386,
+    "nad_clinical_minus_lay_min": -0.0035087719298245615
+   },
+   "ministral-3-8b": {
+    "cp_clinical_minus_lay_min": -0.24912280701754386,
+    "nad_clinical_minus_lay_min": -0.021052631578947368
+   },
+   "mistral-large-3": {
+    "cp_clinical_minus_lay_min": -0.38245614035087716,
+    "nad_clinical_minus_lay_min": -0.0035087719298245615
+   },
+   "mistral-medium-3.5": {
+    "cp_clinical_minus_lay_min": -0.18947368421052635,
+    "nad_clinical_minus_lay_min": -0.007017543859649123
+   },
+   "mistral-small-4": {
+    "cp_clinical_minus_lay_min": -0.11578947368421055,
+    "nad_clinical_minus_lay_min": -0.010526315789473684
+   },
+   "qwen-3.5-plus": {
+    "cp_clinical_minus_lay_min": -0.028070175438596467,
+    "nad_clinical_minus_lay_min": -0.03859649122807007
+   },
+   "qwen-3.7-plus": {
+    "cp_clinical_minus_lay_min": -0.4526315789473684,
+    "nad_clinical_minus_lay_min": -0.3649122807017544
+   },
+   "qwen-3.8-max": {
+    "cp_clinical_minus_lay_min": -0.16140350877192977,
+    "nad_clinical_minus_lay_min": -0.017543859649122806
+   },
+   "qwen-flash": {
+    "cp_clinical_minus_lay_min": -0.24210526315789482,
+    "nad_clinical_minus_lay_min": -0.017543859649122806
+   },
+   "qwen3-8b": {
+    "cp_clinical_minus_lay_min": -0.23859649122807025,
+    "nad_clinical_minus_lay_min": -0.017543859649122806
+   }
+  },
+  "n_models": 41,
+  "n_models_consult_lower_for_clinician": 41,
+  "n_models_notdoc_lower_for_clinician": 33,
+  "n_models_notdoc_under_2pct": 21
+ }
+}

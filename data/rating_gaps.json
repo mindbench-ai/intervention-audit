@@ -1,0 +1,39 @@
+{
+ "grid_cells": 19836,
+ "cells_with_ratings": 19835,
+ "gaps": [
+  {
+   "model": "claude-fable-5",
+   "condition": "panic_disorder",
+   "footing": "clinical",
+   "list": "pharmacological",
+   "sample": 1,
+   "attempts": [
+    {
+     "finish_reason": "refusal",
+     "error_type": null,
+     "error": null,
+     "n_rated": 0
+    },
+    {
+     "finish_reason": "refusal",
+     "error_type": null,
+     "error": null,
+     "n_rated": 0
+    },
+    {
+     "finish_reason": null,
+     "error_type": "other",
+     "error": "ValueError: Streaming is required for operations that may take longer than 10 minutes. See https://github.com/anthropics",
+     "n_rated": 0
+    },
+    {
+     "finish_reason": null,
+     "error_type": "other",
+     "error": "ValueError: Streaming is required for operations that may take longer than 10 minutes. See https://github.com/anthropics",
+     "n_rated": 0
+    }
+   ]
+  }
+ ]
+}

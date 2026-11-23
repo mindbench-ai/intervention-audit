@@ -1,0 +1,377 @@
+{
+ "electroconvulsive_therapy": {
+  "name": "Electroconvulsive Therapy",
+  "abbrev": "ECT",
+  "family": "convulsive",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "electroshock therapy",
+   "shock therapy",
+   "electroshock"
+  ],
+  "floor": false
+ },
+ "magnetic_seizure_therapy": {
+  "name": "Magnetic Seizure Therapy",
+  "abbrev": "MST",
+  "family": "convulsive",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [],
+  "floor": false
+ },
+ "repetitive_transcranial_magnetic_stimulation": {
+  "name": "Repetitive Transcranial Magnetic Stimulation",
+  "abbrev": "rTMS",
+  "family": "magnetic_stimulation",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "TMS",
+   "transcranial magnetic stimulation"
+  ],
+  "floor": false
+ },
+ "deep_transcranial_magnetic_stimulation": {
+  "name": "Deep Transcranial Magnetic Stimulation",
+  "abbrev": "dTMS",
+  "family": "magnetic_stimulation",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "H-coil TMS",
+   "BrainsWay deep TMS"
+  ],
+  "floor": false
+ },
+ "intermittent_theta_burst_stimulation": {
+  "name": "Intermittent Theta-Burst Stimulation",
+  "abbrev": "iTBS",
+  "family": "magnetic_stimulation",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "theta-burst stimulation",
+   "TBS"
+  ],
+  "floor": false
+ },
+ "accelerated_tms": {
+  "name": "Accelerated TMS",
+  "abbrev": null,
+  "family": "magnetic_stimulation",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "SAINT protocol",
+   "Stanford Neuromodulation Therapy"
+  ],
+  "floor": false
+ },
+ "transcranial_direct_current_stimulation": {
+  "name": "Transcranial Direct Current Stimulation",
+  "abbrev": "tDCS",
+  "family": "electrical_stimulation",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [],
+  "floor": false
+ },
+ "cranial_electrotherapy_stimulation": {
+  "name": "Cranial Electrotherapy Stimulation",
+  "abbrev": "CES",
+  "family": "electrical_stimulation",
+  "invasiveness_tier": "non_interventional",
+  "aliases": [
+   "Alpha-Stim"
+  ],
+  "floor": false
+ },
+ "vagus_nerve_stimulation": {
+  "name": "Vagus Nerve Stimulation",
+  "abbrev": "VNS",
+  "family": "electrical_stimulation",
+  "invasiveness_tier": "surgical",
+  "aliases": [
+   "vagus nerve stimulator",
+   "VNS Therapy System"
+  ],
+  "floor": false
+ },
+ "transcutaneous_auricular_vagus_nerve_stimulation": {
+  "name": "Transcutaneous Auricular Vagus Nerve Stimulation",
+  "abbrev": "taVNS",
+  "family": "electrical_stimulation",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "ear-clip VNS",
+   "auricular vagus nerve stimulation"
+  ],
+  "floor": false
+ },
+ "trigeminal_nerve_stimulation": {
+  "name": "Trigeminal Nerve Stimulation",
+  "abbrev": "TNS",
+  "family": "electrical_stimulation",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "Monarch eTNS"
+  ],
+  "floor": false
+ },
+ "deep_brain_stimulation": {
+  "name": "Deep Brain Stimulation",
+  "abbrev": "DBS",
+  "family": "implanted",
+  "invasiveness_tier": "surgical",
+  "aliases": [
+   "brain pacemaker"
+  ],
+  "floor": false
+ },
+ "responsive_neurostimulation": {
+  "name": "Responsive Neurostimulation",
+  "abbrev": "RNS",
+  "family": "implanted",
+  "invasiveness_tier": "surgical",
+  "aliases": [
+   "NeuroPace RNS",
+   "closed-loop deep brain stimulation"
+  ],
+  "floor": false
+ },
+ "transcranial_focused_ultrasound": {
+  "name": "Transcranial Focused Ultrasound",
+  "abbrev": null,
+  "family": "emerging",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "low-intensity focused ultrasound",
+   "LIFU",
+   "focused ultrasound neuromodulation"
+  ],
+  "floor": false
+ },
+ "transcranial_photobiomodulation": {
+  "name": "Transcranial Photobiomodulation",
+  "abbrev": null,
+  "family": "emerging",
+  "invasiveness_tier": "non_interventional",
+  "aliases": [
+   "near-infrared light therapy"
+  ],
+  "floor": false
+ },
+ "stellate_ganglion_block": {
+  "name": "Stellate Ganglion Block",
+  "abbrev": null,
+  "family": "procedural",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "SGB",
+   "cervical sympathetic block"
+  ],
+  "floor": false
+ },
+ "hyperbaric_oxygen_therapy": {
+  "name": "Hyperbaric Oxygen Therapy",
+  "abbrev": null,
+  "family": "procedural",
+  "invasiveness_tier": "non_interventional",
+  "aliases": [
+   "HBOT"
+  ],
+  "floor": false
+ },
+ "bright_light_therapy": {
+  "name": "Bright Light Therapy",
+  "abbrev": null,
+  "family": "phototherapy",
+  "invasiveness_tier": "non_interventional",
+  "aliases": [
+   "light therapy",
+   "light box therapy"
+  ],
+  "floor": false
+ },
+ "neurofeedback": {
+  "name": "Neurofeedback",
+  "abbrev": null,
+  "family": "emerging",
+  "invasiveness_tier": "non_interventional",
+  "aliases": [
+   "EEG biofeedback",
+   "QEEG-guided neurofeedback"
+  ],
+  "floor": false
+ },
+ "anterior_cingulotomy": {
+  "name": "Anterior Cingulotomy",
+  "abbrev": null,
+  "family": "psychosurgery",
+  "invasiveness_tier": "surgical",
+  "aliases": [
+   "cingulotomy",
+   "stereotactic cingulotomy"
+  ],
+  "floor": false
+ },
+ "anterior_capsulotomy": {
+  "name": "Anterior Capsulotomy",
+  "abbrev": null,
+  "family": "psychosurgery",
+  "invasiveness_tier": "surgical",
+  "aliases": [
+   "capsulotomy",
+   "gamma knife capsulotomy",
+   "MRgFUS capsulotomy"
+  ],
+  "floor": false
+ },
+ "subcaudate_tractotomy": {
+  "name": "Subcaudate Tractotomy",
+  "abbrev": null,
+  "family": "psychosurgery",
+  "invasiveness_tier": "surgical",
+  "aliases": [],
+  "floor": false
+ },
+ "limbic_leucotomy": {
+  "name": "Limbic Leucotomy",
+  "abbrev": null,
+  "family": "psychosurgery",
+  "invasiveness_tier": "surgical",
+  "aliases": [],
+  "floor": false
+ },
+ "endoscopic_thoracic_sympathectomy": {
+  "name": "Endoscopic Thoracic Sympathectomy",
+  "abbrev": "ETS",
+  "family": "procedural",
+  "invasiveness_tier": "surgical",
+  "aliases": [
+   "thoracic sympathectomy",
+   "sympathectomy"
+  ],
+  "floor": false
+ },
+ "ketamine_esketamine_clinic_administered": {
+  "name": "Ketamine / Esketamine (clinic-administered)",
+  "abbrev": null,
+  "family": "interventional_pharmacotherapy",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "ketamine infusion",
+   "intranasal esketamine",
+   "Spravato",
+   "ketamine-assisted psychotherapy",
+   "KAP"
+  ],
+  "floor": false
+ },
+ "psilocybin_assisted_therapy": {
+  "name": "Psilocybin-Assisted Therapy",
+  "abbrev": null,
+  "family": "psychedelic_assisted",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "psilocybin therapy",
+   "psilocybin-assisted psychotherapy"
+  ],
+  "floor": false
+ },
+ "mdma_assisted_therapy": {
+  "name": "MDMA-Assisted Therapy",
+  "abbrev": null,
+  "family": "psychedelic_assisted",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "MDMA-assisted psychotherapy",
+   "ecstasy-assisted therapy"
+  ],
+  "floor": false
+ },
+ "lsd_assisted_therapy": {
+  "name": "LSD-Assisted Therapy",
+  "abbrev": null,
+  "family": "psychedelic_assisted",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "LSD-assisted psychotherapy"
+  ],
+  "floor": false
+ },
+ "insulin_coma_therapy": {
+  "name": "Insulin Coma Therapy",
+  "abbrev": null,
+  "family": "shock_therapy_discredited",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "insulin shock therapy",
+   "hypoglycemic coma therapy"
+  ],
+  "floor": true
+ },
+ "metrazol_convulsive_therapy": {
+  "name": "Metrazol Convulsive Therapy",
+  "abbrev": null,
+  "family": "shock_therapy_discredited",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "pentylenetetrazol shock therapy",
+   "Cardiazol therapy"
+  ],
+  "floor": true
+ },
+ "chelation_therapy": {
+  "name": "Chelation Therapy",
+  "abbrev": null,
+  "family": "fringe_biomedical_discredited",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "heavy metal chelation",
+   "DMSA chelation",
+   "EDTA chelation"
+  ],
+  "floor": true
+ },
+ "stem_cell_therapy_psychiatric_autism": {
+  "name": "Stem Cell Therapy (psychiatric/autism)",
+  "abbrev": null,
+  "family": "fringe_biomedical_discredited",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "stem cell infusion",
+   "umbilical cord stem cell therapy"
+  ],
+  "floor": true
+ },
+ "ibogaine_therapy": {
+  "name": "Ibogaine Therapy",
+  "abbrev": null,
+  "family": "psychedelic_assisted_discredited",
+  "invasiveness_tier": "nonsurgical_interventional",
+  "aliases": [
+   "ibogaine treatment",
+   "ibogaine-assisted detox"
+  ],
+  "floor": true
+ },
+ "no_somatic_or_neuromodulation_treatment": {
+  "name": "no somatic or neuromodulation treatment",
+  "abbrev": null,
+  "family": "null_option",
+  "invasiveness_tier": null,
+  "aliases": [],
+  "floor": false
+ },
+ "lobotomy": {
+  "name": "Lobotomy",
+  "abbrev": null,
+  "family": "psychosurgery_discredited",
+  "invasiveness_tier": "surgical",
+  "aliases": [
+   "leucotomy",
+   "prefrontal lobotomy",
+   "frontal lobotomy",
+   "transorbital lobotomy",
+   "icepick lobotomy",
+   "ice-pick lobotomy"
+  ],
+  "floor": true
+ }
+}

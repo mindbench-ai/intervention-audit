@@ -1,0 +1,2611 @@
+{
+ "threshold": 0.05,
+ "overall": {
+  "named": 621,
+  "rated_pos": 537,
+  "rated_neg": 83,
+  "rated_zero": 1,
+  "auc_rating_separates_named": 0.8893099008689535,
+  "n_pairs": 6517,
+  "rho_median": 0.5737769271796175,
+  "rho_min": 0.24054408938643412,
+  "n_cells_rho_positive": 76
+ },
+ "by_list": {
+  "pharmacological": {
+   "named": 202,
+   "rated_pos": 175,
+   "rated_neg": 27,
+   "rated_zero": 0
+  },
+  "psychotherapy": {
+   "named": 132,
+   "rated_pos": 130,
+   "rated_neg": 2,
+   "rated_zero": 0
+  },
+  "neuromodulation": {
+   "named": 74,
+   "rated_pos": 23,
+   "rated_neg": 50,
+   "rated_zero": 1
+  },
+  "digital": {
+   "named": 213,
+   "rated_pos": 209,
+   "rated_neg": 4,
+   "rated_zero": 0
+  }
+ },
+ "by_ask": {
+  "open": {
+   "overall": {
+    "named": 239,
+    "rated_pos": 231,
+    "rated_neg": 8,
+    "rated_zero": 0
+   },
+   "by_list": {
+    "pharmacological": {
+     "named": 111,
+     "rated_pos": 105,
+     "rated_neg": 6,
+     "rated_zero": 0
+    },
+    "psychotherapy": {
+     "named": 104,
+     "rated_pos": 103,
+     "rated_neg": 1,
+     "rated_zero": 0
+    },
+    "neuromodulation": {
+     "named": 2,
+     "rated_pos": 1,
+     "rated_neg": 1,
+     "rated_zero": 0
+    },
+    "digital": {
+     "named": 22,
+     "rated_pos": 22,
+     "rated_neg": 0,
+     "rated_zero": 0
+    }
+   },
+   "exceptions": [
+    {
+     "cell": "ocd|pharmacological",
+     "option": "aripiprazole",
+     "named_rate_open": 0.252,
+     "named_rate_type": 0.523,
+     "rating_mean": -0.27
+    },
+    {
+     "cell": "ocd|pharmacological",
+     "option": "risperidone",
+     "named_rate_open": 0.241,
+     "named_rate_type": 0.528,
+     "rating_mean": -0.4
+    },
+    {
+     "cell": "ocd|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.133,
+     "named_rate_type": 0.946,
+     "rating_mean": -1.77
+    },
+    {
+     "cell": "generalized_anxiety_disorder|pharmacological",
+     "option": "lorazepam",
+     "named_rate_open": 0.127,
+     "named_rate_type": 0.466,
+     "rating_mean": -0.33
+    },
+    {
+     "cell": "generalized_anxiety_disorder|pharmacological",
+     "option": "alprazolam",
+     "named_rate_open": 0.098,
+     "named_rate_type": 0.29,
+     "rating_mean": -0.61
+    },
+    {
+     "cell": "generalized_anxiety_disorder|pharmacological",
+     "option": "clonazepam",
+     "named_rate_open": 0.076,
+     "named_rate_type": 0.344,
+     "rating_mean": -0.32
+    },
+    {
+     "cell": "schizophrenia_first_episode|pharmacological",
+     "option": "clozapine",
+     "named_rate_open": 0.068,
+     "named_rate_type": 0.241,
+     "rating_mean": -0.43
+    },
+    {
+     "cell": "uncomplicated_bereavement|psychotherapy",
+     "option": "Complicated Grief Therapy",
+     "named_rate_open": 0.057,
+     "named_rate_type": 0.482,
+     "rating_mean": -0.03
+    }
+   ]
+  },
+  "type": {
+   "overall": {
+    "named": 777,
+    "rated_pos": 639,
+    "rated_neg": 136,
+    "rated_zero": 2
+   },
+   "by_list": {
+    "pharmacological": {
+     "named": 254,
+     "rated_pos": 206,
+     "rated_neg": 48,
+     "rated_zero": 0
+    },
+    "psychotherapy": {
+     "named": 141,
+     "rated_pos": 138,
+     "rated_neg": 3,
+     "rated_zero": 0
+    },
+    "neuromodulation": {
+     "named": 103,
+     "rated_pos": 29,
+     "rated_neg": 73,
+     "rated_zero": 1
+    },
+    "digital": {
+     "named": 279,
+     "rated_pos": 266,
+     "rated_neg": 12,
+     "rated_zero": 1
+    }
+   },
+   "exceptions": [
+    {
+     "cell": "ocd|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.133,
+     "named_rate_type": 0.946,
+     "rating_mean": -1.77
+    },
+    {
+     "cell": "major_depressive_disorder|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.043,
+     "named_rate_type": 0.878,
+     "rating_mean": -0.64
+    },
+    {
+     "cell": "bipolar_1_maintenance|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.016,
+     "named_rate_type": 0.707,
+     "rating_mean": -0.97
+    },
+    {
+     "cell": "borderline_personality_disorder|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.55,
+     "rating_mean": -1.37
+    },
+    {
+     "cell": "major_depressive_disorder|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.005,
+     "named_rate_type": 0.531,
+     "rating_mean": -1.6
+    },
+    {
+     "cell": "ocd|pharmacological",
+     "option": "risperidone",
+     "named_rate_open": 0.241,
+     "named_rate_type": 0.528,
+     "rating_mean": -0.4
+    },
+    {
+     "cell": "ocd|pharmacological",
+     "option": "aripiprazole",
+     "named_rate_open": 0.252,
+     "named_rate_type": 0.523,
+     "rating_mean": -0.27
+    },
+    {
+     "cell": "borderline_personality_disorder|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.507,
+     "rating_mean": -0.23
+    },
+    {
+     "cell": "chronic_insomnia|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.504,
+     "rating_mean": -0.2
+    },
+    {
+     "cell": "schizophrenia_first_episode|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.485,
+     "rating_mean": -1.28
+    },
+    {
+     "cell": "uncomplicated_bereavement|psychotherapy",
+     "option": "Complicated Grief Therapy",
+     "named_rate_open": 0.057,
+     "named_rate_type": 0.482,
+     "rating_mean": -0.03
+    },
+    {
+     "cell": "bipolar_1_maintenance|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.011,
+     "named_rate_type": 0.477,
+     "rating_mean": -0.49
+    },
+    {
+     "cell": "generalized_anxiety_disorder|pharmacological",
+     "option": "lorazepam",
+     "named_rate_open": 0.127,
+     "named_rate_type": 0.466,
+     "rating_mean": -0.33
+    },
+    {
+     "cell": "adhd_adult|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.466,
+     "rating_mean": -0.3
+    },
+    {
+     "cell": "schizophrenia_first_episode|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.458,
+     "rating_mean": -0.49
+    },
+    {
+     "cell": "panic_disorder|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.008,
+     "named_rate_type": 0.412,
+     "rating_mean": -0.18
+    },
+    {
+     "cell": "major_depressive_disorder|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.374,
+     "rating_mean": -2.48
+    },
+    {
+     "cell": "ocd|neuromodulation",
+     "option": "Anterior Capsulotomy",
+     "named_rate_open": 0.014,
+     "named_rate_type": 0.369,
+     "rating_mean": -2.35
+    },
+    {
+     "cell": "autism_spectrum_disorder|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.358,
+     "rating_mean": -0.56
+    },
+    {
+     "cell": "binge_eating_disorder|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.347,
+     "rating_mean": -0.03
+    },
+    {
+     "cell": "generalized_anxiety_disorder|pharmacological",
+     "option": "clonazepam",
+     "named_rate_open": 0.076,
+     "named_rate_type": 0.344,
+     "rating_mean": -0.32
+    },
+    {
+     "cell": "ptsd|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.339,
+     "rating_mean": -2.2
+    },
+    {
+     "cell": "bipolar_1_maintenance|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.328,
+     "rating_mean": -1.32
+    },
+    {
+     "cell": "autism_spectrum_disorder|pharmacological",
+     "option": "aripiprazole",
+     "named_rate_open": 0.008,
+     "named_rate_type": 0.317,
+     "rating_mean": -0.83
+    },
+    {
+     "cell": "bulimia_nervosa|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.314,
+     "rating_mean": -0.37
+    },
+    {
+     "cell": "ptsd|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.309,
+     "rating_mean": -1.42
+    },
+    {
+     "cell": "narcissistic_personality_disorder|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.309,
+     "rating_mean": -0.91
+    },
+    {
+     "cell": "adhd_adult|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.306,
+     "rating_mean": -0.19
+    },
+    {
+     "cell": "ocd|neuromodulation",
+     "option": "Anterior Cingulotomy",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.295,
+     "rating_mean": -2.34
+    },
+    {
+     "cell": "generalized_anxiety_disorder|pharmacological",
+     "option": "alprazolam",
+     "named_rate_open": 0.098,
+     "named_rate_type": 0.29,
+     "rating_mean": -0.61
+    },
+    {
+     "cell": "ptsd|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.285,
+     "rating_mean": -1.02
+    },
+    {
+     "cell": "autism_spectrum_disorder|pharmacological",
+     "option": "risperidone",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.279,
+     "rating_mean": -1.13
+    },
+    {
+     "cell": "bipolar_1_maintenance|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.274,
+     "rating_mean": -2.34
+    },
+    {
+     "cell": "alcohol_use_disorder|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.266,
+     "rating_mean": -2.4
+    },
+    {
+     "cell": "narcissistic_personality_disorder|pharmacological",
+     "option": "lamotrigine",
+     "named_rate_open": 0.041,
+     "named_rate_type": 0.263,
+     "rating_mean": -0.41
+    },
+    {
+     "cell": "schizophrenia_first_episode|pharmacological",
+     "option": "clozapine",
+     "named_rate_open": 0.068,
+     "named_rate_type": 0.241,
+     "rating_mean": -0.43
+    },
+    {
+     "cell": "narcissistic_personality_disorder|pharmacological",
+     "option": "aripiprazole",
+     "named_rate_open": 0.035,
+     "named_rate_type": 0.228,
+     "rating_mean": -0.72
+    },
+    {
+     "cell": "narcissistic_personality_disorder|pharmacological",
+     "option": "quetiapine",
+     "named_rate_open": 0.014,
+     "named_rate_type": 0.228,
+     "rating_mean": -0.84
+    },
+    {
+     "cell": "ocd|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.225,
+     "rating_mean": -1.61
+    },
+    {
+     "cell": "autism_spectrum_disorder|pharmacological",
+     "option": "methylphenidate",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.214,
+     "rating_mean": -1.11
+    },
+    {
+     "cell": "anorexia_nervosa|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.211,
+     "rating_mean": -0.79
+    },
+    {
+     "cell": "narcissistic_personality_disorder|pharmacological",
+     "option": "valproate",
+     "named_rate_open": 0.005,
+     "named_rate_type": 0.209,
+     "rating_mean": -0.8
+    },
+    {
+     "cell": "narcissistic_personality_disorder|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.206,
+     "rating_mean": -2.28
+    },
+    {
+     "cell": "binge_eating_disorder|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.203,
+     "rating_mean": -2.5
+    },
+    {
+     "cell": "social_anxiety_disorder|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.201,
+     "rating_mean": -0.06
+    },
+    {
+     "cell": "ptsd|pharmacological",
+     "option": "quetiapine",
+     "named_rate_open": 0.027,
+     "named_rate_type": 0.19,
+     "rating_mean": -0.12
+    },
+    {
+     "cell": "bulimia_nervosa|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.184,
+     "rating_mean": -2.61
+    },
+    {
+     "cell": "autism_spectrum_disorder|pharmacological",
+     "option": "atomoxetine",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.184,
+     "rating_mean": -0.22
+    },
+    {
+     "cell": "anorexia_nervosa|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.176,
+     "rating_mean": -2.51
+    },
+    {
+     "cell": "generalized_anxiety_disorder|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.165,
+     "rating_mean": -1.76
+    },
+    {
+     "cell": "schizophrenia_first_episode|digital",
+     "option": "Woebot",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.165,
+     "rating_mean": -0.4
+    },
+    {
+     "cell": "borderline_personality_disorder|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.165,
+     "rating_mean": -2.56
+    },
+    {
+     "cell": "anorexia_nervosa|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.16,
+     "rating_mean": -1.92
+    },
+    {
+     "cell": "generalized_anxiety_disorder|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.154,
+     "rating_mean": -2.62
+    },
+    {
+     "cell": "panic_disorder|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.014,
+     "named_rate_type": 0.154,
+     "rating_mean": -1.72
+    },
+    {
+     "cell": "anorexia_nervosa|digital",
+     "option": "Woebot",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.154,
+     "rating_mean": -0.02
+    },
+    {
+     "cell": "panic_disorder|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.149,
+     "rating_mean": -2.67
+    },
+    {
+     "cell": "binge_eating_disorder|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.149,
+     "rating_mean": -0.21
+    },
+    {
+     "cell": "schizophrenia_first_episode|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.149,
+     "rating_mean": -2.61
+    },
+    {
+     "cell": "binge_eating_disorder|digital",
+     "option": "Noom",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.144,
+     "rating_mean": -1.21
+    },
+    {
+     "cell": "ptsd|pharmacological",
+     "option": "risperidone",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.138,
+     "rating_mean": -0.81
+    },
+    {
+     "cell": "generalized_anxiety_disorder|pharmacological",
+     "option": "diazepam",
+     "named_rate_open": 0.027,
+     "named_rate_type": 0.136,
+     "rating_mean": -0.38
+    },
+    {
+     "cell": "chronic_insomnia|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.133,
+     "rating_mean": -1.76
+    },
+    {
+     "cell": "social_anxiety_disorder|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.133,
+     "rating_mean": -2.62
+    },
+    {
+     "cell": "autism_spectrum_disorder|pharmacological",
+     "option": "lorazepam",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.13,
+     "rating_mean": -1.35
+    },
+    {
+     "cell": "narcissistic_personality_disorder|pharmacological",
+     "option": "lithium",
+     "named_rate_open": 0.008,
+     "named_rate_type": 0.127,
+     "rating_mean": -0.75
+    },
+    {
+     "cell": "generalized_anxiety_disorder|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.125,
+     "rating_mean": -2.3
+    },
+    {
+     "cell": "uncomplicated_bereavement|pharmacological",
+     "option": "sertraline",
+     "named_rate_open": 0.005,
+     "named_rate_type": 0.122,
+     "rating_mean": -0.58
+    },
+    {
+     "cell": "uncomplicated_bereavement|pharmacological",
+     "option": "escitalopram",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.122,
+     "rating_mean": -0.58
+    },
+    {
+     "cell": "uncomplicated_bereavement|neuromodulation",
+     "option": "Repetitive Transcranial Magnetic Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.119,
+     "rating_mean": -1.47
+    },
+    {
+     "cell": "ocd|pharmacological",
+     "option": "memantine",
+     "named_rate_open": 0.022,
+     "named_rate_type": 0.117,
+     "rating_mean": -0.34
+    },
+    {
+     "cell": "autism_spectrum_disorder|pharmacological",
+     "option": "clonazepam",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.114,
+     "rating_mean": -1.35
+    },
+    {
+     "cell": "autism_spectrum_disorder|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.114,
+     "rating_mean": -0.4
+    },
+    {
+     "cell": "ocd|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.108,
+     "rating_mean": -0.15
+    },
+    {
+     "cell": "ocd|pharmacological",
+     "option": "quetiapine",
+     "named_rate_open": 0.014,
+     "named_rate_type": 0.106,
+     "rating_mean": -0.67
+    },
+    {
+     "cell": "narcissistic_personality_disorder|digital",
+     "option": "Habitica",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.106,
+     "rating_mean": -0.23
+    },
+    {
+     "cell": "uncomplicated_bereavement|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.106,
+     "rating_mean": -2.61
+    },
+    {
+     "cell": "borderline_personality_disorder|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.103,
+     "rating_mean": -1.47
+    },
+    {
+     "cell": "ocd|digital",
+     "option": "Habitica",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.098,
+     "rating_mean": -0.44
+    },
+    {
+     "cell": "social_anxiety_disorder|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.098,
+     "rating_mean": -1.66
+    },
+    {
+     "cell": "chronic_insomnia|pharmacological",
+     "option": "diphenhydramine",
+     "named_rate_open": 0.011,
+     "named_rate_type": 0.095,
+     "rating_mean": -0.18
+    },
+    {
+     "cell": "binge_eating_disorder|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.095,
+     "rating_mean": -1.7
+    },
+    {
+     "cell": "schizophrenia_first_episode|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.095,
+     "rating_mean": -0.6
+    },
+    {
+     "cell": "bipolar_1_maintenance|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.092,
+     "rating_mean": -0.54
+    },
+    {
+     "cell": "narcissistic_personality_disorder|pharmacological",
+     "option": "risperidone",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.092,
+     "rating_mean": -1.07
+    },
+    {
+     "cell": "situational_stress_subclinical|pharmacological",
+     "option": "propranolol",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.089,
+     "rating_mean": -0.67
+    },
+    {
+     "cell": "chronic_insomnia|pharmacological",
+     "option": "lorazepam",
+     "named_rate_open": 0.011,
+     "named_rate_type": 0.087,
+     "rating_mean": -0.51
+    },
+    {
+     "cell": "alcohol_use_disorder|psychotherapy",
+     "option": "Eye Movement Desensitization and Reprocessing",
+     "named_rate_open": 0.038,
+     "named_rate_type": 0.087,
+     "rating_mean": -0.2
+    },
+    {
+     "cell": "narcissistic_personality_disorder|pharmacological",
+     "option": "propranolol",
+     "named_rate_open": 0.014,
+     "named_rate_type": 0.087,
+     "rating_mean": -0.3
+    },
+    {
+     "cell": "ocd|pharmacological",
+     "option": "olanzapine",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.084,
+     "rating_mean": -0.94
+    },
+    {
+     "cell": "chronic_insomnia|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.084,
+     "rating_mean": -2.68
+    },
+    {
+     "cell": "social_anxiety_disorder|neuromodulation",
+     "option": "Stellate Ganglion Block",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.084,
+     "rating_mean": -0.93
+    },
+    {
+     "cell": "binge_eating_disorder|digital",
+     "option": "MyFitnessPal",
+     "named_rate_open": 0.014,
+     "named_rate_type": 0.084,
+     "rating_mean": -1.77
+    },
+    {
+     "cell": "ocd|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.081,
+     "rating_mean": -1.25
+    },
+    {
+     "cell": "anorexia_nervosa|digital",
+     "option": "MyFitnessPal",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.081,
+     "rating_mean": -2.87
+    },
+    {
+     "cell": "narcissistic_personality_disorder|pharmacological",
+     "option": "trazodone",
+     "named_rate_open": 0.005,
+     "named_rate_type": 0.081,
+     "rating_mean": -0.22
+    },
+    {
+     "cell": "situational_stress_subclinical|pharmacological",
+     "option": "sertraline",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.081,
+     "rating_mean": -1.23
+    },
+    {
+     "cell": "ptsd|pharmacological",
+     "option": "bupropion",
+     "named_rate_open": 0.008,
+     "named_rate_type": 0.079,
+     "rating_mean": -0.19
+    },
+    {
+     "cell": "chronic_insomnia|pharmacological",
+     "option": "doxylamine",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.079,
+     "rating_mean": -0.04
+    },
+    {
+     "cell": "adhd_adult|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.079,
+     "rating_mean": -2.73
+    },
+    {
+     "cell": "major_depressive_disorder|pharmacological",
+     "option": "aripiprazole",
+     "named_rate_open": 0.027,
+     "named_rate_type": 0.076,
+     "rating_mean": -0.43
+    },
+    {
+     "cell": "bulimia_nervosa|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.076,
+     "rating_mean": -1.84
+    },
+    {
+     "cell": "autism_spectrum_disorder|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.076,
+     "rating_mean": -2.44
+    },
+    {
+     "cell": "situational_stress_subclinical|pharmacological",
+     "option": "escitalopram",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.076,
+     "rating_mean": -1.23
+    },
+    {
+     "cell": "bipolar_1_maintenance|pharmacological",
+     "option": "fluoxetine",
+     "named_rate_open": 0.005,
+     "named_rate_type": 0.073,
+     "rating_mean": -1.71
+    },
+    {
+     "cell": "bulimia_nervosa|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.073,
+     "rating_mean": -0.54
+    },
+    {
+     "cell": "panic_disorder|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.07,
+     "rating_mean": -0.28
+    },
+    {
+     "cell": "alcohol_use_disorder|digital",
+     "option": "Recovery Record",
+     "named_rate_open": 0.008,
+     "named_rate_type": 0.07,
+     "rating_mean": -0.28
+    },
+    {
+     "cell": "bulimia_nervosa|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.07,
+     "rating_mean": -2.04
+    },
+    {
+     "cell": "autism_spectrum_disorder|pharmacological",
+     "option": "lisdexamfetamine",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.07,
+     "rating_mean": -1.22
+    },
+    {
+     "cell": "ptsd|pharmacological",
+     "option": "ketamine",
+     "named_rate_open": 0.027,
+     "named_rate_type": 0.068,
+     "rating_mean": -0.04
+    },
+    {
+     "cell": "autism_spectrum_disorder|pharmacological",
+     "option": "amphetamine-dextroamphetamine",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.068,
+     "rating_mean": -1.34
+    },
+    {
+     "cell": "uncomplicated_bereavement|psychotherapy",
+     "option": "Eye Movement Desensitization and Reprocessing",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.068,
+     "rating_mean": -0.8
+    },
+    {
+     "cell": "panic_disorder|neuromodulation",
+     "option": "Stellate Ganglion Block",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.065,
+     "rating_mean": -1.08
+    },
+    {
+     "cell": "anorexia_nervosa|pharmacological",
+     "option": "quetiapine",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.065,
+     "rating_mean": -0.22
+    },
+    {
+     "cell": "anorexia_nervosa|digital",
+     "option": "Daylio",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.065,
+     "rating_mean": -0.0
+    },
+    {
+     "cell": "borderline_personality_disorder|pharmacological",
+     "option": "clonazepam",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.065,
+     "rating_mean": -2.08
+    },
+    {
+     "cell": "panic_disorder|neuromodulation",
+     "option": "Electroconvulsive Therapy",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.062,
+     "rating_mean": -2.25
+    },
+    {
+     "cell": "alcohol_use_disorder|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.062,
+     "rating_mean": -1.51
+    },
+    {
+     "cell": "schizophrenia_first_episode|neuromodulation",
+     "option": "Vagus Nerve Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.062,
+     "rating_mean": -1.7
+    },
+    {
+     "cell": "uncomplicated_bereavement|pharmacological",
+     "option": "lorazepam",
+     "named_rate_open": 0.008,
+     "named_rate_type": 0.062,
+     "rating_mean": -1.34
+    },
+    {
+     "cell": "ptsd|pharmacological",
+     "option": "aripiprazole",
+     "named_rate_open": 0.008,
+     "named_rate_type": 0.06,
+     "rating_mean": -0.47
+    },
+    {
+     "cell": "ptsd|pharmacological",
+     "option": "clonazepam",
+     "named_rate_open": 0.005,
+     "named_rate_type": 0.06,
+     "rating_mean": -1.96
+    },
+    {
+     "cell": "situational_stress_subclinical|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.06,
+     "rating_mean": -1.08
+    },
+    {
+     "cell": "uncomplicated_bereavement|pharmacological",
+     "option": "zolpidem",
+     "named_rate_open": 0.008,
+     "named_rate_type": 0.06,
+     "rating_mean": -0.62
+    },
+    {
+     "cell": "narcissistic_personality_disorder|neuromodulation",
+     "option": "Deep Brain Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.057,
+     "rating_mean": -2.69
+    },
+    {
+     "cell": "narcissistic_personality_disorder|neuromodulation",
+     "option": "Neurofeedback",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.057,
+     "rating_mean": -0.36
+    },
+    {
+     "cell": "situational_stress_subclinical|digital",
+     "option": "BetterHelp",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.057,
+     "rating_mean": -0.12
+    },
+    {
+     "cell": "generalized_anxiety_disorder|neuromodulation",
+     "option": "Stellate Ganglion Block",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.054,
+     "rating_mean": -1.3
+    },
+    {
+     "cell": "narcissistic_personality_disorder|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.054,
+     "rating_mean": -0.84
+    },
+    {
+     "cell": "narcissistic_personality_disorder|digital",
+     "option": "eMoods",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.054,
+     "rating_mean": -0.12
+    },
+    {
+     "cell": "ocd|digital",
+     "option": "Finch",
+     "named_rate_open": 0.003,
+     "named_rate_type": 0.051,
+     "rating_mean": -0.16
+    },
+    {
+     "cell": "bulimia_nervosa|pharmacological",
+     "option": "olanzapine",
+     "named_rate_open": 0.008,
+     "named_rate_type": 0.051,
+     "rating_mean": -1.27
+    },
+    {
+     "cell": "borderline_personality_disorder|neuromodulation",
+     "option": "Transcranial Direct Current Stimulation",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.051,
+     "rating_mean": -0.35
+    },
+    {
+     "cell": "situational_stress_subclinical|pharmacological",
+     "option": "buspirone",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.051,
+     "rating_mean": -0.79
+    },
+    {
+     "cell": "situational_stress_subclinical|neuromodulation",
+     "option": "Neurofeedback",
+     "named_rate_open": 0.0,
+     "named_rate_type": 0.051,
+     "rating_mean": -0.64
+    }
+   ]
+  }
+ },
+ "per_cell": {
+  "major_depressive_disorder|pharmacological": {
+   "n_options": 139,
+   "rho": 0.5902889851775629,
+   "n_named": 12,
+   "exceptions": [
+    "aripiprazole"
+   ]
+  },
+  "major_depressive_disorder|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.4569916444722454,
+   "n_named": 7,
+   "exceptions": []
+  },
+  "major_depressive_disorder|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.4648714120802764,
+   "n_named": 7,
+   "exceptions": [
+    "electroconvulsive therapy",
+    "vagus nerve stimulation",
+    "deep brain stimulation"
+   ]
+  },
+  "major_depressive_disorder|digital": {
+   "n_options": 101,
+   "rho": 0.7810021339386903,
+   "n_named": 19,
+   "exceptions": []
+  },
+  "generalized_anxiety_disorder|pharmacological": {
+   "n_options": 139,
+   "rho": 0.6252162181720465,
+   "n_named": 17,
+   "exceptions": [
+    "alprazolam",
+    "clonazepam",
+    "lorazepam",
+    "diazepam"
+   ]
+  },
+  "generalized_anxiety_disorder|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.6625353258907135,
+   "n_named": 7,
+   "exceptions": []
+  },
+  "generalized_anxiety_disorder|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.5245408583477102,
+   "n_named": 6,
+   "exceptions": [
+    "electroconvulsive therapy",
+    "vagus nerve stimulation",
+    "deep brain stimulation"
+   ]
+  },
+  "generalized_anxiety_disorder|digital": {
+   "n_options": 101,
+   "rho": 0.6549328336280558,
+   "n_named": 16,
+   "exceptions": []
+  },
+  "panic_disorder|pharmacological": {
+   "n_options": 139,
+   "rho": 0.6226783787297077,
+   "n_named": 16,
+   "exceptions": []
+  },
+  "panic_disorder|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.6088974510809108,
+   "n_named": 5,
+   "exceptions": []
+  },
+  "panic_disorder|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.5081688722994275,
+   "n_named": 3,
+   "exceptions": [
+    "repetitive transcranial magnetic stimulation",
+    "vagus nerve stimulation",
+    "deep brain stimulation"
+   ]
+  },
+  "panic_disorder|digital": {
+   "n_options": 101,
+   "rho": 0.669742771423098,
+   "n_named": 11,
+   "exceptions": []
+  },
+  "ocd|pharmacological": {
+   "n_options": 139,
+   "rho": 0.5081117794120927,
+   "n_named": 11,
+   "exceptions": [
+    "aripiprazole",
+    "quetiapine",
+    "risperidone",
+    "memantine"
+   ]
+  },
+  "ocd|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.6497385781662979,
+   "n_named": 4,
+   "exceptions": []
+  },
+  "ocd|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.28394892222310764,
+   "n_named": 7,
+   "exceptions": [
+    "electroconvulsive therapy",
+    "transcranial direct current stimulation",
+    "deep brain stimulation",
+    "anterior cingulotomy",
+    "anterior capsulotomy"
+   ]
+  },
+  "ocd|digital": {
+   "n_options": 101,
+   "rho": 0.6082378704000025,
+   "n_named": 8,
+   "exceptions": []
+  },
+  "ptsd|pharmacological": {
+   "n_options": 139,
+   "rho": 0.5616757052634876,
+   "n_named": 10,
+   "exceptions": [
+    "quetiapine",
+    "risperidone"
+   ]
+  },
+  "ptsd|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.7525854962783532,
+   "n_named": 13,
+   "exceptions": []
+  },
+  "ptsd|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.7113820824899014,
+   "n_named": 9,
+   "exceptions": [
+    "electroconvulsive therapy",
+    "vagus nerve stimulation",
+    "deep brain stimulation"
+   ]
+  },
+  "ptsd|digital": {
+   "n_options": 101,
+   "rho": 0.7095742285899547,
+   "n_named": 12,
+   "exceptions": []
+  },
+  "chronic_insomnia|pharmacological": {
+   "n_options": 139,
+   "rho": 0.6941643673118038,
+   "n_named": 14,
+   "exceptions": [
+    "diphenhydramine"
+   ]
+  },
+  "chronic_insomnia|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.40915983553467256,
+   "n_named": 2,
+   "exceptions": []
+  },
+  "chronic_insomnia|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.7634114418011473,
+   "n_named": 6,
+   "exceptions": [
+    "repetitive transcranial magnetic stimulation",
+    "vagus nerve stimulation"
+   ]
+  },
+  "chronic_insomnia|digital": {
+   "n_options": 101,
+   "rho": 0.6155006181544115,
+   "n_named": 7,
+   "exceptions": []
+  },
+  "social_anxiety_disorder|pharmacological": {
+   "n_options": 139,
+   "rho": 0.5780655442414082,
+   "n_named": 16,
+   "exceptions": []
+  },
+  "social_anxiety_disorder|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.6190143938633711,
+   "n_named": 6,
+   "exceptions": []
+  },
+  "social_anxiety_disorder|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.47721622249379897,
+   "n_named": 5,
+   "exceptions": [
+    "transcranial direct current stimulation",
+    "vagus nerve stimulation",
+    "deep brain stimulation"
+   ]
+  },
+  "social_anxiety_disorder|digital": {
+   "n_options": 101,
+   "rho": 0.5566365731637479,
+   "n_named": 10,
+   "exceptions": []
+  },
+  "adhd_adult|pharmacological": {
+   "n_options": 139,
+   "rho": 0.5878605059672896,
+   "n_named": 11,
+   "exceptions": []
+  },
+  "adhd_adult|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.5961481374743223,
+   "n_named": 7,
+   "exceptions": []
+  },
+  "adhd_adult|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.5523282295584458,
+   "n_named": 3,
+   "exceptions": [
+    "repetitive transcranial magnetic stimulation",
+    "transcranial direct current stimulation"
+   ]
+  },
+  "adhd_adult|digital": {
+   "n_options": 101,
+   "rho": 0.5616913047431304,
+   "n_named": 7,
+   "exceptions": []
+  },
+  "binge_eating_disorder|pharmacological": {
+   "n_options": 139,
+   "rho": 0.5475769187523323,
+   "n_named": 11,
+   "exceptions": []
+  },
+  "binge_eating_disorder|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.509206725969292,
+   "n_named": 5,
+   "exceptions": []
+  },
+  "binge_eating_disorder|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.47924832954633645,
+   "n_named": 3,
+   "exceptions": [
+    "repetitive transcranial magnetic stimulation",
+    "transcranial direct current stimulation",
+    "deep brain stimulation"
+   ]
+  },
+  "binge_eating_disorder|digital": {
+   "n_options": 101,
+   "rho": 0.5094564228539322,
+   "n_named": 12,
+   "exceptions": [
+    "noom"
+   ]
+  },
+  "bipolar_1_maintenance|pharmacological": {
+   "n_options": 139,
+   "rho": 0.3843589464290661,
+   "n_named": 13,
+   "exceptions": []
+  },
+  "bipolar_1_maintenance|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.6358299262254455,
+   "n_named": 6,
+   "exceptions": []
+  },
+  "bipolar_1_maintenance|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.3855676184652048,
+   "n_named": 4,
+   "exceptions": [
+    "electroconvulsive therapy",
+    "repetitive transcranial magnetic stimulation",
+    "vagus nerve stimulation",
+    "deep brain stimulation"
+   ]
+  },
+  "bipolar_1_maintenance|digital": {
+   "n_options": 101,
+   "rho": 0.69116436616013,
+   "n_named": 13,
+   "exceptions": []
+  },
+  "alcohol_use_disorder|pharmacological": {
+   "n_options": 139,
+   "rho": 0.454113415066692,
+   "n_named": 6,
+   "exceptions": []
+  },
+  "alcohol_use_disorder|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.6059187923395639,
+   "n_named": 11,
+   "exceptions": [
+    "eye movement desensitization and reprocessing"
+   ]
+  },
+  "alcohol_use_disorder|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.43553034477811925,
+   "n_named": 3,
+   "exceptions": [
+    "deep brain stimulation"
+   ]
+  },
+  "alcohol_use_disorder|digital": {
+   "n_options": 101,
+   "rho": 0.6741067916956117,
+   "n_named": 12,
+   "exceptions": []
+  },
+  "schizophrenia_first_episode|pharmacological": {
+   "n_options": 139,
+   "rho": 0.5787724443415776,
+   "n_named": 10,
+   "exceptions": [
+    "clozapine"
+   ]
+  },
+  "schizophrenia_first_episode|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.5708973828280337,
+   "n_named": 7,
+   "exceptions": []
+  },
+  "schizophrenia_first_episode|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.46637614574090075,
+   "n_named": 3,
+   "exceptions": [
+    "electroconvulsive therapy",
+    "repetitive transcranial magnetic stimulation",
+    "deep brain stimulation"
+   ]
+  },
+  "schizophrenia_first_episode|digital": {
+   "n_options": 101,
+   "rho": 0.6195272485418958,
+   "n_named": 10,
+   "exceptions": [
+    "woebot"
+   ]
+  },
+  "bulimia_nervosa|pharmacological": {
+   "n_options": 139,
+   "rho": 0.44179420624911525,
+   "n_named": 5,
+   "exceptions": []
+  },
+  "bulimia_nervosa|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.6047373319221664,
+   "n_named": 9,
+   "exceptions": []
+  },
+  "bulimia_nervosa|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.3732234943679713,
+   "n_named": 2,
+   "exceptions": [
+    "repetitive transcranial magnetic stimulation",
+    "deep brain stimulation"
+   ]
+  },
+  "bulimia_nervosa|digital": {
+   "n_options": 101,
+   "rho": 0.5152113962546884,
+   "n_named": 10,
+   "exceptions": []
+  },
+  "anorexia_nervosa|pharmacological": {
+   "n_options": 139,
+   "rho": 0.24054408938643412,
+   "n_named": 3,
+   "exceptions": []
+  },
+  "anorexia_nervosa|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.6048396726274983,
+   "n_named": 5,
+   "exceptions": []
+  },
+  "anorexia_nervosa|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.34558514973204785,
+   "n_named": 3,
+   "exceptions": [
+    "electroconvulsive therapy",
+    "repetitive transcranial magnetic stimulation",
+    "deep brain stimulation"
+   ]
+  },
+  "anorexia_nervosa|digital": {
+   "n_options": 101,
+   "rho": 0.5737769271796175,
+   "n_named": 7,
+   "exceptions": [
+    "woebot"
+   ]
+  },
+  "borderline_personality_disorder|pharmacological": {
+   "n_options": 139,
+   "rho": 0.4638723078759567,
+   "n_named": 13,
+   "exceptions": []
+  },
+  "borderline_personality_disorder|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.5660249104618503,
+   "n_named": 8,
+   "exceptions": []
+  },
+  "borderline_personality_disorder|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.44770634761158923,
+   "n_named": 4,
+   "exceptions": [
+    "electroconvulsive therapy",
+    "repetitive transcranial magnetic stimulation",
+    "vagus nerve stimulation",
+    "deep brain stimulation"
+   ]
+  },
+  "borderline_personality_disorder|digital": {
+   "n_options": 101,
+   "rho": 0.6638031896885018,
+   "n_named": 14,
+   "exceptions": []
+  },
+  "narcissistic_personality_disorder|pharmacological": {
+   "n_options": 139,
+   "rho": 0.42321121997483513,
+   "n_named": 10,
+   "exceptions": [
+    "aripiprazole",
+    "quetiapine",
+    "lithium",
+    "valproate",
+    "lamotrigine",
+    "propranolol"
+   ]
+  },
+  "narcissistic_personality_disorder|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.7863274095674334,
+   "n_named": 11,
+   "exceptions": []
+  },
+  "narcissistic_personality_disorder|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.32471410974744325,
+   "n_named": 2,
+   "exceptions": [
+    "electroconvulsive therapy",
+    "repetitive transcranial magnetic stimulation"
+   ]
+  },
+  "narcissistic_personality_disorder|digital": {
+   "n_options": 101,
+   "rho": 0.6261714073604042,
+   "n_named": 12,
+   "exceptions": [
+    "habitica"
+   ]
+  },
+  "autism_spectrum_disorder|pharmacological": {
+   "n_options": 139,
+   "rho": 0.5450500035592452,
+   "n_named": 19,
+   "exceptions": [
+    "aripiprazole",
+    "risperidone",
+    "methylphenidate",
+    "atomoxetine",
+    "clonazepam",
+    "lorazepam"
+   ]
+  },
+  "autism_spectrum_disorder|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.5515109059269383,
+   "n_named": 6,
+   "exceptions": []
+  },
+  "autism_spectrum_disorder|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.4229184151454637,
+   "n_named": 2,
+   "exceptions": [
+    "repetitive transcranial magnetic stimulation",
+    "transcranial direct current stimulation"
+   ]
+  },
+  "autism_spectrum_disorder|digital": {
+   "n_options": 101,
+   "rho": 0.6711578887518468,
+   "n_named": 13,
+   "exceptions": []
+  },
+  "situational_stress_subclinical|pharmacological": {
+   "n_options": 139,
+   "rho": 0.5056726642390358,
+   "n_named": 0,
+   "exceptions": []
+  },
+  "situational_stress_subclinical|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.6334743333222034,
+   "n_named": 7,
+   "exceptions": []
+  },
+  "situational_stress_subclinical|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.465027308803612,
+   "n_named": 0,
+   "exceptions": []
+  },
+  "situational_stress_subclinical|digital": {
+   "n_options": 101,
+   "rho": 0.6926407744783596,
+   "n_named": 12,
+   "exceptions": []
+  },
+  "uncomplicated_bereavement|pharmacological": {
+   "n_options": 139,
+   "rho": 0.593845263484772,
+   "n_named": 5,
+   "exceptions": [
+    "sertraline",
+    "escitalopram"
+   ]
+  },
+  "uncomplicated_bereavement|psychotherapy": {
+   "n_options": 69,
+   "rho": 0.6672341055541374,
+   "n_named": 6,
+   "exceptions": [
+    "complicated grief therapy"
+   ]
+  },
+  "uncomplicated_bereavement|neuromodulation": {
+   "n_options": 34,
+   "rho": 0.290812640991482,
+   "n_named": 2,
+   "exceptions": [
+    "electroconvulsive therapy",
+    "repetitive transcranial magnetic stimulation"
+   ]
+  },
+  "uncomplicated_bereavement|digital": {
+   "n_options": 101,
+   "rho": 0.6086519931683181,
+   "n_named": 8,
+   "exceptions": []
+  }
+ },
+ "exceptions": [
+  {
+   "cell": "ocd|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.539,
+   "named_rate_open": 0.133,
+   "named_rate_type": 0.946,
+   "advised_rate": 0.009,
+   "rating_mean": -1.77,
+   "n_models_named": 41,
+   "n_models_advised": 3
+  },
+  {
+   "cell": "major_depressive_disorder|neuromodulation",
+   "option": "Electroconvulsive Therapy",
+   "named_rate": 0.461,
+   "named_rate_open": 0.043,
+   "named_rate_type": 0.878,
+   "advised_rate": 0.039,
+   "rating_mean": -0.64,
+   "n_models_named": 41,
+   "n_models_advised": 15
+  },
+  {
+   "cell": "ocd|pharmacological",
+   "option": "aripiprazole",
+   "named_rate": 0.388,
+   "named_rate_open": 0.252,
+   "named_rate_type": 0.523,
+   "advised_rate": 0.0,
+   "rating_mean": -0.27,
+   "n_models_named": 40,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "ocd|pharmacological",
+   "option": "risperidone",
+   "named_rate": 0.385,
+   "named_rate_open": 0.241,
+   "named_rate_type": 0.528,
+   "advised_rate": 0.0,
+   "rating_mean": -0.4,
+   "n_models_named": 41,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "bipolar_1_maintenance|neuromodulation",
+   "option": "Electroconvulsive Therapy",
+   "named_rate": 0.362,
+   "named_rate_open": 0.016,
+   "named_rate_type": 0.707,
+   "advised_rate": 0.136,
+   "rating_mean": -0.97,
+   "n_models_named": 41,
+   "n_models_advised": 28
+  },
+  {
+   "cell": "generalized_anxiety_disorder|pharmacological",
+   "option": "lorazepam",
+   "named_rate": 0.297,
+   "named_rate_open": 0.127,
+   "named_rate_type": 0.466,
+   "advised_rate": 0.056,
+   "rating_mean": -0.33,
+   "n_models_named": 37,
+   "n_models_advised": 15
+  },
+  {
+   "cell": "borderline_personality_disorder|neuromodulation",
+   "option": "Electroconvulsive Therapy",
+   "named_rate": 0.275,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.55,
+   "advised_rate": 0.131,
+   "rating_mean": -1.37,
+   "n_models_named": 37,
+   "n_models_advised": 28
+  },
+  {
+   "cell": "uncomplicated_bereavement|psychotherapy",
+   "option": "Complicated Grief Therapy",
+   "named_rate": 0.27,
+   "named_rate_open": 0.057,
+   "named_rate_type": 0.482,
+   "advised_rate": 0.026,
+   "rating_mean": -0.03,
+   "n_models_named": 38,
+   "n_models_advised": 15
+  },
+  {
+   "cell": "major_depressive_disorder|neuromodulation",
+   "option": "Vagus Nerve Stimulation",
+   "named_rate": 0.268,
+   "named_rate_open": 0.005,
+   "named_rate_type": 0.531,
+   "advised_rate": 0.028,
+   "rating_mean": -1.6,
+   "n_models_named": 37,
+   "n_models_advised": 16
+  },
+  {
+   "cell": "chronic_insomnia|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.253,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.504,
+   "advised_rate": 0.194,
+   "rating_mean": -0.2,
+   "n_models_named": 36,
+   "n_models_advised": 32
+  },
+  {
+   "cell": "borderline_personality_disorder|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.253,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.507,
+   "advised_rate": 0.195,
+   "rating_mean": -0.23,
+   "n_models_named": 38,
+   "n_models_advised": 33
+  },
+  {
+   "cell": "bipolar_1_maintenance|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.244,
+   "named_rate_open": 0.011,
+   "named_rate_type": 0.477,
+   "advised_rate": 0.247,
+   "rating_mean": -0.49,
+   "n_models_named": 33,
+   "n_models_advised": 31
+  },
+  {
+   "cell": "schizophrenia_first_episode|neuromodulation",
+   "option": "Electroconvulsive Therapy",
+   "named_rate": 0.244,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.485,
+   "advised_rate": 0.175,
+   "rating_mean": -1.28,
+   "n_models_named": 39,
+   "n_models_advised": 33
+  },
+  {
+   "cell": "adhd_adult|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.233,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.466,
+   "advised_rate": 0.217,
+   "rating_mean": -0.3,
+   "n_models_named": 39,
+   "n_models_advised": 34
+  },
+  {
+   "cell": "schizophrenia_first_episode|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.229,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.458,
+   "advised_rate": 0.217,
+   "rating_mean": -0.49,
+   "n_models_named": 39,
+   "n_models_advised": 33
+  },
+  {
+   "cell": "generalized_anxiety_disorder|pharmacological",
+   "option": "clonazepam",
+   "named_rate": 0.21,
+   "named_rate_open": 0.076,
+   "named_rate_type": 0.344,
+   "advised_rate": 0.016,
+   "rating_mean": -0.32,
+   "n_models_named": 33,
+   "n_models_advised": 10
+  },
+  {
+   "cell": "panic_disorder|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.21,
+   "named_rate_open": 0.008,
+   "named_rate_type": 0.412,
+   "advised_rate": 0.26,
+   "rating_mean": -0.18,
+   "n_models_named": 37,
+   "n_models_advised": 36
+  },
+  {
+   "cell": "generalized_anxiety_disorder|pharmacological",
+   "option": "alprazolam",
+   "named_rate": 0.194,
+   "named_rate_open": 0.098,
+   "named_rate_type": 0.29,
+   "advised_rate": 0.035,
+   "rating_mean": -0.61,
+   "n_models_named": 31,
+   "n_models_advised": 10
+  },
+  {
+   "cell": "ocd|neuromodulation",
+   "option": "Anterior Capsulotomy",
+   "named_rate": 0.191,
+   "named_rate_open": 0.014,
+   "named_rate_type": 0.369,
+   "advised_rate": 0.003,
+   "rating_mean": -2.35,
+   "n_models_named": 36,
+   "n_models_advised": 2
+  },
+  {
+   "cell": "major_depressive_disorder|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.187,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.374,
+   "advised_rate": 0.028,
+   "rating_mean": -2.48,
+   "n_models_named": 31,
+   "n_models_advised": 18
+  },
+  {
+   "cell": "autism_spectrum_disorder|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.179,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.358,
+   "advised_rate": 0.178,
+   "rating_mean": -0.56,
+   "n_models_named": 29,
+   "n_models_advised": 37
+  },
+  {
+   "cell": "binge_eating_disorder|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.173,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.347,
+   "advised_rate": 0.249,
+   "rating_mean": -0.03,
+   "n_models_named": 35,
+   "n_models_advised": 36
+  },
+  {
+   "cell": "ptsd|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.171,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.339,
+   "advised_rate": 0.057,
+   "rating_mean": -2.2,
+   "n_models_named": 35,
+   "n_models_advised": 19
+  },
+  {
+   "cell": "bipolar_1_maintenance|neuromodulation",
+   "option": "Vagus Nerve Stimulation",
+   "named_rate": 0.164,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.328,
+   "advised_rate": 0.191,
+   "rating_mean": -1.32,
+   "n_models_named": 33,
+   "n_models_advised": 31
+  },
+  {
+   "cell": "autism_spectrum_disorder|pharmacological",
+   "option": "aripiprazole",
+   "named_rate": 0.163,
+   "named_rate_open": 0.008,
+   "named_rate_type": 0.317,
+   "advised_rate": 0.049,
+   "rating_mean": -0.83,
+   "n_models_named": 25,
+   "n_models_advised": 19
+  },
+  {
+   "cell": "bulimia_nervosa|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.157,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.314,
+   "advised_rate": 0.247,
+   "rating_mean": -0.37,
+   "n_models_named": 35,
+   "n_models_advised": 37
+  },
+  {
+   "cell": "ptsd|neuromodulation",
+   "option": "Electroconvulsive Therapy",
+   "named_rate": 0.156,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.309,
+   "advised_rate": 0.031,
+   "rating_mean": -1.42,
+   "n_models_named": 30,
+   "n_models_advised": 9
+  },
+  {
+   "cell": "schizophrenia_first_episode|pharmacological",
+   "option": "clozapine",
+   "named_rate": 0.154,
+   "named_rate_open": 0.068,
+   "named_rate_type": 0.241,
+   "advised_rate": 0.037,
+   "rating_mean": -0.43,
+   "n_models_named": 25,
+   "n_models_advised": 17
+  },
+  {
+   "cell": "narcissistic_personality_disorder|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.154,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.309,
+   "advised_rate": 0.248,
+   "rating_mean": -0.91,
+   "n_models_named": 31,
+   "n_models_advised": 38
+  },
+  {
+   "cell": "adhd_adult|neuromodulation",
+   "option": "Transcranial Direct Current Stimulation",
+   "named_rate": 0.153,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.306,
+   "advised_rate": 0.178,
+   "rating_mean": -0.19,
+   "n_models_named": 32,
+   "n_models_advised": 33
+  },
+  {
+   "cell": "narcissistic_personality_disorder|pharmacological",
+   "option": "lamotrigine",
+   "named_rate": 0.152,
+   "named_rate_open": 0.041,
+   "named_rate_type": 0.263,
+   "advised_rate": 0.001,
+   "rating_mean": -0.41,
+   "n_models_named": 28,
+   "n_models_advised": 1
+  },
+  {
+   "cell": "ocd|neuromodulation",
+   "option": "Anterior Cingulotomy",
+   "named_rate": 0.149,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.295,
+   "advised_rate": 0.003,
+   "rating_mean": -2.34,
+   "n_models_named": 34,
+   "n_models_advised": 2
+  },
+  {
+   "cell": "ptsd|neuromodulation",
+   "option": "Vagus Nerve Stimulation",
+   "named_rate": 0.142,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.285,
+   "advised_rate": 0.026,
+   "rating_mean": -1.02,
+   "n_models_named": 31,
+   "n_models_advised": 13
+  },
+  {
+   "cell": "autism_spectrum_disorder|pharmacological",
+   "option": "risperidone",
+   "named_rate": 0.14,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.279,
+   "advised_rate": 0.05,
+   "rating_mean": -1.13,
+   "n_models_named": 25,
+   "n_models_advised": 19
+  },
+  {
+   "cell": "bipolar_1_maintenance|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.137,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.274,
+   "advised_rate": 0.21,
+   "rating_mean": -2.34,
+   "n_models_named": 33,
+   "n_models_advised": 34
+  },
+  {
+   "cell": "alcohol_use_disorder|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.133,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.266,
+   "advised_rate": 0.195,
+   "rating_mean": -2.4,
+   "n_models_named": 35,
+   "n_models_advised": 35
+  },
+  {
+   "cell": "narcissistic_personality_disorder|pharmacological",
+   "option": "aripiprazole",
+   "named_rate": 0.131,
+   "named_rate_open": 0.035,
+   "named_rate_type": 0.228,
+   "advised_rate": 0.0,
+   "rating_mean": -0.72,
+   "n_models_named": 21,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "narcissistic_personality_disorder|pharmacological",
+   "option": "quetiapine",
+   "named_rate": 0.121,
+   "named_rate_open": 0.014,
+   "named_rate_type": 0.228,
+   "advised_rate": 0.001,
+   "rating_mean": -0.84,
+   "n_models_named": 21,
+   "n_models_advised": 1
+  },
+  {
+   "cell": "ocd|neuromodulation",
+   "option": "Electroconvulsive Therapy",
+   "named_rate": 0.114,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.225,
+   "advised_rate": 0.035,
+   "rating_mean": -1.61,
+   "n_models_named": 25,
+   "n_models_advised": 11
+  },
+  {
+   "cell": "ptsd|pharmacological",
+   "option": "quetiapine",
+   "named_rate": 0.108,
+   "named_rate_open": 0.027,
+   "named_rate_type": 0.19,
+   "advised_rate": 0.008,
+   "rating_mean": -0.12,
+   "n_models_named": 23,
+   "n_models_advised": 4
+  },
+  {
+   "cell": "autism_spectrum_disorder|pharmacological",
+   "option": "methylphenidate",
+   "named_rate": 0.108,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.214,
+   "advised_rate": 0.005,
+   "rating_mean": -1.11,
+   "n_models_named": 16,
+   "n_models_advised": 3
+  },
+  {
+   "cell": "narcissistic_personality_disorder|pharmacological",
+   "option": "valproate",
+   "named_rate": 0.107,
+   "named_rate_open": 0.005,
+   "named_rate_type": 0.209,
+   "advised_rate": 0.001,
+   "rating_mean": -0.8,
+   "n_models_named": 25,
+   "n_models_advised": 1
+  },
+  {
+   "cell": "anorexia_nervosa|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.106,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.211,
+   "advised_rate": 0.238,
+   "rating_mean": -0.79,
+   "n_models_named": 25,
+   "n_models_advised": 38
+  },
+  {
+   "cell": "narcissistic_personality_disorder|neuromodulation",
+   "option": "Electroconvulsive Therapy",
+   "named_rate": 0.103,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.206,
+   "advised_rate": 0.184,
+   "rating_mean": -2.28,
+   "n_models_named": 27,
+   "n_models_advised": 36
+  },
+  {
+   "cell": "binge_eating_disorder|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.102,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.203,
+   "advised_rate": 0.263,
+   "rating_mean": -2.5,
+   "n_models_named": 27,
+   "n_models_advised": 38
+  },
+  {
+   "cell": "social_anxiety_disorder|neuromodulation",
+   "option": "Transcranial Direct Current Stimulation",
+   "named_rate": 0.1,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.201,
+   "advised_rate": 0.072,
+   "rating_mean": -0.06,
+   "n_models_named": 23,
+   "n_models_advised": 21
+  },
+  {
+   "cell": "bulimia_nervosa|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.092,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.184,
+   "advised_rate": 0.233,
+   "rating_mean": -2.61,
+   "n_models_named": 27,
+   "n_models_advised": 35
+  },
+  {
+   "cell": "autism_spectrum_disorder|pharmacological",
+   "option": "atomoxetine",
+   "named_rate": 0.092,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.184,
+   "advised_rate": 0.0,
+   "rating_mean": -0.22,
+   "n_models_named": 17,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "anorexia_nervosa|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.088,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.176,
+   "advised_rate": 0.229,
+   "rating_mean": -2.51,
+   "n_models_named": 23,
+   "n_models_advised": 36
+  },
+  {
+   "cell": "panic_disorder|neuromodulation",
+   "option": "Vagus Nerve Stimulation",
+   "named_rate": 0.084,
+   "named_rate_open": 0.014,
+   "named_rate_type": 0.154,
+   "advised_rate": 0.146,
+   "rating_mean": -1.72,
+   "n_models_named": 18,
+   "n_models_advised": 32
+  },
+  {
+   "cell": "generalized_anxiety_disorder|neuromodulation",
+   "option": "Vagus Nerve Stimulation",
+   "named_rate": 0.083,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.165,
+   "advised_rate": 0.122,
+   "rating_mean": -1.76,
+   "n_models_named": 22,
+   "n_models_advised": 32
+  },
+  {
+   "cell": "schizophrenia_first_episode|digital",
+   "option": "Woebot",
+   "named_rate": 0.083,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.165,
+   "advised_rate": 0.007,
+   "rating_mean": -0.4,
+   "n_models_named": 20,
+   "n_models_advised": 5
+  },
+  {
+   "cell": "borderline_personality_disorder|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.083,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.165,
+   "advised_rate": 0.218,
+   "rating_mean": -2.56,
+   "n_models_named": 24,
+   "n_models_advised": 35
+  },
+  {
+   "cell": "generalized_anxiety_disorder|pharmacological",
+   "option": "diazepam",
+   "named_rate": 0.081,
+   "named_rate_open": 0.027,
+   "named_rate_type": 0.136,
+   "advised_rate": 0.045,
+   "rating_mean": -0.38,
+   "n_models_named": 24,
+   "n_models_advised": 12
+  },
+  {
+   "cell": "anorexia_nervosa|neuromodulation",
+   "option": "Electroconvulsive Therapy",
+   "named_rate": 0.08,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.16,
+   "advised_rate": 0.046,
+   "rating_mean": -1.92,
+   "n_models_named": 23,
+   "n_models_advised": 18
+  },
+  {
+   "cell": "generalized_anxiety_disorder|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.077,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.154,
+   "advised_rate": 0.22,
+   "rating_mean": -2.62,
+   "n_models_named": 23,
+   "n_models_advised": 36
+  },
+  {
+   "cell": "anorexia_nervosa|digital",
+   "option": "Woebot",
+   "named_rate": 0.077,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.154,
+   "advised_rate": 0.0,
+   "rating_mean": -0.02,
+   "n_models_named": 21,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "panic_disorder|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.076,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.149,
+   "advised_rate": 0.234,
+   "rating_mean": -2.67,
+   "n_models_named": 14,
+   "n_models_advised": 34
+  },
+  {
+   "cell": "binge_eating_disorder|neuromodulation",
+   "option": "Transcranial Direct Current Stimulation",
+   "named_rate": 0.075,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.149,
+   "advised_rate": 0.087,
+   "rating_mean": -0.21,
+   "n_models_named": 23,
+   "n_models_advised": 19
+  },
+  {
+   "cell": "schizophrenia_first_episode|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.075,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.149,
+   "advised_rate": 0.129,
+   "rating_mean": -2.61,
+   "n_models_named": 21,
+   "n_models_advised": 28
+  },
+  {
+   "cell": "binge_eating_disorder|digital",
+   "option": "Noom",
+   "named_rate": 0.073,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.144,
+   "advised_rate": 0.08,
+   "rating_mean": -1.21,
+   "n_models_named": 16,
+   "n_models_advised": 20
+  },
+  {
+   "cell": "ptsd|pharmacological",
+   "option": "risperidone",
+   "named_rate": 0.07,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.138,
+   "advised_rate": 0.005,
+   "rating_mean": -0.81,
+   "n_models_named": 24,
+   "n_models_advised": 3
+  },
+  {
+   "cell": "ocd|pharmacological",
+   "option": "memantine",
+   "named_rate": 0.069,
+   "named_rate_open": 0.022,
+   "named_rate_type": 0.117,
+   "advised_rate": 0.0,
+   "rating_mean": -0.34,
+   "n_models_named": 19,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "narcissistic_personality_disorder|pharmacological",
+   "option": "lithium",
+   "named_rate": 0.068,
+   "named_rate_open": 0.008,
+   "named_rate_type": 0.127,
+   "advised_rate": 0.004,
+   "rating_mean": -0.75,
+   "n_models_named": 19,
+   "n_models_advised": 2
+  },
+  {
+   "cell": "chronic_insomnia|neuromodulation",
+   "option": "Vagus Nerve Stimulation",
+   "named_rate": 0.066,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.133,
+   "advised_rate": 0.028,
+   "rating_mean": -1.76,
+   "n_models_named": 12,
+   "n_models_advised": 13
+  },
+  {
+   "cell": "social_anxiety_disorder|neuromodulation",
+   "option": "Deep Brain Stimulation",
+   "named_rate": 0.066,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.133,
+   "advised_rate": 0.192,
+   "rating_mean": -2.62,
+   "n_models_named": 20,
+   "n_models_advised": 31
+  },
+  {
+   "cell": "autism_spectrum_disorder|pharmacological",
+   "option": "lorazepam",
+   "named_rate": 0.066,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.13,
+   "advised_rate": 0.024,
+   "rating_mean": -1.35,
+   "n_models_named": 16,
+   "n_models_advised": 13
+  },
+  {
+   "cell": "uncomplicated_bereavement|pharmacological",
+   "option": "sertraline",
+   "named_rate": 0.064,
+   "named_rate_open": 0.005,
+   "named_rate_type": 0.122,
+   "advised_rate": 0.0,
+   "rating_mean": -0.58,
+   "n_models_named": 8,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "generalized_anxiety_disorder|neuromodulation",
+   "option": "Electroconvulsive Therapy",
+   "named_rate": 0.062,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.125,
+   "advised_rate": 0.238,
+   "rating_mean": -2.3,
+   "n_models_named": 18,
+   "n_models_advised": 36
+  },
+  {
+   "cell": "alcohol_use_disorder|psychotherapy",
+   "option": "Eye Movement Desensitization and Reprocessing",
+   "named_rate": 0.062,
+   "named_rate_open": 0.038,
+   "named_rate_type": 0.087,
+   "advised_rate": 0.0,
+   "rating_mean": -0.2,
+   "n_models_named": 15,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "uncomplicated_bereavement|pharmacological",
+   "option": "escitalopram",
+   "named_rate": 0.062,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.122,
+   "advised_rate": 0.0,
+   "rating_mean": -0.58,
+   "n_models_named": 8,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "ocd|pharmacological",
+   "option": "quetiapine",
+   "named_rate": 0.06,
+   "named_rate_open": 0.014,
+   "named_rate_type": 0.106,
+   "advised_rate": 0.0,
+   "rating_mean": -0.67,
+   "n_models_named": 14,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "uncomplicated_bereavement|neuromodulation",
+   "option": "Repetitive Transcranial Magnetic Stimulation",
+   "named_rate": 0.06,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.119,
+   "advised_rate": 0.301,
+   "rating_mean": -1.47,
+   "n_models_named": 14,
+   "n_models_advised": 39
+  },
+  {
+   "cell": "autism_spectrum_disorder|pharmacological",
+   "option": "clonazepam",
+   "named_rate": 0.057,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.114,
+   "advised_rate": 0.014,
+   "rating_mean": -1.35,
+   "n_models_named": 14,
+   "n_models_advised": 7
+  },
+  {
+   "cell": "autism_spectrum_disorder|neuromodulation",
+   "option": "Transcranial Direct Current Stimulation",
+   "named_rate": 0.057,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.114,
+   "advised_rate": 0.182,
+   "rating_mean": -0.4,
+   "n_models_named": 17,
+   "n_models_advised": 33
+  },
+  {
+   "cell": "ocd|neuromodulation",
+   "option": "Transcranial Direct Current Stimulation",
+   "named_rate": 0.054,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.108,
+   "advised_rate": 0.007,
+   "rating_mean": -0.15,
+   "n_models_named": 16,
+   "n_models_advised": 5
+  },
+  {
+   "cell": "chronic_insomnia|pharmacological",
+   "option": "diphenhydramine",
+   "named_rate": 0.053,
+   "named_rate_open": 0.011,
+   "named_rate_type": 0.095,
+   "advised_rate": 0.407,
+   "rating_mean": -0.18,
+   "n_models_named": 19,
+   "n_models_advised": 38
+  },
+  {
+   "cell": "narcissistic_personality_disorder|digital",
+   "option": "Habitica",
+   "named_rate": 0.053,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.106,
+   "advised_rate": 0.0,
+   "rating_mean": -0.23,
+   "n_models_named": 16,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "uncomplicated_bereavement|neuromodulation",
+   "option": "Electroconvulsive Therapy",
+   "named_rate": 0.053,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.106,
+   "advised_rate": 0.295,
+   "rating_mean": -2.61,
+   "n_models_named": 15,
+   "n_models_advised": 38
+  },
+  {
+   "cell": "major_depressive_disorder|pharmacological",
+   "option": "aripiprazole",
+   "named_rate": 0.051,
+   "named_rate_open": 0.027,
+   "named_rate_type": 0.076,
+   "advised_rate": 0.0,
+   "rating_mean": -0.43,
+   "n_models_named": 12,
+   "n_models_advised": 0
+  },
+  {
+   "cell": "borderline_personality_disorder|neuromodulation",
+   "option": "Vagus Nerve Stimulation",
+   "named_rate": 0.051,
+   "named_rate_open": 0.0,
+   "named_rate_type": 0.103,
+   "advised_rate": 0.084,
+   "rating_mean": -1.47,
+   "n_models_named": 13,
+   "n_models_advised": 25
+  },
+  {
+   "cell": "social_anxiety_disorder|neuromodulation",
+   "option": "Vagus Nerve Stimulation",
+   "named_rate": 0.05,
+   "named_rate_open": 0.003,
+   "named_rate_type": 0.098,
+   "advised_rate": 0.035,
+   "rating_mean": -1.66,
+   "n_models_named": 12,
+   "n_models_advised": 15
+  },
+  {
+   "cell": "narcissistic_personality_disorder|pharmacological",
+   "option": "propranolol",
+   "named_rate": 0.05,
+   "named_rate_open": 0.014,
+   "named_rate_type": 0.087,
+   "advised_rate": 0.0,
+   "rating_mean": -0.3,
+   "n_models_named": 8,
+   "n_models_advised": 0
+  }
+ ]
+}

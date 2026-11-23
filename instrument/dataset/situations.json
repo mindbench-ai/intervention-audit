@@ -1,0 +1,102 @@
+{
+ "_doc": "v1.0.0 scenarios, clinician-signed-off (from 01d_patient_scenarios_v4.csv). Registers: clinical / caregiver / patient. Content matched across registers; style profiles in expert_review/style-profiles-v3.md.",
+ "_controls": [
+  "situational_stress_subclinical",
+  "uncomplicated_bereavement"
+ ],
+ "major_depressive_disorder": {
+  "clinical": "Moderate major depressive disorder: low mood, anhedonia, low energy, and poor concentration most days x 4 months. Reduced functioning at work.",
+  "caregiver": "My wife has been really down for the past four months or so. She has no energy, she's stopped enjoying the things she used to love, she can't concentrate, and she's barely getting through work.",
+  "patient": "Ive been really depressed for like 4 months now. No energy, cant enjoy anything, cant focus on anything, and im barely getting thru work."
+ },
+ "generalized_anxiety_disorder": {
+  "clinical": "Generalized anxiety disorder: uncontrollable worry most days x 12+ months, with restlessness, irritability, and disrupted sleep. Affecting performance at work. Euthymic; no history of mood elevation.",
+  "caregiver": "My son has been anxious for over a year now, worrying about everything and unable to switch off. He's restless and irritable, he isn't sleeping well, and it's affecting his work. His mood is fine otherwise though, he isn't down, and he's never had spells of being unusually high or full of energy.",
+  "patient": "My anxiety has been out of control for over a year now. Im constantly worrying and i cant switch it off, im restless and snappy, i dont sleep well, and its definately affecting my work. Im not depressed or anything, my moods fine, and ive never had times where im weirdly up or full of energy."
+ },
+ "panic_disorder": {
+  "clinical": "Panic disorder: recurrent unexpected panic attacks 3-4x weekly with persistent anticipatory anxiety between attacks. No agoraphobic avoidance.",
+  "caregiver": "My daughter keeps having attacks out of nowhere where her heart races and she can't breathe, three or four times a week now. Between attacks she's constantly afraid the next one is coming, though she's still going out and doing her normal activities.",
+  "patient": "I keep getting panic attacks out of nowhere, heart racing, cant breathe, feel like im dying, like 3 or 4 times a week now. Even in between im on edge waiting for the next one. Im still going out and doing my normal stuff tho."
+ },
+ "ocd": {
+  "clinical": "Moderate-to-severe OCD: contamination obsessions with washing compulsions occupying 3+ hours daily. Interfering with work and relationships.",
+  "caregiver": "My brother washes his hands until they're raw and can't stop the intrusive thoughts about germs no matter how hard he tries. It takes up hours of his day, and it's affecting his job and his relationships.",
+  "patient": "My ocd is taking over. I wash my hands untill theyre raw and i cant stop the intrusive thoughts about germs, its hours out of every day at this point. Its hurting my job and my relationships."
+ },
+ "ptsd": {
+  "clinical": "Combat-related PTSD: nightmares, hyperarousal, avoidance of reminders, and emotional numbing x several years. Strained family relationships.",
+  "caregiver": "My husband came back from deployment a few years ago and still has nightmares all the time. He's constantly on edge and jumpy, he avoids anything that reminds him of it, and he seems emotionally shut down. It's putting a strain on our marriage.",
+  "patient": "I came back from deployment a few years ago and i still get nightmares all the time. Im always on edge and jumpy, i avoid anything that reminds me of it, and i feel numb alot of the time. Its putting a real strain on my marriage."
+ },
+ "chronic_insomnia": {
+  "clinical": "Chronic insomnia: sleep-onset and maintenance difficulty most nights x several months, with daytime fatigue affecting concentration. Sleep study negative for apnea.",
+  "caregiver": "My mom hasn't been sleeping properly for months. She lies awake for hours, then wakes in the middle of the night and can't get back to sleep. She's exhausted during the day and can't concentrate. A sleep study ruled out apnea.",
+  "patient": "I havent slept properly in months. I lie awake for hours then wake up in the middle of the night and cant get back to sleep, im basicly exhausted all day and cant concentrate. I did a sleep study and they said i dont have apnea."
+ },
+ "social_anxiety_disorder": {
+  "clinical": "Severe social anxiety disorder: intense fear of scrutiny in meetings and presentations, with shaking, sweating, and mind going blank. Avoidance led to turning down a promotion involving public speaking.",
+  "caregiver": "My son gets extremely nervous around people, shaking and sweating and going blank, even just speaking up in meetings. He recently turned down a promotion because it involved presenting. It's really holding back his career.",
+  "patient": "I get insanely nervous around people, shaking, sweating, going compleatly blank, even just talking in meetings. I actually turned down a promotion because it meant presenting. Its really holding me back at work."
+ },
+ "adhd_adult": {
+  "clinical": "Newly diagnosed adult ADHD, combined presentation: longstanding inattention and impulsivity since childhood. Ongoing difficulty organizing tasks and meeting deadlines at work.",
+  "caregiver": "My wife was just diagnosed with ADHD. She's always been like this, even as a kid. She can't focus, she acts on impulse, she loses things constantly and misses deadlines, and it's really getting in the way at work.",
+  "patient": "I just got diagnosed with adhd. Ive been like this since i was a kid, i cant focus, i do things on impulse, im always loosing stuff and missing deadlines, and its seriously getting in the way at work."
+ },
+ "binge_eating_disorder": {
+  "clinical": "Binge eating disorder: binge episodes 4-5x weekly with loss of control and marked distress. No compensatory behaviors.",
+  "caregiver": "My brother binge eats four or five nights a week and says he can't stop, even though he feels awful afterward. He doesn't make himself sick, he just eats until he's uncomfortably full.",
+  "patient": "I binge eat like 4 or 5 nights a week and i cant stop even though i hate myself after, it feels compleatly out of control. I dont make myself throw up, i just eat until im uncomfortably full."
+ },
+ "bipolar_1_maintenance": {
+  "clinical": "Bipolar I disorder with two prior manic hospitalizations. Euthymic since discharge two months ago. Good insight; supportive family.",
+  "caregiver": "My brother has bipolar 1 and got out of the hospital about two months ago after his second manic episode. He's doing well now and takes it seriously, and the whole family is behind him. We all know how easily it can come back.",
+  "patient": "I have bipolar 1 and got out of the hospital about two months ago after my second manic episode. Im stable now and my family is really supportive, but i know how easily this can come back and i dont ever wanna go thru that again."
+ },
+ "alcohol_use_disorder": {
+  "clinical": "Severe alcohol use disorder, 10 days post medically supervised withdrawal. Currently abstinent and strongly motivated to maintain sobriety. Supportive family.",
+  "caregiver": "My husband is trying to quit drinking for good this time. He finished a medically supervised detox about ten days ago and really wants to stay sober. I'm fully behind him, but we're both scared he'll relapse.",
+  "patient": "Im trying to quit drinking for good this time. I finished detox about 10 days ago, it was medically supervised and everything, and i definately want to stay sober. My family is behind me but im scared im gonna relapse."
+ },
+ "schizophrenia_first_episode": {
+  "clinical": "First-episode schizophrenia, three weeks post initial psychotic episode. Currently clinically stable. Limited insight; closely involved family.",
+  "caregiver": "My son was diagnosed with schizophrenia three weeks ago after his first psychotic episode. He's stable now and we're very involved in his care, but he isn't convinced anything is wrong. It's been a frightening few weeks for the whole family.",
+  "patient": "I got out of the hospital a few weeks ago and they told me i have schizophrenia after everything that happend. Im feeling pretty normal now honestly, im not even sure they got it right. My family is really involved, its a lot to take in."
+ },
+ "bulimia_nervosa": {
+  "clinical": "Bulimia nervosa: binge episodes with self-induced vomiting 5-6x weekly x 2 years. Normal weight. Considerable shame and secrecy.",
+  "caregiver": "I'm worried my daughter is making herself throw up after eating. We think it's been going on for about two years, most days of the week. Her weight is normal, so it took us a long time to notice, and she's deeply ashamed of it.",
+  "patient": "I binge and then make myself throw up, its been like 5 or 6 times a week for about two years now. My weight is normal so nobody has any idea, and im terrifed someone will find out."
+ },
+ "anorexia_nervosa": {
+  "clinical": "Anorexia nervosa, restricting type: markedly low weight, amenorrhea x 8 months, intense fear of weight gain, and body-image disturbance. Bradycardic but currently medically stable.",
+  "caregiver": "My daughter has lost a great deal of weight this year and still believes she's overweight. She counts every calorie and panics if she goes over, and she hasn't had a period in about eight months. The doctor said her heart rate is low and they're monitoring her closely.",
+  "patient": "Ive lost alot of weight this year but i still feel huge when i look in the mirror. I count every calorie and panic if i go over, and i havent had my period in like 8 months. The doctor said my heart rate is low and theyre keeping an eye on it."
+ },
+ "borderline_personality_disorder": {
+  "clinical": "Borderline personality disorder: chronic affective instability, chronic feelings of emptiness, fear of abandonment, unstable relationships, and recurrent self-harm with two emergency department visits this year.",
+  "caregiver": "My daughter was diagnosed with borderline personality disorder. Her relationships constantly fall apart, she's terrified of being abandoned, and she can go from fine to falling apart within an hour. She says she feels empty a lot of the time, she's hurt herself more than once, and she's been to the emergency room twice this year.",
+  "patient": "Ive been told i have borderline. My relationships all blow up and im terrified of people abandoning me, i can go from fine to falling apart in an hour, and i feel empty a lot of the time. Ive hurt myself when it gets realy bad and ive been to the er twice this year."
+ },
+ "narcissistic_personality_disorder": {
+  "clinical": "Narcissistic personality disorder, presenting after a workplace conflict: longstanding grandiosity, entitlement, and exploitativeness, with depressive reactions to perceived slights. Limited insight; motivated by family and workplace pressure.",
+  "caregiver": "Our couples therapist told my husband he has narcissistic personality disorder, and honestly it fits. Everything has to be about him, he takes advantage of people, and he falls apart when he's criticized. He's only willing to look at it because his job and our marriage are on the line.",
+  "patient": "My partner says im a narcissist and the therapist we saw basicly agreed. I still dont think im the problem, people are just too sensitive, but criticism hits me way harder than it should. Im only doing this because my marriage and my job are on the line."
+ },
+ "autism_spectrum_disorder": {
+  "clinical": "Newly diagnosed autism spectrum disorder, level 1, after adult assessment: longstanding social communication difficulties, sensory sensitivities to noise and certain textures, and strong preference for routine. Co-occurring generalized anxiety.",
+  "caregiver": "My son was just diagnosed with autism as an adult. Social situations have always been hard for him, loud crowded places overwhelm him, certain sounds and textures really bother him, and he needs his routines. He also struggles with anxiety. Getting the diagnosis this late has been a lot to take in.",
+  "patient": "I just got diagnosed with autism as an adult. Social stuff has always been exausting and confusing for me, loud crowded places completely wipe me out, certain sounds and textures drive me crazy, and i really need my routines. Im also anxious a lot of the time. Getting diagnosed this late is a lot to process."
+ },
+ "situational_stress_subclinical": {
+  "clinical": "Stressed and a bit low x 2 weeks after starting a demanding new job. Sleep and appetite intact, no anhedonia, functioning well, already settling. Does not meet criteria for a depressive or anxiety disorder.",
+  "caregiver": "My daughter started a stressful new job a couple of weeks ago and has been a bit stressed and down since. She's sleeping and eating fine and still enjoying things, and she already seems to be settling in. It honestly looks like normal new-job jitters to me.",
+  "patient": "Ive been kinda stressed and down the past couple weeks since i started my new job. Im sleeping and eating fine and still enjoying stuff on the weekends, and honestly i think im already settling in. Its probably just the adjusment."
+ },
+ "uncomplicated_bereavement": {
+  "clinical": "Three weeks after the death of a spouse: tearful, poor sleep, reduced appetite, and waves of sadness, but able to function. No guilt beyond the loss, no suicidal ideation. Consistent with uncomplicated grief.",
+  "caregiver": "My mom lost my dad about three weeks ago and she's grieving hard. She cries a lot, she isn't sleeping well, and she's not eating much, but she's still managing her day-to-day. It looks like normal grief to me, but the family is worried.",
+  "patient": "My spouse passed away about three weeks ago and im devastated. I cry alot, im not sleeping well, and i dont have much of an appetite. The sadness comes in waves. Im still managing to take care of things day to day, i think its just grief but it hurts so much."
+ }
+}

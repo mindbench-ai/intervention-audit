@@ -1,0 +1,89 @@
+cff-version: 1.2.0
+message: "If you use the MindBench Intervention Audit, its instrument, or its data, please cite the paper that introduced it."
+title: "MindBench Intervention Audit"
+version: "1.0.0"
+license: [MIT, CC-BY-4.0]
+repository-code: "https://github.com/mindbench-ai/intervention-audit"
+url: "https://mindbench.ai/audits/interventions"
+authors:
+  - given-names: Matthew
+    family-names: Flathers
+  - given-names: Jill
+    family-names: Noorily
+  - given-names: Phuong Anh
+    family-names: Nguyen
+  - given-names: Mark
+    family-names: Kalinich
+  - given-names: Mina
+    family-names: Fallah
+  - given-names: Victoria
+    family-names: Lisowski
+  - given-names: Christine
+    family-names: Shi
+  - given-names: Rebekah M.
+    family-names: Bodner
+  - given-names: Anna
+    family-names: Simms
+  - given-names: Mihika
+    family-names: Hete
+  - given-names: Meiting
+    family-names: Chen
+  - given-names: Samuel K.
+    family-names: Powell
+  - given-names: Tatum
+    family-names: Williamson
+  - given-names: Laura
+    family-names: Ospina-Pinillos
+  - given-names: Haruka
+    family-names: Notsu
+  - given-names: Julian
+    family-names: Herpertz
+  - given-names: John
+    family-names: Torous
+preferred-citation:
+  type: article
+  title: "Curbside Chatbots: Auditing the Mental Health Interventions Large Language Models Recommend to Clinicians, Caregivers, and Patients"
+  authors:
+    - given-names: Matthew
+      family-names: Flathers
+    - given-names: Jill
+      family-names: Noorily
+    - given-names: Phuong Anh
+      family-names: Nguyen
+    - given-names: Mark
+      family-names: Kalinich
+    - given-names: Mina
+      family-names: Fallah
+    - given-names: Victoria
+      family-names: Lisowski
+    - given-names: Christine
+      family-names: Shi
+    - given-names: Rebekah M.
+      family-names: Bodner
+    - given-names: Anna
+      family-names: Simms
+    - given-names: Mihika
+      family-names: Hete
+    - given-names: Meiting
+      family-names: Chen
+    - given-names: Samuel K.
+      family-names: Powell
+    - given-names: Tatum
+      family-names: Williamson
+    - given-names: Laura
+      family-names: Ospina-Pinillos
+    - given-names: Haruka
+      family-names: Notsu
+    - given-names: Julian
+      family-names: Herpertz
+    - given-names: John
+      family-names: Torous
+  year: 2026
+  month: 11
+  journal: "arXiv"
+  url: "https://arxiv.org/abs/2611.12814"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.12814"
+    - type: doi
+      value: "10.48550/arXiv.2611.12814"

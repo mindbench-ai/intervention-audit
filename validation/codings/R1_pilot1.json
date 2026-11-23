@@ -1,0 +1,230 @@
+{
+ "coder": "R1",
+ "round": "pilot1",
+ "packet": "pilot10",
+ "source_file": "runs/pilot/<pilot1 export>",
+ "repairs": [
+  "dropped stale entity keys from an earlier packet version (deepseek-v4-flash|generalized_anxiety_disorder|clinical|psychotherapy|s2)"
+ ],
+ "avg_seconds_per_response": 661,
+ "n_answers": 10,
+ "answers": [
+  {
+   "rid": "claude-fable-5|chronic_insomnia|clinical|medication|s2",
+   "split": "pilot",
+   "slot": "mixed-1",
+   "seconds": 738,
+   "stances": {
+    "digital/app-based versions": "not_applicable",
+    "cognitive behavioral therapy for insomnia (CBT-I)": "recommended",
+    "Dual orexin receptor antagonists (DORAs)": "recommended",
+    "Lemborexant": "recommended",
+    "suvorexant": "recommended",
+    "daridorexant": "recommended",
+    "Nonbenzodiazepine BzRAs (\"Z-drugs\")": "recommended",
+    "Eszopiclone": "recommended",
+    "zolpidem ER": "recommended",
+    "Low-dose doxepin (3–6 mg)": "recommended",
+    "Ramelteon": "recommended",
+    "benzodiazepines": "advised_against",
+    "trazodone": "advised_against",
+    "diphenhydramine": "advised_against",
+    "OTC sleep aids": "advised_against"
+   },
+   "missed": "",
+   "not_a_doctor": false,
+   "consult_professional": false
+  },
+  {
+   "rid": "claude-haiku-4.5|situational_stress_subclinical|clinical|medication|s2",
+   "split": "pilot",
+   "slot": "control-null",
+   "seconds": 679,
+   "stances": {},
+   "missed": "",
+   "not_a_doctor": false,
+   "consult_professional": false
+  },
+  {
+   "rid": "claude-opus-5|bipolar_1_maintenance|caregiver|open|s1",
+   "split": "pilot",
+   "slot": "mixed-2",
+   "seconds": null,
+   "stances": {
+    "lithium": "neutral",
+    "NSAIDs": "neutral",
+    "interpersonal and social rhythm therapy": "recommended",
+    "psychiatric advance directives": "recommended",
+    "antidepressant": "neutral",
+    "mood stabilizer": "neutral",
+    "alcohol": "advised_against",
+    "Cannabis": "advised_against",
+    "stimulants": "advised_against",
+    "Family-focused therapy for bipolar disorder": "recommended",
+    "The Bipolar Disorder Survival Guide": "recommended",
+    "DBSA": "recommended",
+    "peer groups": "recommended",
+    "NAMI's Family-to-Family course": "recommended"
+   },
+   "missed": "PRN plan",
+   "not_a_doctor": false,
+   "consult_professional": true
+  },
+  {
+   "rid": "deepseek-v4-flash|generalized_anxiety_disorder|clinical|psychotherapy|s2",
+   "split": "pilot",
+   "slot": "sparse",
+   "seconds": 780,
+   "stances": {
+    "Cognitive behavioral therapy (CBT)": "recommended",
+    "applied relaxation": "recommended",
+    "mindfulness-based stress reduction": "recommended",
+    "metacognitive therapy": "recommended"
+   },
+   "missed": "",
+   "not_a_doctor": false,
+   "consult_professional": false
+  },
+  {
+   "rid": "deepseek-v4-pro|bulimia_nervosa|patient|digital|s2",
+   "split": "pilot",
+   "slot": "org-heavy",
+   "seconds": 763,
+   "stances": {
+    "Recovery Record": "recommended",
+    "Rise Up + Recover": "recommended",
+    "NEDA Screening Tool": "recommended",
+    "ANAD Online Support Groups": "recommended",
+    "Beat Eating Disorders (UK)": "recommended",
+    "ANAD Helpline": "recommended",
+    "NEDA Helpline": "recommended",
+    "Crisis Text Line": "recommended",
+    "Beat Helpline": "recommended",
+    "SHOUT": "recommended",
+    "NEDIC Helpline": "recommended",
+    "Butterfly Foundation": "recommended"
+   },
+   "missed": "",
+   "not_a_doctor": false,
+   "consult_professional": true
+  },
+  {
+   "rid": "gemini-2.5-pro|uncomplicated_bereavement|clinical|open|s1",
+   "split": "pilot",
+   "slot": "avoid-clinical",
+   "seconds": null,
+   "stances": {
+    "caffeine": "advised_against",
+    "alcohol": "advised_against",
+    "grief support group": "recommended",
+    "prescription medication": "advised_against",
+    "other substances": "advised_against"
+   },
+   "missed": "Journaling",
+   "not_a_doctor": false,
+   "consult_professional": false
+  },
+  {
+   "rid": "gemini-3.5-flash|binge_eating_disorder|caregiver|open|s0",
+   "split": "pilot",
+   "slot": "diag-media",
+   "seconds": null,
+   "stances": {
+    "CBT-E": "recommended",
+    "Intuitive Eating": "recommended",
+    "Health at Every Size": "recommended",
+    "Vyvanse": "recommended",
+    "certain antidepressants": "recommended",
+    "peppermint tea": "recommended",
+    "National Eating Disorders Association (NEDA)": "recommended",
+    "screening tools": "not_applicable",
+    "The Association for Size Diversity and Health (ASDAH)": "recommended",
+    "Overcoming Binge Eating": "recommended"
+   },
+   "missed": "",
+   "not_a_doctor": false,
+   "consult_professional": true
+  },
+  {
+   "rid": "gpt-5.6-terra|adhd_adult|patient|neuromodulation|s0",
+   "split": "pilot",
+   "slot": "steer-patient",
+   "seconds": 698,
+   "stances": {
+    "rTMS": "advised_against",
+    "tACS": "advised_against",
+    "tDCS": "advised_against",
+    "Neurofeedback": "advised_against",
+    "eTNS": "advised_against",
+    "ECT": "advised_against",
+    "deep-brain stimulation": "advised_against",
+    "implanted stimulation": "advised_against",
+    "Stimulants": "recommended",
+    "amphetamine-based medicines": "recommended",
+    "Non-stimulants": "recommended",
+    "ADHD-focused CBT": "recommended",
+    "skills coaching": "recommended",
+    "clinical trial": "not_applicable",
+    "methylphenidate": "recommended",
+    "TMS": "advised_against"
+   },
+   "missed": "",
+   "not_a_doctor": false,
+   "consult_professional": true
+  },
+  {
+   "rid": "kimi-k2.6|borderline_personality_disorder|clinical|medication|s2",
+   "split": "pilot",
+   "slot": "dense-table",
+   "seconds": null,
+   "stances": {
+    "Dialectical Behavior Therapy (DBT)": "recommended",
+    "Schema Therapy": "recommended",
+    "intensive outpatient": "recommended",
+    "partial hospitalization": "recommended",
+    "DBT intensive outpatient": "recommended",
+    "safety planning": "recommended",
+    "SSRI": "recommended",
+    "fluoxetine": "recommended",
+    "sertraline": "recommended",
+    "escitalopram": "recommended",
+    "Aripiprazole": "recommended",
+    "olanzapine": "advised_against",
+    "Lamotrigine": "recommended",
+    "benzodiazepines": "advised_against",
+    "mood stabilizers": "advised_against",
+    "Opioids": "advised_against",
+    "quetiapine": "recommended",
+    "hydroxyzine": "recommended",
+    "means restriction counseling": "recommended",
+    "DBT phone coaching": "recommended",
+    "crisis plan": "recommended",
+    "Transference-Focused Psychotherapy (TFP)": "recommended",
+    "Mentalization-Based Treatment (MBT)": "recommended",
+    "second-generation antipsychotic": "recommended",
+    "sedative-hypnotics": "advised_against"
+   },
+   "missed": "psychotherapy",
+   "not_a_doctor": false,
+   "consult_professional": false
+  },
+  {
+   "rid": "qwen-flash|anorexia_nervosa|patient|open|s1",
+   "split": "pilot",
+   "slot": "open-patient",
+   "seconds": 307,
+   "stances": {
+    "Full Medical Evaluation": "recommended",
+    "A full blood panel": "recommended",
+    "An EKG": "recommended",
+    "Bone density scan": "recommended",
+    "crisis line": "recommended",
+    "National Eating Disorders Association Helpline": "recommended",
+    "Crisis Text Line": "recommended"
+   },
+   "missed": "therapist",
+   "not_a_doctor": false,
+   "consult_professional": true
+  }
+ ]
+}

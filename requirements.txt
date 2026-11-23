@@ -1,0 +1,12 @@
+# Python 3.12 or later. The analysis chain (analysis/) uses only the standard library;
+# these packages are for the model runners and the figures. The released tables and
+# figures were built with the versions listed as minimums.
+
+# run/: provider SDKs and .env loading
+anthropic>=0.87.0
+openai>=2.16.0
+python-dotenv>=1.2.1
+
+# figures/
+matplotlib>=3.10.8
+pillow>=12.1.0

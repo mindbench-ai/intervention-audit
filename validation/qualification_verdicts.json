@@ -1,0 +1,205 @@
+{
+ "claude-fable-5": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 74.09
+ },
+ "claude-haiku-4.5": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 4.08
+ },
+ "claude-opus-5": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 42.46
+ },
+ "claude-sonnet-4.5": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 12.23
+ },
+ "claude-sonnet-5": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 23,
+  "est_rating_cost_usd": 17.67
+ },
+ "deepseek-v4-flash": {
+  "verdict": "qualified",
+  "pass_rate": 0.9583333333333334,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 6.38
+ },
+ "deepseek-v4-pro": {
+  "verdict": "qualified",
+  "pass_rate": 0.9583333333333334,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 18.87
+ },
+ "gemini-2.5-flash": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 1.69
+ },
+ "gemini-2.5-pro": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 6.79
+ },
+ "gemini-3.5-flash-lite": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 1.69
+ },
+ "gemini-3.6-flash": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 2.66
+ },
+ "gemini-3.7-flash": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 2.66
+ },
+ "gpt-3.5-turbo": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 1.11
+ },
+ "gpt-4.1": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 5.54
+ },
+ "gpt-5.5": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": null
+ },
+ "gpt-5.6-luna": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 1.44
+ },
+ "gpt-5.6-sol": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 28.43
+ },
+ "gpt-5.6-terra": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 9.98
+ },
+ "grok-4.3": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 2.07
+ },
+ "grok-4.5": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 4.88
+ },
+ "grok-4.6": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 5.03
+ },
+ "kimi-k2.6": {
+  "verdict": "qualified",
+  "pass_rate": 0.9583333333333334,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 37.54
+ },
+ "kimi-k3": {
+  "verdict": "qualified",
+  "pass_rate": 0.9583333333333334,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 78.41
+ },
+ "mistral-large-3": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 1.12
+ },
+ "mistral-medium-3.5": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 5.15
+ },
+ "mistral-small-4": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 0.43
+ },
+ "qwen-3.7-plus": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 14.68
+ },
+ "qwen-3.8-max": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": 67.26
+ },
+ "qwen3-8b": {
+  "verdict": "qualified",
+  "pass_rate": 1.0,
+  "median_coverage": 1.0,
+  "n_valid_cells": 24,
+  "est_rating_cost_usd": null
+ }
+}

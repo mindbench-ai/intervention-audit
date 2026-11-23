@@ -1,0 +1,81 @@
+{
+ "inputs": {
+  "runs/judge_v1/luna/judgments.jsonl": "29fefc737842903af6f2d429b273df6e9936d8f9a636b826dae400ea5a702435",
+  "runs/qualify/probe.jsonl": "4dc3c7ceaff9c3a1b890161ffcc4ee6117c241b9adb496f5093ecdf2fb7d32b4",
+  "runs/rating_v1/anthropic/ratings.jsonl": "584f0db9242e6702864ac159343c0e71a09725a8051f3a6a74b39509d732be38",
+  "runs/rating_v1/deepseek/ratings.jsonl": "e927fb13f23c36e96b6040544d55560985fff04ce0b24f0f7911ac17ab541ce5",
+  "runs/rating_v1/google/ratings.jsonl": "e805e01a2a0968767b08f4e7f829f25f29baed9dcd2bf2527c29b9c367e23d7b",
+  "runs/rating_v1/mistral/ratings.jsonl": "40c7b56df803fc9696923f0f84b79dcde76ad9ffb628bfe2b96a60543d654277",
+  "runs/rating_v1/moonshot/ratings.jsonl": "5147bc1665777f2b698aca8e0b7a2694f27bd2b338a5dc59c2ab93f27a844736",
+  "runs/rating_v1/moonshot-k3/ratings.jsonl": "88e2446b50388c9ee24a58cd5394abbf7447e30a4fc990076feb8f40623c607d",
+  "runs/rating_v1/openai/ratings.jsonl": "2a9c2096550eee0f19dead71a834422bcf73c1e288f0dc2d5b058862aee75fb7",
+  "runs/rating_v1/qwen/ratings.jsonl": "e2718944d0239873ce86610812dcad2dd9968b432827b3d07181d5ad8085b9b9",
+  "runs/rating_v1/xai/ratings.jsonl": "bacb2e278f361558f976014ee1f662678e6b21d254c9df89833c833565456d6a"
+ },
+ "outputs": {
+  "entities.jsonl": "e880e515fce89c998a46dde57f1471395da53cf1f9998e4f330ede531c23b7a3",
+  "responses.jsonl": "a9691b78ac8f161567a8c14d4c66d8258154b7c2c32ad22c8f1fe717cd295159",
+  "ratings.jsonl": "192c7a51136653723d3c44ae58868ba96d643922d80b96e8cf21d5a122a69680",
+  "rating_gaps.json": "bedf87f08935ede06c85cad7ae8fe69d85501eca4be1e5186d1c8561e11a3dc8",
+  "corpus.json": "72dba92e64008f7975ea3806e625df0f0265df95e03096729f87053696962347",
+  "cells.json": "c0636df064c5593f21430895a54c9ed6f5ff7d54bb63d18719c48762174d3347",
+  "disclosures.json": "ad6ea3d611cd2dedbc034454e06e1e404102ff3ec26ba52b5eca005f12e42f16",
+  "mentions.json": "8a1e9da928c85d30756b7276c156ae3a5eece02608cde3774b945ef2ff24b51a",
+  "concordance.json": "ce3e22255e484899da8e1abbc4f002fe475fa9ea0af7ea0e018a4ef8ec3d27d2",
+  "models.json": "315347650b46cff7f3a317e8308a7fab1248c70745bb42f894db6a437fb4dad1",
+  "highlights.json": "36b99a0fe533fbe5525c9b5e9f7deaaa121771f990bf2b44fcedffc055566397",
+  "conditioned.json": "e34734cef355d8ab9c769beb69f22259caccf1beb8400b5fa50e0f5aa9d5492b",
+  "brands.json": "7c47fccddd4028e33d991b06522609d5b782d3148a81423bd959c087550f51ff",
+  "authorities.json": "c3e861333dd3eab1b0b6149763a949cbd7035acb5b4ce571b335700b66885065"
+ },
+ "instrument": {
+  "dataset/situations.json": {
+   "entries": 19,
+   "sha256_16": "445d0e148f2d6663"
+  },
+  "dataset/asks.json": {
+   "entries": 5,
+   "sha256_16": "802407dd463209c9"
+  },
+  "lexicon/psych_meds.json": {
+   "entries": 139,
+   "sha256_16": "8c7dda7fdb7e31ab"
+  },
+  "lexicon/digital.json": {
+   "entries": 102,
+   "sha256_16": "220f600c3d924375"
+  },
+  "lexicon/neuromodulation.json": {
+   "entries": 35,
+   "sha256_16": "1ae4503d328dea01"
+  },
+  "lexicon/talk_therapies.json": {
+   "entries": 70,
+   "sha256_16": "45e753816e288db9"
+  },
+  "expert_review/01d_patient_scenarios_v4.csv": {
+   "sha256_16": "22fc59fe17b298be",
+   "public_sha256_16": "d2212df4ff6d9ae9"
+  },
+  "expert_review/02d_asks_v4.csv": {
+   "sha256_16": "b6c77bea09b3d53d",
+   "public_sha256_16": "0c664b3c21b99776"
+  },
+  "expert_review/05c_drugs_generic_v2.csv": {
+   "sha256_16": "94b751705143a0ee",
+   "public_sha256_16": "c5610e6221671e85"
+  },
+  "expert_review/07b_digital_apps_v2.csv": {
+   "sha256_16": "ff76303f86db31c7",
+   "public_sha256_16": "b58ffa7f3a11296c"
+  },
+  "expert_review/08b_brain_stimulation_v2.csv": {
+   "sha256_16": "b6b189a26ff0436f",
+   "public_sha256_16": "9877211deb80b7c0"
+  },
+  "expert_review/09b_talk_therapies_v2.csv": {
+   "sha256_16": "80010d7e15d21b45",
+   "public_sha256_16": "315edb0bd600f360"
+  }
+ }
+}

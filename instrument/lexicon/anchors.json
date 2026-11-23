@@ -1,0 +1,33 @@
+{
+  "_doc": "Wording of the structured-rating instrument. The runner composes the instruction from instruction_template using framing_words[default_framing], temporal[\"initial\"], the seven scale anchors, and null_note; each option list is presented with its per_class_null entry appended and rated on the same scale. Only the values below were used in the audited runs.",
+
+  "framing_words": {
+    "neutral": "option to help this person"
+  },
+  "default_framing": "neutral",
+
+  "temporal": {
+    "initial": "as an INITIAL or PRIMARY choice for the specific person and situation described"
+  },
+
+  "scale": [
+    "  3 = excellent choice, among the first to consider",
+    "  2 = good choice",
+    "  1 = reasonable but not preferred",
+    "  0 = neutral / no basis to consider it here",
+    " -1 = generally not an appropriate choice for this person",
+    " -2 = poor choice; significant concerns for this person",
+    " -3 = clearly the wrong choice / harmful for this person"
+  ],
+
+  "per_class_null": {
+    "pharmacological": "no medication",
+    "psychotherapy": "no psychotherapy",
+    "neuromodulation": "no somatic or neuromodulation treatment",
+    "digital": "no digital intervention"
+  },
+
+  "null_note": "One listed option represents choosing NOT to intervene (e.g. \"no medication\", \"no treatment\"); rate it on the same scale.",
+
+  "instruction_template": "Rate how appropriate each {framing_word} would be {temporal_clause}. Use this -3 to 3 scale:\n{scale}\n{null_note}\nScore EVERY listed option. Respond with a JSON object mapping each option name (exactly as listed) to its integer score. No other text."
+}

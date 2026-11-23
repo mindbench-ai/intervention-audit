@@ -1,0 +1,210 @@
+{
+ "test": {
+  "n_responses": 200,
+  "n_judge_rows": 200,
+  "n_units_dual_coded": 2924,
+  "extraction_precision": {
+   "rejected_by_either": 0.012995896032831737,
+   "rejected_by_both": 0.0003419972640218878,
+   "precision_lower": 0.9870041039671683,
+   "precision_upper": 0.9996580027359782
+  },
+  "human_human": {
+   "four_way": 0.6143076533889127,
+   "folded": 0.6405116853967242,
+   "binary_advised_against": 0.8374922992754423,
+   "ordinal": 0.7331191214119046,
+   "excl_neutral_units": 0.8257644649612995,
+   "n": 2886
+  },
+  "judge_human": {
+   "four_way": 0.6708673614661433,
+   "folded": 0.6834248032203901,
+   "binary_advised_against": 0.8345966005353069,
+   "ordinal": 0.7537359215608446,
+   "excl_neutral_units": 0.8324720235074543,
+   "n": 5772
+  },
+  "judge_vs_unanimous": {
+   "n": 2509,
+   "match": 0.9549621363092866,
+   "match_binary": 0.9836588282184137,
+   "by_human_label": {
+    "neutral": {
+     "n": 28,
+     "match": 0.75
+    },
+    "recommended": {
+     "n": 2171,
+     "match": 0.9714417319207739
+    },
+    "advised_against": {
+     "n": 293,
+     "match": 0.863481228668942
+    },
+    "mixed": {
+     "n": 17,
+     "match": 0.7647058823529411
+    }
+   }
+  },
+  "judge_category_agreement": {
+   "mixed": {
+    "n": 200,
+    "human_agrees": 0.285
+   },
+   "recommended": {
+    "n": 4646,
+    "human_agrees": 0.9498493327593629
+   },
+   "neutral": {
+    "n": 332,
+    "human_agrees": 0.3463855421686747
+   },
+   "advised_against": {
+    "n": 594,
+    "human_agrees": 0.9175084175084175
+   }
+  },
+  "judge_human_agreement_sample": 0.8887733887733887,
+  "judge_human_agreement_corpus_weighted": 0.9104167998977303,
+  "judge_stance_share_sample": {
+   "mixed": 0.03465003465003465,
+   "recommended": 0.804920304920305,
+   "neutral": 0.05751905751905752,
+   "advised_against": 0.10291060291060292
+  },
+  "consult_professional": {
+   "human_human_kappa": 0.3954206328788268,
+   "human_human_agree": 0.765,
+   "judge_human_kappa": 0.45318352059925077,
+   "judge_human_agree": 0.8175,
+   "human_human_alpha": 0.3945762711864407,
+   "judge_human_alpha": 0.4433118587449296,
+   "judge_vs_unanimous_agree": 0.9150326797385621,
+   "n_unanimous": 153,
+   "rate_judge": 0.85,
+   "rate_human": 0.7375
+  },
+  "not_a_doctor": {
+   "human_human_kappa": 0.7890613228868466,
+   "human_human_agree": 0.93,
+   "judge_human_kappa": 0.6991150442477877,
+   "judge_human_agree": 0.915,
+   "human_human_alpha": 0.7895569620253164,
+   "judge_human_alpha": 0.6955985836582852,
+   "judge_vs_unanimous_agree": 0.946236559139785,
+   "n_unanimous": 186,
+   "rate_judge": 0.125,
+   "rate_human": 0.21
+  },
+  "recall_proxy": {
+   "codings_with_free_list": 0.1,
+   "free_list_items_total": 64,
+   "judge_entities_total": 2925,
+   "recall_lower_bound": 0.9891782211701048
+  }
+ },
+ "dev": {
+  "n_responses": 100,
+  "n_judge_rows": 100,
+  "n_units_dual_coded": 1414,
+  "extraction_precision": {
+   "rejected_by_either": 0.024045261669024046,
+   "rejected_by_both": 0.0,
+   "precision_lower": 0.9759547383309759,
+   "precision_upper": 1.0
+  },
+  "human_human": {
+   "four_way": 0.6038542321298568,
+   "folded": 0.6285231611686595,
+   "binary_advised_against": 0.8315557621952652,
+   "ordinal": 0.7182260014630355,
+   "excl_neutral_units": 0.8219887098300167,
+   "n": 1380
+  },
+  "judge_human": {
+   "four_way": 0.6001642716924611,
+   "folded": 0.61465387602949,
+   "binary_advised_against": 0.8589814591432059,
+   "ordinal": 0.7091705311457737,
+   "excl_neutral_units": 0.8356261299983564,
+   "n": 2760
+  },
+  "judge_vs_unanimous": {
+   "n": 1181,
+   "match": 0.9212531752751905,
+   "match_binary": 0.9856054191363252,
+   "by_human_label": {
+    "neutral": {
+     "n": 22,
+     "match": 0.18181818181818182
+    },
+    "recommended": {
+     "n": 1008,
+     "match": 0.9325396825396826
+    },
+    "advised_against": {
+     "n": 151,
+     "match": 0.9536423841059603
+    }
+   }
+  },
+  "judge_category_agreement": {
+   "recommended": {
+    "n": 2122,
+    "human_agrees": 0.9330819981149858
+   },
+   "advised_against": {
+    "n": 344,
+    "human_agrees": 0.8895348837209303
+   },
+   "neutral": {
+    "n": 164,
+    "human_agrees": 0.1524390243902439
+   },
+   "mixed": {
+    "n": 130,
+    "human_agrees": 0.26153846153846155
+   }
+  },
+  "judge_human_agreement_sample": 0.8496376811594203,
+  "judge_human_agreement_corpus_weighted": 0.8849375075929207,
+  "judge_stance_share_sample": {
+   "recommended": 0.768840579710145,
+   "advised_against": 0.1246376811594203,
+   "neutral": 0.059420289855072465,
+   "mixed": 0.04710144927536232
+  },
+  "consult_professional": {
+   "human_human_kappa": 0.48660714285714296,
+   "human_human_agree": 0.77,
+   "judge_human_kappa": 0.3991306571209408,
+   "judge_human_agree": 0.765,
+   "human_human_alpha": 0.48636516664796314,
+   "judge_human_alpha": 0.37901917282029207,
+   "judge_vs_unanimous_agree": 0.8441558441558441,
+   "n_unanimous": 77,
+   "rate_judge": 0.83,
+   "rate_human": 0.665
+  },
+  "not_a_doctor": {
+   "human_human_kappa": 0.6734397677793906,
+   "human_human_agree": 0.91,
+   "judge_human_kappa": 0.4572911750825864,
+   "judge_human_agree": 0.885,
+   "human_human_alpha": 0.6750136091453456,
+   "judge_human_alpha": 0.44686878428063415,
+   "judge_vs_unanimous_agree": 0.9230769230769231,
+   "n_unanimous": 91,
+   "rate_judge": 0.07,
+   "rate_human": 0.165
+  },
+  "recall_proxy": {
+   "codings_with_free_list": 0.21,
+   "free_list_items_total": 72,
+   "judge_entities_total": 1415,
+   "recall_lower_bound": 0.9751895244658856
+  }
+ }
+}

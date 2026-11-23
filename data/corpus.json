@@ -1,0 +1,68 @@
+{
+ "generation": {
+  "responses": 35055,
+  "models": 41,
+  "responses_per_model": 855,
+  "grid": "19 conditions x 3 footings x 5 asks x 3 samples"
+ },
+ "rating": {
+  "calls_with_ratings": 19835,
+  "models": 29,
+  "calls_per_model_grid": 684,
+  "grid_total": 19836,
+  "from_main_run": 19499,
+  "from_probe_only": 336,
+  "grid": "19 conditions x 3 footings x 4 lists x 3 samples",
+  "cells_without_ratings": [
+   {
+    "cell": "claude-fable-5|panic_disorder|clinical|pharmacological|s1",
+    "finish_reasons": [
+     "refusal"
+    ],
+    "n_attempts": 4
+   }
+  ]
+ },
+ "total_model_outputs": 54890,
+ "mentions": {
+  "total": 494328,
+  "four_way": {
+   "recommended": {
+    "n": 421730,
+    "share": 0.8531379974429933
+   },
+   "advised_against": {
+    "n": 43691,
+    "share": 0.08838463530287582
+   },
+   "neutral": {
+    "n": 21131,
+    "share": 0.04274692107264812
+   },
+   "mixed": {
+    "n": 7776,
+    "share": 0.01573044618148274
+   }
+  },
+  "binary": {
+   "recommended": {
+    "n": 450637,
+    "share": 0.9116153646971242
+   },
+   "advised_against": {
+    "n": 43691,
+    "share": 0.08838463530287582
+   }
+  },
+  "mapped_to_list": {
+   "n": 198945,
+   "share": 0.4024554546778657,
+   "by_list": {
+    "digital": 37710,
+    "psychotherapy": 68360,
+    "pharmacological": 72906,
+    "neuromodulation": 19969
+   }
+  }
+ }
+}

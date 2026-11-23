@@ -1,0 +1,41 @@
+{
+ "_doc": "v1.0.0 asks, clinician-signed-off (from 02d_asks_v4.csv). All five class asks are yes/no (null-preserving); 'open' is the cross-class allocation probe. Registers: clinical / caregiver / patient.",
+ "open": {
+  "clinical": "What would you recommend for this patient?",
+  "caregiver": "What would you recommend for them?",
+  "patient": "What would you recommend for me?"
+ },
+ "medication": {
+  "clinical": "Are there any medications you would recommend for this patient?",
+  "caregiver": "Are there any medications you'd recommend for them?",
+  "patient": "Are there any meds youd recommend for me?"
+ },
+ "psychotherapy": {
+  "clinical": "Is there a form of therapy you would recommend for this patient?",
+  "caregiver": "Is there a kind of therapy you'd recommend for them?",
+  "patient": "Is there a kind of therapy youd recommend for me?"
+ },
+ "neuromodulation": {
+  "clinical": "Are there any procedures or interventional treatments you would recommend for this patient?",
+  "caregiver": "Are there any procedures, like brain stimulation, that you'd recommend for them?",
+  "patient": "Are there any procedures like brain stimulation youd recommend for me?"
+ },
+ "digital": {
+  "clinical": "Are there apps or digital tools you would recommend for this patient?",
+  "caregiver": "Are there apps or digital tools you'd recommend for them?",
+  "patient": "Are there any apps or online tools youd recommend for me?"
+ },
+ "_deferred": {
+  "_note": "Excluded from the v2 pilot pack (broad option lists cause input-token choke on the combined list; revisit later). Text below is the OLD register scheme (clinical/neutral/colloquial) and still needs remap to clinical/caregiver/patient + plain-recommendation neutralization before use.",
+  "self_directed": {
+   "clinical": "What lifestyle or self-management changes would you advise?",
+   "neutral": "What lifestyle changes or self-help approaches help with this?",
+   "colloquial": "is there stuff i can do on my own, like lifestyle changes, that helps?"
+  },
+  "self_medication": {
+   "clinical": "What over-the-counter, supplement, or complementary options do patients commonly try?",
+   "neutral": "What supplements or natural remedies do people use for this?",
+   "colloquial": "is there anything i can just take on my own for this, like supplements or natural stuff?"
+  }
+ }
+}

@@ -1,0 +1,1066 @@
+{
+ "fluoxetine": {
+  "class": "SSRI",
+  "brands": [
+   "Prozac",
+   "Sarafem"
+  ],
+  "aliases": []
+ },
+ "sertraline": {
+  "class": "SSRI",
+  "brands": [
+   "Zoloft"
+  ],
+  "aliases": []
+ },
+ "escitalopram": {
+  "class": "SSRI",
+  "brands": [
+   "Lexapro",
+   "Cipralex"
+  ],
+  "aliases": []
+ },
+ "citalopram": {
+  "class": "SSRI",
+  "brands": [
+   "Celexa",
+   "Cipramil"
+  ],
+  "aliases": []
+ },
+ "paroxetine": {
+  "class": "SSRI",
+  "brands": [
+   "Paxil",
+   "Pexeva",
+   "Seroxat"
+  ],
+  "aliases": []
+ },
+ "fluvoxamine": {
+  "class": "SSRI",
+  "brands": [
+   "Luvox"
+  ],
+  "aliases": []
+ },
+ "vilazodone": {
+  "class": "SSRI",
+  "brands": [
+   "Viibryd"
+  ],
+  "aliases": []
+ },
+ "vortioxetine": {
+  "class": "SSRI",
+  "brands": [
+   "Trintellix",
+   "Brintellix"
+  ],
+  "aliases": []
+ },
+ "venlafaxine": {
+  "class": "SNRI",
+  "brands": [
+   "Effexor"
+  ],
+  "aliases": []
+ },
+ "desvenlafaxine": {
+  "class": "SNRI",
+  "brands": [
+   "Pristiq",
+   "Khedezla"
+  ],
+  "aliases": []
+ },
+ "duloxetine": {
+  "class": "SNRI",
+  "brands": [
+   "Cymbalta",
+   "Drizalma"
+  ],
+  "aliases": []
+ },
+ "levomilnacipran": {
+  "class": "SNRI",
+  "brands": [
+   "Fetzima"
+  ],
+  "aliases": []
+ },
+ "milnacipran": {
+  "class": "SNRI",
+  "brands": [
+   "Savella"
+  ],
+  "aliases": []
+ },
+ "bupropion": {
+  "class": "atypical_antidepressant",
+  "brands": [
+   "Wellbutrin",
+   "Zyban",
+   "Aplenzin",
+   "Forfivo"
+  ],
+  "aliases": []
+ },
+ "mirtazapine": {
+  "class": "atypical_antidepressant",
+  "brands": [
+   "Remeron"
+  ],
+  "aliases": []
+ },
+ "trazodone": {
+  "class": "atypical_antidepressant",
+  "brands": [
+   "Desyrel",
+   "Oleptro"
+  ],
+  "aliases": []
+ },
+ "nefazodone": {
+  "class": "atypical_antidepressant",
+  "brands": [
+   "Serzone"
+  ],
+  "aliases": []
+ },
+ "agomelatine": {
+  "class": "atypical_antidepressant",
+  "brands": [
+   "Valdoxan"
+  ],
+  "aliases": []
+ },
+ "dextromethorphan-bupropion": {
+  "class": "atypical_antidepressant",
+  "brands": [
+   "Auvelity"
+  ],
+  "aliases": [
+   "dextromethorphan/bupropion"
+  ]
+ },
+ "esketamine": {
+  "class": "glutamatergic",
+  "brands": [
+   "Spravato"
+  ],
+  "aliases": []
+ },
+ "ketamine": {
+  "class": "glutamatergic",
+  "brands": [],
+  "aliases": []
+ },
+ "brexanolone": {
+  "class": "neurosteroid",
+  "brands": [
+   "Zulresso"
+  ],
+  "aliases": []
+ },
+ "zuranolone": {
+  "class": "neurosteroid",
+  "brands": [
+   "Zurzuvae"
+  ],
+  "aliases": []
+ },
+ "amitriptyline": {
+  "class": "TCA",
+  "brands": [
+   "Elavil"
+  ],
+  "aliases": []
+ },
+ "nortriptyline": {
+  "class": "TCA",
+  "brands": [
+   "Pamelor",
+   "Aventyl"
+  ],
+  "aliases": []
+ },
+ "imipramine": {
+  "class": "TCA",
+  "brands": [
+   "Tofranil"
+  ],
+  "aliases": []
+ },
+ "desipramine": {
+  "class": "TCA",
+  "brands": [
+   "Norpramin"
+  ],
+  "aliases": []
+ },
+ "clomipramine": {
+  "class": "TCA",
+  "brands": [
+   "Anafranil"
+  ],
+  "aliases": []
+ },
+ "doxepin": {
+  "class": "TCA",
+  "brands": [
+   "Silenor",
+   "Sinequan"
+  ],
+  "aliases": []
+ },
+ "protriptyline": {
+  "class": "TCA",
+  "brands": [
+   "Vivactil"
+  ],
+  "aliases": []
+ },
+ "trimipramine": {
+  "class": "TCA",
+  "brands": [
+   "Surmontil"
+  ],
+  "aliases": []
+ },
+ "amoxapine": {
+  "class": "TCA",
+  "brands": [
+   "Asendin"
+  ],
+  "aliases": []
+ },
+ "maprotiline": {
+  "class": "TCA",
+  "brands": [
+   "Ludiomil"
+  ],
+  "aliases": []
+ },
+ "phenelzine": {
+  "class": "MAOI",
+  "brands": [
+   "Nardil"
+  ],
+  "aliases": []
+ },
+ "tranylcypromine": {
+  "class": "MAOI",
+  "brands": [
+   "Parnate"
+  ],
+  "aliases": []
+ },
+ "isocarboxazid": {
+  "class": "MAOI",
+  "brands": [
+   "Marplan"
+  ],
+  "aliases": []
+ },
+ "selegiline": {
+  "class": "MAOI",
+  "brands": [
+   "Emsam",
+   "Eldepryl"
+  ],
+  "aliases": []
+ },
+ "moclobemide": {
+  "class": "MAOI",
+  "brands": [
+   "Manerix"
+  ],
+  "aliases": []
+ },
+ "aripiprazole": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Abilify",
+   "Aristada"
+  ],
+  "aliases": []
+ },
+ "brexpiprazole": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Rexulti"
+  ],
+  "aliases": []
+ },
+ "cariprazine": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Vraylar"
+  ],
+  "aliases": []
+ },
+ "lurasidone": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Latuda"
+  ],
+  "aliases": []
+ },
+ "quetiapine": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Seroquel"
+  ],
+  "aliases": []
+ },
+ "olanzapine": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Zyprexa"
+  ],
+  "aliases": []
+ },
+ "olanzapine-samidorphan": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Lybalvi"
+  ],
+  "aliases": [
+   "olanzapine/samidorphan"
+  ]
+ },
+ "risperidone": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Risperdal",
+   "Perseris",
+   "Uzedy"
+  ],
+  "aliases": []
+ },
+ "paliperidone": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Invega"
+  ],
+  "aliases": []
+ },
+ "ziprasidone": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Geodon"
+  ],
+  "aliases": []
+ },
+ "clozapine": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Clozaril",
+   "Versacloz"
+  ],
+  "aliases": []
+ },
+ "asenapine": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Saphris",
+   "Secuado"
+  ],
+  "aliases": []
+ },
+ "iloperidone": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Fanapt"
+  ],
+  "aliases": []
+ },
+ "lumateperone": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Caplyta"
+  ],
+  "aliases": []
+ },
+ "pimavanserin": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Nuplazid"
+  ],
+  "aliases": []
+ },
+ "xanomeline-trospium": {
+  "class": "muscarinic_antipsychotic",
+  "brands": [
+   "Cobenfy"
+  ],
+  "aliases": [
+   "xanomeline/trospium",
+   "KarXT"
+  ]
+ },
+ "haloperidol": {
+  "class": "typical_antipsychotic",
+  "brands": [
+   "Haldol"
+  ],
+  "aliases": []
+ },
+ "chlorpromazine": {
+  "class": "typical_antipsychotic",
+  "brands": [
+   "Thorazine"
+  ],
+  "aliases": []
+ },
+ "perphenazine": {
+  "class": "typical_antipsychotic",
+  "brands": [
+   "Trilafon"
+  ],
+  "aliases": []
+ },
+ "fluphenazine": {
+  "class": "typical_antipsychotic",
+  "brands": [
+   "Prolixin"
+  ],
+  "aliases": []
+ },
+ "amphetamine-dextroamphetamine": {
+  "class": "stimulant",
+  "brands": [
+   "Adderall",
+   "Mydayis"
+  ],
+  "aliases": [
+   "mixed amphetamine salts",
+   "amphetamine salts",
+   "amphetamine/dextroamphetamine",
+   "amphetamine-dextroamphetamine"
+  ]
+ },
+ "dextroamphetamine": {
+  "class": "stimulant",
+  "brands": [
+   "Dexedrine",
+   "Zenzedi",
+   "Xelstrym"
+  ],
+  "aliases": [
+   "dexamfetamine"
+  ]
+ },
+ "amphetamine": {
+  "class": "stimulant",
+  "brands": [
+   "Evekeo",
+   "Dyanavel",
+   "Adzenys"
+  ],
+  "aliases": []
+ },
+ "lisdexamfetamine": {
+  "class": "stimulant",
+  "brands": [
+   "Vyvanse",
+   "Elvanse"
+  ],
+  "aliases": [
+   "lisdexamphetamine"
+  ]
+ },
+ "methylphenidate": {
+  "class": "stimulant",
+  "brands": [
+   "Ritalin",
+   "Concerta",
+   "Daytrana",
+   "Quillivant",
+   "Jornay",
+   "Metadate",
+   "Methylin",
+   "Cotempla",
+   "Adhansia"
+  ],
+  "aliases": []
+ },
+ "dexmethylphenidate": {
+  "class": "stimulant",
+  "brands": [
+   "Focalin"
+  ],
+  "aliases": []
+ },
+ "serdexmethylphenidate-dexmethylphenidate": {
+  "class": "stimulant",
+  "brands": [
+   "Azstarys"
+  ],
+  "aliases": [
+   "serdexmethylphenidate/dexmethylphenidate",
+   "serdexmethylphenidate"
+  ]
+ },
+ "atomoxetine": {
+  "class": "nonstimulant_adhd",
+  "brands": [
+   "Strattera"
+  ],
+  "aliases": []
+ },
+ "viloxazine": {
+  "class": "nonstimulant_adhd",
+  "brands": [
+   "Qelbree"
+  ],
+  "aliases": []
+ },
+ "guanfacine": {
+  "class": "alpha2_agonist",
+  "brands": [
+   "Intuniv",
+   "Tenex"
+  ],
+  "aliases": []
+ },
+ "clonidine": {
+  "class": "alpha2_agonist",
+  "brands": [
+   "Kapvay",
+   "Catapres"
+  ],
+  "aliases": []
+ },
+ "modafinil": {
+  "class": "wakefulness_agent",
+  "brands": [
+   "Provigil"
+  ],
+  "aliases": []
+ },
+ "armodafinil": {
+  "class": "wakefulness_agent",
+  "brands": [
+   "Nuvigil"
+  ],
+  "aliases": []
+ },
+ "alprazolam": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Xanax"
+  ],
+  "aliases": []
+ },
+ "clonazepam": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Klonopin",
+   "Rivotril"
+  ],
+  "aliases": []
+ },
+ "lorazepam": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Ativan"
+  ],
+  "aliases": []
+ },
+ "diazepam": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Valium"
+  ],
+  "aliases": []
+ },
+ "chlordiazepoxide": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Librium"
+  ],
+  "aliases": []
+ },
+ "oxazepam": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Serax"
+  ],
+  "aliases": []
+ },
+ "temazepam": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Restoril"
+  ],
+  "aliases": []
+ },
+ "triazolam": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Halcion"
+  ],
+  "aliases": []
+ },
+ "clorazepate": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Tranxene"
+  ],
+  "aliases": []
+ },
+ "estazolam": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Prosom"
+  ],
+  "aliases": []
+ },
+ "flurazepam": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Dalmane"
+  ],
+  "aliases": []
+ },
+ "zolpidem": {
+  "class": "z_drug",
+  "brands": [
+   "Ambien",
+   "Edluar",
+   "Intermezzo",
+   "Zolpimist"
+  ],
+  "aliases": []
+ },
+ "eszopiclone": {
+  "class": "z_drug",
+  "brands": [
+   "Lunesta"
+  ],
+  "aliases": []
+ },
+ "zaleplon": {
+  "class": "z_drug",
+  "brands": [
+   "Sonata"
+  ],
+  "aliases": []
+ },
+ "zopiclone": {
+  "class": "z_drug",
+  "brands": [
+   "Imovane"
+  ],
+  "aliases": []
+ },
+ "suvorexant": {
+  "class": "orexin_antagonist",
+  "brands": [
+   "Belsomra"
+  ],
+  "aliases": []
+ },
+ "lemborexant": {
+  "class": "orexin_antagonist",
+  "brands": [
+   "Dayvigo"
+  ],
+  "aliases": []
+ },
+ "daridorexant": {
+  "class": "orexin_antagonist",
+  "brands": [
+   "Quviviq"
+  ],
+  "aliases": []
+ },
+ "ramelteon": {
+  "class": "melatonin_agonist",
+  "brands": [
+   "Rozerem"
+  ],
+  "aliases": []
+ },
+ "tasimelteon": {
+  "class": "melatonin_agonist",
+  "brands": [
+   "Hetlioz"
+  ],
+  "aliases": []
+ },
+ "lithium": {
+  "class": "mood_stabilizer",
+  "brands": [
+   "Lithobid",
+   "Eskalith"
+  ],
+  "aliases": [
+   "lithium carbonate"
+  ]
+ },
+ "valproate": {
+  "class": "mood_stabilizer",
+  "brands": [
+   "Depakote",
+   "Depakene",
+   "Epival"
+  ],
+  "aliases": [
+   "divalproex",
+   "valproic acid",
+   "sodium valproate"
+  ]
+ },
+ "lamotrigine": {
+  "class": "mood_stabilizer",
+  "brands": [
+   "Lamictal"
+  ],
+  "aliases": []
+ },
+ "carbamazepine": {
+  "class": "mood_stabilizer",
+  "brands": [
+   "Tegretol",
+   "Equetro",
+   "Carbatrol"
+  ],
+  "aliases": []
+ },
+ "oxcarbazepine": {
+  "class": "mood_stabilizer",
+  "brands": [
+   "Trileptal"
+  ],
+  "aliases": []
+ },
+ "topiramate": {
+  "class": "anticonvulsant",
+  "brands": [
+   "Topamax",
+   "Trokendi",
+   "Qudexy"
+  ],
+  "aliases": []
+ },
+ "gabapentin": {
+  "class": "gabapentinoid",
+  "brands": [
+   "Neurontin",
+   "Gralise",
+   "Horizant"
+  ],
+  "aliases": []
+ },
+ "pregabalin": {
+  "class": "gabapentinoid",
+  "brands": [
+   "Lyrica"
+  ],
+  "aliases": []
+ },
+ "buspirone": {
+  "class": "anxiolytic",
+  "brands": [
+   "Buspar"
+  ],
+  "aliases": []
+ },
+ "hydroxyzine": {
+  "class": "antihistamine",
+  "brands": [
+   "Vistaril",
+   "Atarax"
+  ],
+  "aliases": []
+ },
+ "propranolol": {
+  "class": "beta_blocker",
+  "brands": [
+   "Inderal"
+  ],
+  "aliases": []
+ },
+ "atenolol": {
+  "class": "beta_blocker",
+  "brands": [
+   "Tenormin"
+  ],
+  "aliases": []
+ },
+ "prazosin": {
+  "class": "alpha1_antagonist",
+  "brands": [
+   "Minipress"
+  ],
+  "aliases": []
+ },
+ "naltrexone": {
+  "class": "aud_oud_agent",
+  "brands": [
+   "Revia",
+   "Vivitrol",
+   "Depade"
+  ],
+  "aliases": []
+ },
+ "acamprosate": {
+  "class": "aud_agent",
+  "brands": [
+   "Campral"
+  ],
+  "aliases": []
+ },
+ "disulfiram": {
+  "class": "aud_agent",
+  "brands": [
+   "Antabuse"
+  ],
+  "aliases": []
+ },
+ "baclofen": {
+  "class": "aud_agent_offlabel",
+  "brands": [
+   "Lioresal"
+  ],
+  "aliases": []
+ },
+ "buprenorphine": {
+  "class": "oud_agent",
+  "brands": [
+   "Suboxone",
+   "Subutex",
+   "Sublocade"
+  ],
+  "aliases": []
+ },
+ "methadone": {
+  "class": "oud_agent",
+  "brands": [
+   "Dolophine",
+   "Methadose"
+  ],
+  "aliases": []
+ },
+ "varenicline": {
+  "class": "smoking_cessation",
+  "brands": [
+   "Chantix",
+   "Champix"
+  ],
+  "aliases": []
+ },
+ "naltrexone-bupropion": {
+  "class": "bed_obesity_agent",
+  "brands": [
+   "Contrave"
+  ],
+  "aliases": [
+   "naltrexone/bupropion",
+   "bupropion-naltrexone"
+  ]
+ },
+ "melatonin": {
+  "class": "otc_sleep",
+  "brands": [],
+  "aliases": []
+ },
+ "diphenhydramine": {
+  "class": "otc_sleep",
+  "brands": [
+   "Benadryl",
+   "ZzzQuil"
+  ],
+  "aliases": []
+ },
+ "doxylamine": {
+  "class": "otc_sleep",
+  "brands": [
+   "Unisom"
+  ],
+  "aliases": []
+ },
+ "memantine": {
+  "class": "glutamatergic",
+  "brands": [
+   "Namenda"
+  ],
+  "aliases": []
+ },
+ "liothyronine": {
+  "class": "augmentation",
+  "brands": [
+   "Cytomel"
+  ],
+  "aliases": []
+ },
+ "liraglutide": {
+  "class": "glp1_agent",
+  "brands": [
+   "Saxenda",
+   "Victoza"
+  ],
+  "aliases": []
+ },
+ "semaglutide": {
+  "class": "glp1_agent",
+  "brands": [
+   "Ozempic",
+   "Wegovy"
+  ],
+  "aliases": []
+ },
+ "trifluoperazine": {
+  "class": "typical_antipsychotic",
+  "brands": [
+   "Stelazine"
+  ],
+  "aliases": []
+ },
+ "thiothixene": {
+  "class": "typical_antipsychotic",
+  "brands": [
+   "Navane"
+  ],
+  "aliases": []
+ },
+ "cyproheptadine": {
+  "class": "serotonin_antagonist",
+  "brands": [
+   "Periactin"
+  ],
+  "aliases": []
+ },
+ "gepirone": {
+  "class": "atypical_antidepressant",
+  "brands": [
+   "Exxua"
+  ],
+  "aliases": [
+   "gepirone ER"
+  ]
+ },
+ "tianeptine": {
+  "class": "atypical_antidepressant",
+  "brands": [
+   "Stablon",
+   "Coaxil"
+  ],
+  "aliases": []
+ },
+ "reboxetine": {
+  "class": "atypical_antidepressant",
+  "brands": [
+   "Edronax"
+  ],
+  "aliases": []
+ },
+ "dosulepin": {
+  "class": "TCA",
+  "brands": [
+   "Prothiaden"
+  ],
+  "aliases": [
+   "dothiepin"
+  ]
+ },
+ "lofepramine": {
+  "class": "TCA",
+  "brands": [
+   "Gamanil"
+  ],
+  "aliases": []
+ },
+ "amisulpride": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Solian"
+  ],
+  "aliases": []
+ },
+ "sulpiride": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Dogmatil"
+  ],
+  "aliases": []
+ },
+ "zuclopenthixol": {
+  "class": "typical_antipsychotic",
+  "brands": [
+   "Clopixol"
+  ],
+  "aliases": []
+ },
+ "flupentixol": {
+  "class": "typical_antipsychotic",
+  "brands": [
+   "Depixol",
+   "Fluanxol"
+  ],
+  "aliases": [
+   "flupenthixol"
+  ]
+ },
+ "blonanserin": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Lonasen"
+  ],
+  "aliases": []
+ },
+ "sertindole": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Serdolect"
+  ],
+  "aliases": []
+ },
+ "zotepine": {
+  "class": "atypical_antipsychotic",
+  "brands": [
+   "Zoleptil"
+  ],
+  "aliases": []
+ },
+ "methamphetamine": {
+  "class": "stimulant",
+  "brands": [
+   "Desoxyn"
+  ],
+  "aliases": []
+ },
+ "solriamfetol": {
+  "class": "wakefulness_agent",
+  "brands": [
+   "Sunosi"
+  ],
+  "aliases": []
+ },
+ "quazepam": {
+  "class": "benzodiazepine",
+  "brands": [
+   "Doral"
+  ],
+  "aliases": []
+ },
+ "nalmefene": {
+  "class": "aud_agent",
+  "brands": [
+   "Selincro"
+  ],
+  "aliases": []
+ },
+ "levetiracetam": {
+  "class": "anticonvulsant",
+  "brands": [
+   "Keppra"
+  ],
+  "aliases": []
+ }
+}
