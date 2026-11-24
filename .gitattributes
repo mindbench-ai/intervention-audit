@@ -1,3 +1,6 @@
 # Keep every file byte for byte: check_pack.py and make_all.py --check compare hashes,
 # and two of the expert-review sheets use CRLF line endings.
 * -text
+
+# The coder packets are generated HTML; keep them out of GitHub's language statistics.
+validation/packets/** linguist-generated=true

@@ -8,8 +8,8 @@ script are in its header.
 
 ## Steps
 
-1. **Models.** Add each model to `config/models.json` (provider, model id, API key
-   variable, tier) and put the API keys in `.env` at the repository root.
+1. **Models.** Add each model to `config/models.json` (provider, model id, base URL, API
+   key variable, developer `family`, tier) and put the API keys in `.env` at the repository root.
 2. **Generation arm.** `run_lanes.py` runs `gen_run.py` against the live APIs, one lane
    per API account; `batch_gen_run.py` uses the batch APIs of Anthropic, OpenAI and Google.
    Both write the same rows. `export_run.py` then writes the usable responses of a run as

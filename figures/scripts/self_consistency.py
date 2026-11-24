@@ -3,7 +3,7 @@
 For each model, over its own list-mapped recommendations in the generation arm that it also
 rated in the structured arm: the share it itself rates below zero. Filled dot: open ask only.
 Hollow dot: both asks in the cell. Dot area is proportional to the model's recommended
-interventions per response. Models ordered by the open-ask share. Colour = developer.
+interventions per response. Models ordered by the open-ask share. Color = developer.
 Data: data/models.json.
 """
 

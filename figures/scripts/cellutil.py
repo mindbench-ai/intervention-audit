@@ -140,7 +140,7 @@ def load_cells(path=CELLS_PATH):
 
 
 def ordered_conditions():
-    """17 clinical presentations A-Z by display name, then the two controls."""
+    """17 condition vignettes A-Z by display name, then the two controls."""
     clinical = sorted((c for c in COND_DISPLAY if c not in CONTROLS),
                       key=lambda c: COND_DISPLAY[c].lower())
     return clinical, list(CONTROLS)

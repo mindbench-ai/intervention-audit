@@ -104,7 +104,7 @@ async def call(provider, client, mid, msg):
                                                  messages=[{"role": "user", "content": msg}])
     except Exception as e:
         if "max_completion_tokens" in str(e):
-            # newer OpenAI models reject max_tokens in favour of max_completion_tokens
+            # newer OpenAI models reject max_tokens in favor of max_completion_tokens
             param_style = "max_completion_tokens"
             r = await client.chat.completions.create(model=mid, max_completion_tokens=MAX_TOKENS,
                                                      messages=[{"role": "user", "content": msg}])

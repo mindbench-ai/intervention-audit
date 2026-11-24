@@ -8,6 +8,8 @@ request is framed and who is asking. It is one of the audits on the
 first release are described in [arXiv:2611.12814](https://arxiv.org/abs/2611.12814), and the full
 corpus of each release is in the Hugging Face dataset
 [mindbench-ai/intervention-audit](https://huggingface.co/datasets/mindbench-ai/intervention-audit).
+Release 1.0.0 covers 41 models, 19 vignettes in three footings, 35,055 open-ended responses, and
+19,835 rating calls from 29 of the models.
 
 ## How the audit works
 
@@ -19,7 +21,7 @@ brand names and aliases used to match different names for the same intervention.
 instrument is frozen with a hash manifest before each run, and every row that a runner
 writes records the instrument version it used.
 
-**Open-ended generation arm.** Each vignette and ask is sent to each model several times as
+**Open-ended generation arm.** Each vignette and ask is sent to each model three times as
 a single user message with no system prompt, and the runners record each response together
 with the telemetry returned by the provider.
 
@@ -33,7 +35,8 @@ the order of the list shuffled for each call. Each model must pass a format chec
 its full rating run.
 
 **Analysis.** A single deterministic chain of scripts turns the raw run rows into tables by
-vignette and intervention type and records the hash of every input and output. The figures
+vignette and intervention type and records the hashes of its tables, of the judge and rating runs they are built from, and of
+the instrument files. The figures
 are built from these tables and the model roster.
 
 ## Terminology
@@ -42,9 +45,10 @@ Some files and fields use different names for the paper's terms.
 
 | In the paper | In files and code |
 |---|---|
-| vignette | `instrument/dataset/situations.json`, keyed by condition; "presentation" in code comments, "scenario" in the review sheet |
+| vignette | `instrument/dataset/situations.json`, keyed by condition; "presentation" in code comments, "scenario" in the review sheet; the `_summary` block of `data/cells.json` calls the 17 vignettes other than the two controls `clinical` |
 | footing (clinician, caregiver, patient) | `clinical`, `caregiver`, `patient`; the field `register` in raw run rows and `footing` in the tables in `data/`; "arm" in the vignette review sheet and the style guide |
-| ask | the field `category` in raw generation and judge rows, `ask` in the tables in `data/` |
+| ask (the unconstrained ask and the intervention-specific asks) | `open` for the unconstrained ask, and `medication`, `psychotherapy`, `neuromodulation`, `digital`; the field `category` in raw generation and judge rows, `ask` in the tables in `data/` |
+| developer | `family` in the model roster and the tables in `data/`; in the option lists, `family` is instead an intervention's family, such as a family of therapies |
 | option list (medications, psychotherapies, procedures, digital tools) | the files in `instrument/lexicon/`; the field `scope` in raw rating rows and `list` in the tables in `data/`, with the values `pharmacological`, `psychotherapy`, `neuromodulation` and `digital` |
 | cell | one vignette and one option list (19 × 4 = 76 cells) in the analysis and figures; in the runners, `data/rating_gaps.json` and the dataset card, one slot of the run grid (one model, vignette, footing, ask or list, and sample) |
 | floor item | a discredited or historical practice carried on a list on purpose |
@@ -55,16 +59,16 @@ Some files and fields use different names for the paper's terms.
 
 | Folder | Contents |
 |---|---|
-| `instrument/` | Vignettes, asks, option lists, the expert-review source sheets they are built from, and the version manifest |
-| `config/` | The model roster and API settings |
-| `run/` | Runners for the generation arm, the rating arm, and the judge, and the frozen judge prompt |
-| `validation/` | Human validation of the judge |
-| `analysis/` | The analysis chain, from raw run rows to the tables in `data/` |
-| `figures/` | Figure scripts (`scripts/`), which read the tables in `data/`, the rendered figures (`out/`), and the fonts they use (`fonts/`) |
-| `data/` | Derived tables for the current release |
+| [`instrument/`](instrument) | Vignettes, asks, option lists, the expert-review source sheets they are built from, and the version manifest |
+| [`config/`](config) | The model roster and API settings |
+| [`run/`](run) | Runners for the generation arm, the rating arm, and the judge, and the frozen judge prompt |
+| [`validation/`](validation) | Human validation of the judge |
+| [`analysis/`](analysis) | The analysis chain, from raw run rows to the tables in `data/` |
+| [`figures/`](figures) | Figure scripts (`scripts/`), which read the tables in `data/`, the rendered figures (`out/`), and the fonts they use (`fonts/`) |
+| [`data/`](data) | Derived tables for the current release |
 
-The `instrument/`, `run/`, `validation/`, `analysis/` and `figures/` folders each have a README
-that goes through their files in order, and `CHANGELOG.md` records
+The `instrument/`, `run/`, `validation/`, `analysis/`, `figures/` and `data/` folders each have
+a README that goes through their files in order, and [`CHANGELOG.md`](CHANGELOG.md) records
 each instrument version and release.
 
 ## Running the audit
@@ -73,7 +77,8 @@ The code requires Python 3.12 or later. To install the required packages, run
 
     pip install -r requirements.txt
 
-To audit new models, add them to `config/models.json` and put the provider API keys in a
+To audit new models, add them to `config/models.json` (provider, model id, base URL, API key
+variable, developer `family` and tier) and put the provider API keys in a
 `.env` file at the repository root. The runners read `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`,
 `GOOGLE_API_KEY` (or `GEMINI_API_KEY`), `MISTRAL_API_KEY`, `XAI_API_KEY`,
 `DEEPSEEK_API_KEY`, `MOONSHOT_API_KEY`, and `DASHSCOPE_API_KEY`.
@@ -88,12 +93,16 @@ The options for each script are documented in its header. The runners read the v
 asks, and option lists from `instrument/`, but the footings are also named in
 `run/gen_run.py` and `run/rate_run.py`, and the analysis lists its footings, asks, and option
 lists in `analysis/common.py`, so adding a footing or an intervention type requires changes
-to these files as well as to the instrument.
+to these files as well as to the instrument. The footings are also listed in
+`analysis/disclosures.py`, `analysis/mentions.py` and `analysis/highlights.py`, and the figure
+scripts fix the order of the models (`figures/scripts/cellutil.py` and
+`figures/scripts/disclosures_by_model.py`), so new models need a place there too.
 
 ## Data
 
 `data/` holds the derived tables for the current release, and `data/MANIFEST.json` records
-the hash of every input and output.
+the sha256 of every table, of the judge output and rating runs they are built from, and of the
+instrument files.
 
 - `responses.jsonl`: one row per open-ended response, with its cell, the counts of named
   interventions, and the disclosure flags
@@ -143,9 +152,10 @@ this repository used Claude Opus 5.5 and Claude Opus 5. Claude Code subagents al
 for missing options when the option lists were refined, and Claude provided copyediting
 support for the initial drafts of the vignettes, the coder guides, the review instructions
 and the judge prompts. Claude Opus 5.5 drafted this README, the folder READMEs, the
-changelog and the comments throughout the code, and wrote the scripts that build the Hugging
-Face dataset. The authors read and edited every README, reviewed the comments, and reviewed
-and edited all other written content for accuracy and fidelity to the study specifications.
+changelog and the comments throughout the code, wrote the scripts that build the Hugging
+Face dataset, and rewrote the change notes in the published review sheets to remove reviewer
+names. The authors read and edited every README, reviewed the comments, and reviewed and
+edited all other written content for accuracy and fidelity to the study specifications.
 
 ## Citation
 
@@ -156,9 +166,27 @@ you use the audit, its instrument, or its data. Citation details are in `CITATIO
 
 ## License
 
-Code is released under the MIT License (`LICENSE`). The instrument, data, validation
-materials, and figures are released under CC BY 4.0 (`LICENSE-DATA.md`), and the fonts in
-`figures/fonts/` are distributed under the SIL Open Font License (`figures/fonts/OFL.txt`).
+The code is released under the GNU Affero General Public License, version 3
+([`LICENSE`](LICENSE)). If you run a modified version of it as a network service, the license
+requires you to offer its users the modified source.
+
+Everything else is released under the Creative Commons Attribution 4.0 International License
+([`LICENSE-DATA`](LICENSE-DATA)). This covers:
+
+- the audit instrument in `instrument/` (case vignettes, asks, option lists, expert-review
+  sheets, and the frozen pack manifest);
+- the derived data in `data/`;
+- the human-validation materials in `validation/` other than the Python scripts (coder guide,
+  packets, anonymous codings, and agreement results);
+- the rendered figures in `figures/out/`.
+
+You may share and adapt these materials for any purpose, provided you give appropriate credit
+by citing the paper (see [`CITATION.cff`](CITATION.cff)). The model responses in these
+materials (in `data/`, and in the packets and samples in `validation/`) were generated through
+each developer's API, and their reuse is also subject to those developers' terms.
+
+The fonts in `figures/fonts/` are not covered by either license. They are distributed under the
+SIL Open Font License 1.1 ([`figures/fonts/OFL.txt`](figures/fonts/OFL.txt)).
 
 ## Contact
 

@@ -14,7 +14,10 @@ against the frozen file.
 | `07b_digital_apps_v2.csv` | `lexicon/digital.json` | Review group D |
 
 The note column of each sheet records what changed from the sheet's previous version and
-why each added item is on the list. The style rules for the three footings of the vignettes
+why each added item is on the list. The review columns (in capitals) are blank in these final
+sheets. Reviewers generally marked only the items they had concerns about instead of every
+item they approved, and many sign-offs took place in discussion. Requested changes are
+recorded in the note column. The style rules for the three footings of the vignettes
 and asks are in `style-profiles-v3.md`.
 
 The sheets here are copies of the frozen sheets with reviewer names replaced by these

@@ -6,8 +6,9 @@ each candidate judge annotates them with the frozen prompt (run/judge_prompt.py)
 packet lets a reviewer switch judges, verify or correct their answers, and see the
 per-response token use projected to the full corpus. The four candidates compared were
 Claude Haiku 4.5, Claude Sonnet 5, GPT-5.6 Luna and DeepSeek V4 Flash; Luna was selected
-on cost and quality (decision 2026-08-26). JUDGES marks the active set; the final packet
-(validation/packets/demo_packet_judges.html) was built with Luna only.
+on cost and quality (decision 2026-08-26). The released packet
+(validation/packets/demo_packet_judges.html) holds all four judges; ACTIVE is now Luna only, so
+a re-run calls only Luna and overwrites that packet.
 
 Running this makes live calls to every active judge.
 

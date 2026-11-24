@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use the MindBench Intervention Audit, its instrument, or its data, please cite the paper that introduced it."
 title: "MindBench Intervention Audit"
 version: "1.0.0"
-license: [MIT, CC-BY-4.0]
+license: [AGPL-3.0-only, CC-BY-4.0]
 repository-code: "https://github.com/mindbench-ai/intervention-audit"
 url: "https://mindbench.ai/audits/interventions"
 authors:
@@ -82,6 +82,7 @@ preferred-citation:
   month: 11
   journal: "arXiv"
   url: "https://arxiv.org/abs/2611.12814"
+  doi: "10.48550/arXiv.2611.12814"
   identifiers:
     - type: other
       value: "arXiv:2611.12814"

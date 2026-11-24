@@ -17,10 +17,10 @@ expert-review sheet.
 | `lexicon/psych_meds.json` | Medication list: 139 entries, each with drug class, brand names and aliases |
 | `lexicon/talk_therapies.json` | Psychotherapy list: 70 entries with family, abbreviation and aliases, including 8 floor items and the "no psychotherapy" option |
 | `lexicon/neuromodulation.json` | Procedures list: 35 entries with family, invasiveness tier and aliases, including 6 floor items and the "no somatic or neuromodulation treatment" option |
-| `lexicon/digital.json` | Digital list: 102 apps and AI tools with a regulatory tag, availability and aliases, including the "no digital intervention" option |
+| `lexicon/digital.json` | Digital list: 102 apps and AI tools with a regulatory tag, availability (`active`, `restricted`, `discontinued`, or `verify` where the status could not be confirmed when the list was frozen) and aliases, including the "no digital intervention" option |
 | `lexicon/anchors.json` | Wording of the rating task: the instruction template, the seven scale anchors, and the null option shown with each list ("no medication" is added here). It is not listed in `VERSION.json` |
 | `expert_review/` | The reviewed sheets the files above are built from, the instructions the reviewers received, and the style rules for the footings |
-| `VERSION.json` | The version, the freeze date and the hash of every file |
+| `VERSION.json` | The version, the freeze date and the hash of every file above except `anchors.json` |
 | `check_pack.py` | The integrity and rebuild check above |
 
 The tags on the option lists (drug class, family, invasiveness tier, regulatory tag,

@@ -10,7 +10,7 @@ instrument version.
 
 Instrument 1.0.0. Data in the Hugging Face dataset
 [mindbench-ai/intervention-audit](https://huggingface.co/datasets/mindbench-ai/intervention-audit),
-revision `v1.0.0`, described in arXiv:2611.12814.
+revision `v1.0.0`, described in [arXiv:2611.12814](https://arxiv.org/abs/2611.12814).
 
 - Generation arm: 41 models, 855 responses each (35,055 in total), collected 2026-08-21 to
   2026-08-22.

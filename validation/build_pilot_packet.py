@@ -121,20 +121,22 @@ def _claim(pat, hay, taken, spans, surf, skip_compound=False):
 
 def tag_judge_entities(text, entities, variants):
     """Highlight each judge-extracted surface (all occurrences), longest first.
-    Ordered strategies, each tried only if the previous ones located nothing for that
-    entity, and applied to ALL entities in a given strategy before the NEXT strategy
-    runs for anyone -- so a longer sibling entity (e.g. "rTMS") can never steal a
-    shorter entity's own literal mention (e.g. "TMS") just because it happens to be
-    processed first:
+    Strategies 1 to 4 are tried for an entity only if the earlier ones located nothing for
+    it, and each is applied to all entities before the next one runs, so a longer sibling
+    entity (e.g. "rTMS") can never take a shorter entity's own literal mention (e.g. "TMS")
+    just because it happens to be processed first:
       1. exact surface, verbatim, in the original text (all occurrences)
       2. unicode dash/quote normalization (surface and a same-length "shadow" copy of
-         the text, so matched offsets still index the ORIGINAL text)
+         the text, so matched offsets still index the original text)
       3. for a "Full Name (ABBR)" surface: the full name alone, then the ABBR alone,
          case-sensitive
       4. a hyphenated continuation (e.g. "methylphenidate-based") for surfaces >= 8
          chars -- long enough that a trailing hyphen shouldn't block the match; short
          surfaces keep the strict boundary so case-sensitivity rules stay intact
-      5. lexicon sibling surfaces (brand<->generic, abbrevs) so a synonym re-mention
+    Two further steps run for every entity, located or not:
+      4.5 for a "Full Name (ABBR/Brand)" surface, bare re-mentions of the name part and of
+          the abbreviation or brand part
+      5. lexicon sibling surfaces (brand<->generic, abbrevs), so a synonym re-mention
          still lights up the entity even when its own surface never literally appears
     Returns tagged text and the entity list with unlocated ones flagged."""
     spans, taken = [], []
@@ -192,7 +194,7 @@ def tag_judge_entities(text, entities, variants):
             if _claim(abbr_pat, text, taken, spans, surf, skip_compound=True):
                 located[i] = True
 
-    # 5. lexicon sibling surfaces, for everyone (as before) so a synonym re-mention
+    # 5. lexicon sibling surfaces, for every entity, so a synonym re-mention
     #    elsewhere in the text still lights up even for an already-located entity
     for i, surf in enumerate(surfs):
         if not surf: continue

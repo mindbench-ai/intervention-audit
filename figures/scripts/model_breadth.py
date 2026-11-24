@@ -3,7 +3,7 @@
 One point per model (41). x = recommended interventions per response. y = share of the
 model's list-mapped recommendations whose panel mean rating is below zero, with the model's
 own ratings left out of the panel where it was rated. Top panel: over each cell's two asks.
-Bottom panel: the open ask only. Colour = developer; filled = also a rating model, hollow =
+Bottom panel: the open ask only. Color = developer; filled = also a rating model, hollow =
 generation only. Data: data/models.json.
 
 Labels are placed by a greedy candidate-offset search (right, left, diagonals, above,

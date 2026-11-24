@@ -12,7 +12,7 @@ A cell is one condition and one intervention list. For each option on the list:
   rating_hist       counts of scores -3..3 across the cell's rating calls (29 models)
   rating_mean, rating_n, rating_by_footing
   is_null           the list's null option (rating arm only)
-Plus "_summary": for all 19 presentations and for the 17 clinical ones, per list: the
+Plus "_summary": for all 19 presentations and for the 17 condition vignettes (no controls), per list: the
 number of options named by at least 5% of responses (median, IQR, range), the top option's
 named rate (median, range), the number of cells whose top option reaches 50%, and which
 options are top; "_all" holds the mapped share and the denominators used.

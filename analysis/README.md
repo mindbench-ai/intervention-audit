@@ -1,7 +1,8 @@
 # Analysis
 
 `make_all.py` runs the chain below in order and writes every table to `data/`, with the
-sha256 of every input and output in `data/MANIFEST.json`. With `--check` it rebuilds into a
+sha256 of every table, of the judge output and rating runs, and of the instrument files in
+`data/MANIFEST.json`. With `--check` it rebuilds into a
 temporary folder and reports any table that differs from the released one. The chain reads
 the raw run store (`--runs <folder>`, or `$MB_RUNS`) and uses only the Python standard
 library.
