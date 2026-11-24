@@ -40,7 +40,7 @@ from figstyle import ORANGE, apply_style, save  # noqa: E402
 
 OUTDIR = os.path.join(OUT, "catalogue")
 
-# The neuromodulation list is labelled "Procedures" in every figure. cellutil
+# The neuromodulation list is labeled "Procedures" in every figure. cellutil
 # already says so; asserted here so a change there cannot silently relabel these pages.
 LIST_LABEL = dict(LIST_LABEL)
 LIST_LABEL["neuromodulation"] = "Procedures"
@@ -53,7 +53,7 @@ MIN_ROWS = 8      # pad with never-recommended options up to this many rows
 X_STEP = 0.10     # the rate scale rounds up to the next 10% ...
 X_FLOOR = 0.20    # ... and is never tighter than 0-20%
 
-# ---------------------------------------------------------------- colour
+# ---------------------------------------------------------------- color
 REC = "#2f7d5c"        # recommendation rate (figstyle GREEN, darkened for hairline bars)
 ADV = ORANGE           # advised-against rate
 RATING_CMAP = LinearSegmentedColormap.from_list("rating", ["#D9822B", "#b5b5b5", "#4A8DB0"])

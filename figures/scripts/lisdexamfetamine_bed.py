@@ -4,7 +4,7 @@ One cell of the grid, opened up. For each of the 41 generation models, the share
 responses in the cell that recommend lisdexamfetamine, separately to a clinician, to a
 caregiver and to a patient on the open ask (3 responses per footing).
 The hairline joining the three marks is the footing gap for that model. Below the axis,
-one square per rated model, coloured by the model's own mean rating of the option in the
+one square per rated model, colored by the model's own mean rating of the option in the
 structured arm on the same amber-to-teal ramp the overview map uses.
 Data: data/highlights.json (cells.lisdexamfetamine_bed.per_model).
 """
@@ -55,7 +55,7 @@ def fh(inches):
 DEV_GAP = 2.4          # blank slots between developer blocks, in model-slot units
 MS = 18                # circle marker area (pt^2)
 SQ = 30                # rating square marker area (pt^2)
-SQ_Y = -0.058          # square row centre, in axes fraction below the axis line
+SQ_Y = -0.058          # square row center, in axes fraction below the axis line
 
 
 def rating_color(m):

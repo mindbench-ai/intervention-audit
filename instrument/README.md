@@ -1,8 +1,8 @@
 # Instrument
 
 The instrument is everything the models are asked and everything their answers are matched
-against. It is versioned and frozen before each run. `VERSION.json` lists every file with
-its hash, the runners stamp the version on every row they write, and `check_pack.py`
+against. It is versioned and frozen before each run. `VERSION.json` lists the vignette, ask,
+option-list and review-sheet files with their hashes, the runners stamp the version on every row they write, and `check_pack.py`
 checks that the frozen files are intact and that each one still rebuilds from its
 expert-review sheet.
 
@@ -18,7 +18,7 @@ expert-review sheet.
 | `lexicon/talk_therapies.json` | Psychotherapy list: 70 entries with family, abbreviation and aliases, including 8 floor items and the "no psychotherapy" option |
 | `lexicon/neuromodulation.json` | Procedures list: 35 entries with family, invasiveness tier and aliases, including 6 floor items and the "no somatic or neuromodulation treatment" option |
 | `lexicon/digital.json` | Digital list: 102 apps and AI tools with a regulatory tag, availability and aliases, including the "no digital intervention" option |
-| `lexicon/anchors.json` | Wording of the rating task: the instruction template, the seven scale anchors, and the null option shown with each list ("no medication" is added here) |
+| `lexicon/anchors.json` | Wording of the rating task: the instruction template, the seven scale anchors, and the null option shown with each list ("no medication" is added here). It is not listed in `VERSION.json` |
 | `expert_review/` | The reviewed sheets the files above are built from, the instructions the reviewers received, and the style rules for the footings |
 | `VERSION.json` | The version, the freeze date and the hash of every file |
 | `check_pack.py` | The integrity and rebuild check above |

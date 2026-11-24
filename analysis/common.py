@@ -28,7 +28,7 @@ INSTRUMENT = ROOT / "instrument"
 
 def runs_root(arg=None) -> Path:
     """The folder that holds runs/: the --runs argument, else $MB_RUNS, else this repository.
-    The older names --dev and $MB_DEV are still accepted."""
+    --dev and $MB_DEV are accepted as aliases."""
     return Path(arg or os.environ.get("MB_RUNS") or os.environ.get("MB_DEV") or ROOT)
 
 
@@ -86,7 +86,7 @@ def norm(s: str) -> str:
 def map_surface(surface: str):
     """All (list, option) pairs a judge surface maps to: the whole surface, each part of a
     trailing parenthetical, and each slash- or plus-separated part, after dash and quote
-    normalisation. Usually zero or one pair; a compound surface can map to several."""
+    normalization. Usually zero or one pair; a compound surface can map to several."""
     cands = [norm(surface)]
     m = re.match(r"^(.*?)\s*\(([^)]+)\)\s*$", surface)
     if m:

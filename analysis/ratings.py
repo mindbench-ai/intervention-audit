@@ -1,6 +1,6 @@
 """Rating runs -> data/ratings.jsonl: one row per (rating call, option).
 
-Rows: model, family, language, pack_version, condition, footing, list, sample, option (lower-case list name or
+Rows: model, family, language, pack_version, condition, footing, list, sample, option (lower-case option name or
 the null option), score (-3..3), is_null, source (main | probe).
 
 Cell rule: the main rating run (runs/rating_v1) supplies every cell it holds, keeping the

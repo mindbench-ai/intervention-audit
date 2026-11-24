@@ -139,7 +139,7 @@ CLIPBOARD_CODERS = {"R6", "R7", "R8"}
 
 def ship_postprocess(page, coder, wave):
     """Deliverability config (tested vs Gmail/Outlook 2026-08-28): the classic download
-    export IS acceptable to mail scanners once URLs in the medical content are defanged
+    export is acceptable to mail scanners once URLs in the medical content are defanged
     (space after scheme / www.), which removes the phishing-content signal. Spaces after
     https:// or www. never occur legitimately, so ingest can reverse them."""
     fn = f"""function exportAnswers(){{

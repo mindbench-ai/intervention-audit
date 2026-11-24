@@ -74,7 +74,7 @@ def main():
     gx = x0 + 0.70                             # left edge of the cell block
     cw = (W - 0.15 - 0.48 - gx) / 5            # cells fill the width up to the margin column
     ch = 0.30
-    PANEL_H = 0.62 + 3 * ch + 0.13             # head centre to the bottom-margin row
+    PANEL_H = 0.62 + 3 * ch + 0.13             # head center to the bottom-margin row
     STACK_GAP = 0.42                           # bottom-margin row of A to head of B
     H = 0.22 + 2 * PANEL_H + STACK_GAP + 0.16
     fig = plt.figure(figsize=(W, H))

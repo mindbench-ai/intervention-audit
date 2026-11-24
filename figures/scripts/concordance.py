@@ -4,7 +4,7 @@ Every (cell, option) pair is a point: x = mean rating in the structured arm, y =
 the cell's open-generation responses recommending the option. One column per
 intervention list. Top row: recommendation rate on the list's own ask (medication / therapy /
 procedures / apps). Bottom row: recommendation rate on the open ask. Options recommended in at least 5%
-of responses yet rated below zero are amber; the survivors on the open ask are labelled.
+of responses yet rated below zero are amber; the survivors on the open ask are labeled.
 With --numbered, the five amber points with the highest named rate in each panel (ties to
 the lower rating) are numbered instead and listed in a corner key, and the numbered points
 are printed as a verification table. Data: data/cells.json (named_by_ask, rating_mean).
@@ -106,7 +106,7 @@ def side_label(ax, g, lab, pts, sx, sy):
 
 
 def key_rows(lines, side, sx, sy):
-    """Per-line boxes of the key, in data units: (x0, x1, y_centre, y0, y1)."""
+    """Per-line boxes of the key, in data units: (x0, x1, y_center, y0, y1)."""
     lead = KEY_PT * KEY_LEAD
     top = YLIM[1] - 0.03 * (YLIM[1] - YLIM[0])
     rows = []

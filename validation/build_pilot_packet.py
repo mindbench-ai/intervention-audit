@@ -15,8 +15,7 @@ compound term. Markdown, including pipe tables, is rendered by md_render.
 
 The main-wave builder (validation/build_main_wave.py) imports build_card, render_page,
 lex_variants, load_corpus and load_judge from here and supplies its own cards, coder ids
-and round-2 guide. The guide text below (CODEBOOK) is the v1 guide as used in the
-calibration pilots and round 1.
+and round-2 guide. The guide text below (CODEBOOK) is the guide as used in round 1.
 
     python3 validation/build_pilot_packet.py [pilot10|pilot2] [--out <file>]
 """

@@ -1,4 +1,4 @@
-"""Model behaviour: breadth against naming panel-rejected options.
+"""Model behavior: breadth against naming panel-rejected options.
 
 One point per model (41). x = recommended interventions per response. y = share of the
 model's list-mapped recommendations whose panel mean rating is below zero, with the model's
@@ -45,7 +45,8 @@ LEAD_MIN = 4.5          # draw a leader line once the stand-off exceeds this, po
 
 
 def short_name(m):
-    """Developer is carried by colour, so drop the developer prefix from the label."""
+    """Shorten a model key for its label: drop the claude- and gemini- prefixes (the developer
+    is carried by color) and replace the hyphen after the other developer prefixes with a space."""
     for pre in ("claude-", "gemini-", "gpt-", "grok-", "qwen-", "deepseek-", "kimi-", "mistral-", "ministral-"):
         if m.startswith(pre):
             return {"gpt-": "gpt ", "grok-": "grok ", "kimi-": "kimi ", "mistral-": "mistral ", "ministral-": "ministral ",

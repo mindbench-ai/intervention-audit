@@ -5,7 +5,7 @@ Samples corpus responses never used in judge development (seed 23), one slot per
 footing with avoid-bearing and table-bearing responses salted in, annotates each with the
 frozen prompt (run/judge_prompt.py) by live judge calls, and writes:
   - test20_luna<suffix>.jsonl   response + annotation per row
-  - test20_viewer<suffix>.html  stance-coloured highlights for reading
+  - test20_viewer<suffix>.html  stance-colored highlights for reading
 
 Two facts about the audited runs: the sampler asks for 20 but produced 19, because one
 slot filters on a condition name that is not in the pack ("adjustment_disorder"; the

@@ -8,7 +8,7 @@ holds the labels and loaders shared by the per-cell figures.
 
 | Script | Shows | Reads |
 |---|---|---|
-| `overview_map.py` | Every cell's options ranked by recommendation rate, coloured by mean rating | `cells.json` |
+| `overview_map.py` | Every cell's options ranked by recommendation rate, colored by mean rating | `cells.json` |
 | `concordance.py` | Recommendation rate against mean rating for every option, on each list's own ask and on the open ask (`--numbered` writes `concordance_numbered`) | `cells.json` |
 | `disclosures.py` | Consult-a-professional and not-a-doctor rates by footing and ask | `disclosures.json` |
 | `disclosures_by_model.py` | The same rates for each model, by footing | `disclosures.json`, `config/models.json` |

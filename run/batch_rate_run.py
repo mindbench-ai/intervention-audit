@@ -6,8 +6,7 @@ the live lanes.
 
 Token budget: batch lanes ran at 8,192 output tokens (4,096 for gpt-3.5-turbo), whereas
 the live lanes ran at 32,768 with a provider-driven fallback. Both budgets are recorded
-per row via the finish reason; the difference should be stated wherever the budget is
-reported.
+per row via the finish reason.
 
     python3 run/batch_rate_run.py --models k1 k2 ... --out runs/rating_v1/<lane> [--limit N]
 """

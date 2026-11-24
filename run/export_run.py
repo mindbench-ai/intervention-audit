@@ -2,7 +2,7 @@
 items-<model>.jsonl per model with rows {item_key, input_ref, output, scores, raw} and a
 manifest {schema_version, parent_artifact, benchmark, model, n_items, sha256}. The judge
 pass (run/batch_judge_run.py) and the analysis chain read these. parent_artifact is null
-until the dataset is published.
+in this release.
 
 Only usable rows are exported: no error, non-empty response, finish reason not a length
 cap. Cells with several rows (re-runs on resume) keep the last usable one.
@@ -62,7 +62,7 @@ def main():
     if unusable:
         print(f"note: {unusable} empty/truncated rows excluded (cells re-run on resume)")
 
-    # ---- platform sidecars (one per model, per contract) ----
+    # ---- sidecar files (one per model) ----
     side = out / "sidecar"; side.mkdir(parents=True, exist_ok=True)
     by_model = {}
     for r in ok:

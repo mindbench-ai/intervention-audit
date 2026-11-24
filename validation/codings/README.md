@@ -6,10 +6,10 @@ responses, each coded by two coders, 75 per coder.
 
 ## Files
 
-- `R{i}_pilot1.json`, `R{i}_pilot2.json` — the two calibration pilots: three coders (R1-R3) on the
-  same ten responses each, coded under the v1 guide (pilot 1) and the revised guide (pilot 2).
+- `R{i}_pilot1.json`, `R{i}_pilot2.json` — the two calibration pilots: three coders (R1–R3) on the
+  same ten responses each, coded under the first guide (pilot 1) and a revised guide (pilot 2).
 - `R{i}_round1.json` — round 1: the coder's 25 development-split responses, coded under
-  the v1 coder guide.
+  the pilot 2 guide with two additions.
 - `R{i}_round2.json` — round 2: the same 25 development responses re-reviewed under the
   amended guide (slot `w1`) plus 50 frozen-test responses (slot `w2`).
 - `codings_all.jsonl` — every answer from every file, one line per (coder, round,
@@ -19,9 +19,9 @@ responses, each coded by two coders, 75 per coder.
 
 ## Schema (per answer)
 
-| field | meaning |
+| Field | Meaning |
 |---|---|
-| `rid` | response id: `model|condition|footing|ask|sample` |
+| `rid` | response id: `model\|condition\|footing\|ask\|sample` |
 | `split` | `dev` (round-1 responses; open for instrument revision) or `test` (frozen) |
 | `slot` | `w1` = development response, `w2` = frozen-test response |
 | `seconds` | time on the response in the coding interface (`null` for prefilled re-reviews the coder did not reopen) |

@@ -4,6 +4,10 @@ The human validation of the judge, and the format gate for the rating arm, in th
 they were run. The scripts that build packets or call the judge read the raw run store;
 the agreement scripts read only files in this folder.
 
+The coder guide changed between stages: pilot 2 used a revised version of the pilot 1 guide,
+round 1 used the pilot 2 guide with two additions, and round 2 added three amendments, shown
+in magenta in the round-2 packets. Each packet carries the guide its coders read.
+
 ## Judge selection
 
 | Script | Writes | Purpose |
@@ -15,8 +19,8 @@ the agreement scripts read only files in this folder.
 
 | Script or file | Purpose |
 |---|---|
-| `pilot_instructions.md` | The instructions sent to coders, used for both pilots and the main wave |
-| `build_pilot_packet.py` | Builds a coder packet, one self-contained HTML file with the coder guide, the responses and the judge's highlighted entities: `packets/pilot_packet.html` and `packets/pilot2_packet.html`, from the responses listed in `pilot10_selection.json` and `pilot2_selection.json`. The main wave reuses its packet code. `lexicon/substances.json` adds substance names to the highlights |
+| `pilot_instructions.md` | The instructions sent to coders with the first pilot packet; the later packets came with the same instructions |
+| `build_pilot_packet.py` | The packet code, which the main wave reuses: it builds one self-contained HTML file with the coder guide, the responses and the judge's highlighted entities. `packets/pilot_packet.html` and `packets/pilot2_packet.html` are the packets as sent for the two pilots, with the responses listed in `pilot10_selection.json` and `pilot2_selection.json`. `lexicon/substances.json` adds substance names to the highlights |
 | `pilot_agreement.py pilot1\|pilot2` | Agreement among the three pilot coders, against the pre-specified gates |
 
 ## Main wave

@@ -1,10 +1,10 @@
-"""Overview map of recommendation behaviour.
+"""Overview map of recommendation behavior.
 
 19 presentations (rows) x 4 intervention lists (columns). Each cell is a strip of
 thin bars: the cell's options ranked by recommendation rate (share of the cell's open-
 generation responses that recommend the option, where recommended = named without
 being advised against), highest first, on a 0-100% scale shared by every strip.
-Bar colour is the option's mean rating in the structured arm (amber -3, gray 0,
+Bar color is the option's mean rating in the structured arm (amber -3, gray 0,
 teal +3); bars for options rated below 0 are hatched. The outlined first bar is the
 option named beneath the strip. Data: data/cells.json.
 """
@@ -34,7 +34,7 @@ GRID_R = W - 0.06
 COL_GAP = 0.14
 ROW_H = 0.44          # row pitch (strip + top-option label)
 STRIP_H = 0.26        # strip height = 100 %
-HEAD_H = 0.58         # header band (list names + colour key)
+HEAD_H = 0.58         # header band (list names + color key)
 NOTE_H = 0.32         # bottom margin: clears the top-option label under the last strip
 CTRL_GAP = 0.16       # extra space above the control rows
 
@@ -48,7 +48,7 @@ def ts(size):
     return max(size * TYPE_SCALE, TYPE_MIN)
 
 
-# colour-vision-safe diverging ramp: amber (-3) -> gray (0) -> teal (+3)
+# color-vision-safe diverging ramp: amber (-3) -> gray (0) -> teal (+3)
 RATING_CMAP = LinearSegmentedColormap.from_list("rating", ["#D9822B", "#b5b5b5", "#4A8DB0"])
 NEG_EDGE = "#8a5a1e"
 
@@ -142,7 +142,7 @@ def main():
     T(ax, xs - 0.04, ys, "0", size=ts(4.8), color=INK2, ha="right", va="center", fam="mono")
     T(ax, xs - 0.30, ys + STRIP_H / 2, "recommendation rate", size=ts(5.6), color=INK2, ha="right", va="center")
 
-    # colour key
+    # color key
     kx, ky, kw, kh = GRID_R - 0.80, top + 0.36, 0.75, 0.06
     for q in range(30):
         ax.add_patch(Rectangle((kx + q * kw / 30, ky), kw / 30, kh, fc=RATING_CMAP(q / 29),

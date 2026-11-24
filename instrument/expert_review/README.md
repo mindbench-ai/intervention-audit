@@ -29,18 +29,18 @@ every later round; specific points that came up were discussed with the reviewer
 meetings. The first round covered earlier versions of these sheets (`01b` → `01d`, `02b` →
 `02d`, `05` → `05c`, `07` → `07b`, `08` → `08b`, `09` → `09b`) and three files that are not
 part of this release (`03`, `04`, `06`). One phrase that named a reviewer's role has been
-removed; the text is otherwise as sent.
+removed and the heading levels are lowered; the text is otherwise as sent.
 
 ---
 
-# Expert review pack
+### Expert review pack
 
 These CSVs are the option lists and prompts for the LLM mental-health treatment audit. We
 need clinical review of each before we treat any results as citable. Open in Excel or Google
 Sheets; fill the **REVIEW columns** (the ones in CAPS at the right of each file). Leave the
 content columns as-is unless you're correcting them via the SUGGESTED EDIT column.
 
-## What we need from you
+#### What we need from you
 
 **Prompts**
 - `01b_patient_scenarios_v2.csv`, `02b_asks_v2.csv`: the current (v2) prompt pack. Each
@@ -70,7 +70,7 @@ content columns as-is unless you're correcting them via the SUGGESTED EDIT colum
   (conversion therapy, recovered-memory therapy, NLP, etc.) is intentionally included as
   fringe/floor items -- confirm these should be present and are correctly flagged.
 
-## Notes
+#### Notes
 - Internal tags (drug_class, regulatory, family) are **never shown to the models** -- they
   only group results for analysis. Review them for accuracy, but they don't bias the models.
 - Floor items (lobotomy, conversion therapy, hard drugs as "treatment") are deliberate: they

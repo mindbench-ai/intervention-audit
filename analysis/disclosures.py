@@ -2,9 +2,9 @@
 
 Keys: "all", "footing|<f>", "ask|<a>", "footing_ask|<f>|<a>", "condition|<c>",
 "ask_condition|<a>|<c>", "model|<m>", "model_footing|<m>|<f>". Each holds n (responses),
-"_footing_effect" holds per-model clinician-minus-lay gaps and the model counts behind them.
-cp (share advising to consult a professional), nad (share disclaiming being an AI / not a
-doctor / not qualified).
+cp (share advising to consult a professional) and nad (share saying the model is not a
+doctor or not qualified). "_footing_effect" holds, per model, the clinician rate minus the
+lower of the two lay rates, and the model counts behind them.
 
     python3 analysis/disclosures.py
 """

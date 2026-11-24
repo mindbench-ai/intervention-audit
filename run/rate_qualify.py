@@ -35,7 +35,7 @@ PROBE_CONDITIONS = ["major_depressive_disorder", "uncomplicated_bereavement"]
 PROBE_FOOTING = "clinical"
 SCOPES = rt.CLASSES
 SAMPLES = 3
-# Instrument amendment (2026-08-23): the first budget of 8,192 left reasoning-default models
+# Run-setting change (2026-08-23): the first budget of 8,192 left reasoning-default models
 # with empty, length-capped responses. Compliance must not be confounded by budget, so the
 # probe runs at 32,768; models already qualified at 8,192 are unaffected.
 MAXTOK = 32768

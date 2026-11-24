@@ -153,7 +153,7 @@ BREAKER = {}  # env_key or model_key -> first fatal error
 NON_RETRYABLE = ("out_of_credit", "auth", "bad_request")
 SKIPPED = {"n": 0}
 EMPTY_STREAK = {}  # model_key -> consecutive empty responses
-EMPTY_STREAK_LIMIT = 8  # a model this consistently empty is misconfigured; stop paying for silence
+EMPTY_STREAK_LIMIT = 8  # a model this consistently empty is misconfigured; its lane stops calling it
 
 
 async def run_one(sem, lock, out_f, clients, mk, cond, footing, cat, samp):

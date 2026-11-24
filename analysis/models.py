@@ -1,5 +1,5 @@
 """mentions.json + entities.jsonl + ratings.jsonl + cells.json -> data/models.json: per-model
-behaviour on both arms.
+behavior on both arms.
 
 Per model (41 generation models; 29 also rated):
   breadth        recommended interventions per response, all asks and open ask only (from

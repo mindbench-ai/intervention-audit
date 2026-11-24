@@ -60,7 +60,7 @@ def _req(url, data=None, method="GET", timeout=300, retries=6):
 def _to_request(s):
     params = {"model": s["model"], "max_tokens": s["max_tokens"],
               "messages": [{"role": m["role"], "content": m["content"]} for m in s["messages"]]}
-    if s.get("temperature") is not None:  # newest Claudes reject temperature
+    if s.get("temperature") is not None:  # the newest Claude models reject temperature
         params["temperature"] = s["temperature"]
     if s.get("system"):
         params["system"] = s["system"]
