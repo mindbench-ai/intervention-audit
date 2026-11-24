@@ -1,7 +1,7 @@
 # Figures
 
-Each script reads only from `data/` and writes a PDF and a PNG to `out/` under its own
-name. `figstyle.py` holds the shared style and loads the fonts in `fonts/`, and `cellutil.py`
+Each script reads the tables in `data/` (`disclosures_by_model.py` also reads the model
+roster in `config/models.json`) and writes a PDF and a PNG to `out/` under its own name. `figstyle.py` holds the shared style and loads the fonts in `fonts/`, and `cellutil.py`
 holds the labels and loaders shared by the per-cell figures.
 
     python3 figures/scripts/<script>.py

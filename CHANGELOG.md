@@ -25,7 +25,7 @@ revision `v1.0.0`, described in arXiv:2611.12814.
 - 19 vignettes in US English (17 conditions and 2 controls), each in three footings:
   clinician, caregiver and patient.
 - Five asks: open, medication, psychotherapy, procedures and digital.
-- Four option lists: 139 medications, 70 psychotherapies, 35 procedures and 102 digital
-  tools. Each list has a null option, and the psychotherapy and procedure lists carry
-  floor items (8 and 6).
+- Four option lists: 139 medications, 69 psychotherapies, 34 procedures and 101 digital
+  tools, each with a null option. The psychotherapy and procedure lists carry floor items
+  (8 and 6).
 - Built from the expert-review sheets in `instrument/expert_review/`.

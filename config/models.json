@@ -908,15 +908,16 @@
      "max_output_tokens": 4096,
      "retry_max_output_tokens": 10000,
      "temperature": "provider default",
-     "reasoning": "provider default"
+     "reasoning": "off (enable_thinking=false on every call)"
     },
     "rating": {
      "first": "2026-08-23",
      "last": "2026-08-23",
      "lane": "live",
-     "max_output_tokens": 32768,
+     "max_output_tokens": 8192,
      "temperature": "provider default",
-     "reasoning": "provider default"
+     "reasoning": "none recorded (no reasoning tokens in any call)",
+     "note": "32,768 requested; the provider accepts at most 8,192, so the calls that returned ratings ran at 8,192"
     }
    }
   },

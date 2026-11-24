@@ -31,7 +31,7 @@ its full rating run.
 
 **Analysis.** A single deterministic chain of scripts turns the raw run rows into tables by
 vignette and intervention type and records the hash of every input and output. The figures
-are built only from these tables.
+are built from these tables and the model roster.
 
 ## Terms
 
@@ -57,10 +57,11 @@ Some files and fields use different names for the paper's terms.
 | `run/` | Runners for the generation arm, the rating arm, and the judge, and the frozen judge prompt |
 | `validation/` | Human validation of the judge |
 | `analysis/` | The analysis chain, from raw run rows to the tables in `data/` |
-| `figures/` | Figure scripts (`scripts/`), which read only from `data/`, the rendered figures (`out/`), and the fonts they use (`fonts/`) |
+| `figures/` | Figure scripts (`scripts/`), which read the tables in `data/`, the rendered figures (`out/`), and the fonts they use (`fonts/`) |
 | `data/` | Derived tables for the current release |
 
-Each folder has a README that goes through its files in order, and `CHANGELOG.md` records
+The `instrument/`, `run/`, `validation/`, `analysis/` and `figures/` folders each have a README
+that goes through their files in order, and `CHANGELOG.md` records
 each instrument version and release.
 
 ## Running the audit
@@ -101,8 +102,9 @@ the hash of every input and output.
 `entities.jsonl` and `ratings.jsonl` are too large for GitHub and are hosted with the full
 corpus in the Hugging Face dataset
 [mindbench-ai/intervention-audit](https://huggingface.co/datasets/mindbench-ai/intervention-audit),
-which holds every prompt, response, judge output, and rating call for a release together with
-its provenance, under CC BY 4.0. `python3 data/fetch.py` downloads them into `data/`.
+which holds every open-ended prompt and response, every judge output, and every rating call for
+a release together with its provenance, under CC BY 4.0. The rating prompts are not stored, but
+`run/rating_instrument.py` rebuilds each one exactly, since its option order is seeded by the cell. `python3 data/fetch.py` downloads them into `data/`.
 
 ## Reproducing a release
 
@@ -126,11 +128,12 @@ the next version of the lists.
 ## Use of generative AI
 
 The authors defined the audit's data models and logic in specifications and pseudocode,
-which were fleshed out into code and debugged with Claude Opus 5.5 and Claude Opus 5,
-running in Claude Code, and the authors reviewed and tested the resulting code. Claude Opus
-5.5, also in Claude Code, added the READMEs in each folder and comments throughout the code
-to make the repository easier to read, and the authors read and edited every README to
-ensure its accuracy.
+which were fleshed out into code and debugged in Claude Code, and the authors reviewed and
+tested the resulting code. The first versions of the scripts were written with Claude Fable 5
+and Claude Fable 5.1, with Claude Opus 5 and Claude Sonnet 5 as subagents, and the later work
+on this repository used Claude Opus 5.5 and Claude Opus 5. Claude Opus 5.5, also in Claude
+Code, added the folder READMEs and comments throughout the code to make the repository easier
+to read, and the authors read and edited every README to ensure its accuracy.
 
 ## Citation
 
